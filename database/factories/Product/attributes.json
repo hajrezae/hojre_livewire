@@ -1,0 +1,5024 @@
+[
+  {
+    "term_id" : 1,
+    "name" : "دسته‌بندی نشده",
+    "slug" : "%d8%af%d8%b3%d8%aa%d9%87%e2%80%8c%d8%a8%d9%86%d8%af%db%8c-%d9%86%d8%b4%d8%af%d9%87",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 2,
+    "name" : "simple",
+    "slug" : "simple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 3,
+    "name" : "grouped",
+    "slug" : "grouped",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 4,
+    "name" : "variable",
+    "slug" : "variable",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 5,
+    "name" : "external",
+    "slug" : "external",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 6,
+    "name" : "exclude-from-search",
+    "slug" : "exclude-from-search",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 7,
+    "name" : "exclude-from-catalog",
+    "slug" : "exclude-from-catalog",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 8,
+    "name" : "featured",
+    "slug" : "featured",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 9,
+    "name" : "outofstock",
+    "slug" : "outofstock",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 10,
+    "name" : "rated-1",
+    "slug" : "rated-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 11,
+    "name" : "rated-2",
+    "slug" : "rated-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 12,
+    "name" : "rated-3",
+    "slug" : "rated-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 13,
+    "name" : "rated-4",
+    "slug" : "rated-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 14,
+    "name" : "rated-5",
+    "slug" : "rated-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 15,
+    "name" : "بدون دسته بندی",
+    "slug" : "uncategorized",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 16,
+    "name" : "سفید",
+    "slug" : "white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 17,
+    "name" : "مشکی",
+    "slug" : "black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 18,
+    "name" : "قرمز",
+    "slug" : "red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 19,
+    "name" : "آبی",
+    "slug" : "blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 20,
+    "name" : "آبی روشن",
+    "slug" : "blue-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 21,
+    "name" : "آبی تیره",
+    "slug" : "blue-dark",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 22,
+    "name" : "سبز",
+    "slug" : "green",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 23,
+    "name" : "سبز روشن",
+    "slug" : "green-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 24,
+    "name" : "سبز تیره",
+    "slug" : "green-dark",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 25,
+    "name" : "قهوه ای",
+    "slug" : "brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 26,
+    "name" : "قهوه ای روشن",
+    "slug" : "brown-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 27,
+    "name" : "قهوه ای تیره",
+    "slug" : "brown-dark",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 28,
+    "name" : "زرشکی",
+    "slug" : "crimson",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 29,
+    "name" : "زرد",
+    "slug" : "yellow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 30,
+    "name" : "نارنجی",
+    "slug" : "orange",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 31,
+    "name" : "هفت رنگ",
+    "slug" : "rainbow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 32,
+    "name" : "قاب آیفون",
+    "slug" : "iphone-case",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 33,
+    "name" : "5 / 5S / SE",
+    "slug" : "iphone-5-5s-se",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 34,
+    "name" : "6plus / 6splus",
+    "slug" : "iphone-6plus-6splus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 35,
+    "name" : "6 / 6S",
+    "slug" : "iphone-6-6s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 36,
+    "name" : "SE new / 7 / 8",
+    "slug" : "iphone-7-8-senew",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 37,
+    "name" : "7plus / 8plus",
+    "slug" : "iphone-7plus-8plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 38,
+    "name" : "X / XS",
+    "slug" : "iphone-x-xs",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 39,
+    "name" : "XSmax",
+    "slug" : "iphone-xmax-xsmax",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 40,
+    "name" : "11",
+    "slug" : "iphone-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 41,
+    "name" : "11pro",
+    "slug" : "iphone-11pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 42,
+    "name" : "11promax",
+    "slug" : "iphone-11promax",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 99,
+    "name" : "برگ انجیری ریز",
+    "slug" : "fig-leaf-small",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 98,
+    "name" : "برگ انجیری درشت",
+    "slug" : "fig-leaf-big",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 45,
+    "name" : "کاور ایرپاد",
+    "slug" : "airpod-cover",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 46,
+    "name" : "series 1 / 2",
+    "slug" : "airpod-1-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 47,
+    "name" : "PRO",
+    "slug" : "airpod-pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 48,
+    "name" : "بند واچ",
+    "slug" : "watch-band",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 49,
+    "name" : "سایز ۴۲ / ۴۴",
+    "slug" : "iwatch-band-42-44",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 50,
+    "name" : "سایز ۳۸ / ۴۰",
+    "slug" : "iwatch-band-38-40",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 51,
+    "name" : "5 / 5S / SE",
+    "slug" : "iphone-5-5s-se",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 52,
+    "name" : "6 / 6S",
+    "slug" : "iphone-6-6s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 53,
+    "name" : "6plus / 6splus",
+    "slug" : "iphone-6plus-6splus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 54,
+    "name" : "SE new / 7 / 8",
+    "slug" : "iphone-7-8-senew",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 55,
+    "name" : "X / XS",
+    "slug" : "iphone-x-xs",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 56,
+    "name" : "XSmax",
+    "slug" : "iphone-x-xs-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 57,
+    "name" : "XR",
+    "slug" : "iphone-xr",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 58,
+    "name" : "11",
+    "slug" : "iphone-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 59,
+    "name" : "11pro",
+    "slug" : "iphone-11pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 60,
+    "name" : "11promax",
+    "slug" : "iphone-11promax",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 61,
+    "name" : "7plus / 8plus",
+    "slug" : "iphone-7plus-8plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 62,
+    "name" : "XR",
+    "slug" : "iphone-xr",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 63,
+    "name" : "بی رنگ",
+    "slug" : "transparent",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 64,
+    "name" : "قرمز آبی",
+    "slug" : "red-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 65,
+    "name" : "مشکی سفید",
+    "slug" : "black-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 66,
+    "name" : "صورتی",
+    "slug" : "pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 67,
+    "name" : "پایتون سبز روشن",
+    "slug" : "python-pattern-green-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 68,
+    "name" : "پایتون سبز تیره",
+    "slug" : "python-pattern-green-dark",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 69,
+    "name" : "پایتون سفید مشکی",
+    "slug" : "python-pattern-black-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 70,
+    "name" : "پایتون قهوه ای",
+    "slug" : "python-pattern-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 71,
+    "name" : "کاکتوس سه تایی",
+    "slug" : "cactus-triple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 72,
+    "name" : "کاکتوس شلوغ",
+    "slug" : "cactus-crowd",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 73,
+    "name" : "پاندا رختی",
+    "slug" : "panda-rakhti",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 74,
+    "name" : "پاندا بیگ هد",
+    "slug" : "panda-big-head",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 75,
+    "name" : "پاندا و بچه",
+    "slug" : "panda-baby",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 76,
+    "name" : "بنفش",
+    "slug" : "purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 77,
+    "name" : "ماربل سفید رگه مشکی",
+    "slug" : "marble-white-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 78,
+    "name" : "ماربل مشکی رگه سفید",
+    "slug" : "marble-black-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 79,
+    "name" : "ماربل سفید رگه طلایی",
+    "slug" : "marble-white-gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 80,
+    "name" : "ماربل صورتی",
+    "slug" : "marble-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 81,
+    "name" : "ماربل آجری",
+    "slug" : "marble-brick",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 82,
+    "name" : "کاشی گل",
+    "slug" : "tile-flower",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 83,
+    "name" : "آیس برگ سوزنی",
+    "slug" : "ice-needle-leaf",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 84,
+    "name" : "کاشی لوزی",
+    "slug" : "tile-poly",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 85,
+    "name" : "کاشی لوزی آبی",
+    "slug" : "tile-poly-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 86,
+    "name" : "برگ استوایی کرم",
+    "slug" : "equato-leaf-flower-cream",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 87,
+    "name" : "برگ استوایی سرخابی",
+    "slug" : "equato-leaf-flower-magneta",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 88,
+    "name" : "برگ پاییزی طوسی طلایی",
+    "slug" : "autumn-leaf-gray-gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 89,
+    "name" : "برگ پاییزی طلایی اینه ای",
+    "slug" : "autumn-leaf-gold-mirror",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 90,
+    "name" : "2 / 1 series",
+    "slug" : "airpod-1-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 91,
+    "name" : "series PRO",
+    "slug" : "airpod-pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 92,
+    "name" : "میکی پسر",
+    "slug" : "mikkie-boy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 93,
+    "name" : "مینی دختر",
+    "slug" : "minnie-girl",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 94,
+    "name" : "طوسی",
+    "slug" : "gray",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 95,
+    "name" : "ywf_deposit",
+    "slug" : "ywf_deposit",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 96,
+    "name" : "گل رز درشت",
+    "slug" : "rose-big",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 97,
+    "name" : "گل رز ریز",
+    "slug" : "rose-small",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 100,
+    "name" : "میکی پسر آیینه ای",
+    "slug" : "mickie-boy-mirror",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 101,
+    "name" : "مینی دختر آیینه ای",
+    "slug" : "minnie-girl-mirror",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 102,
+    "name" : "گل رز پاپ سوکت کرم",
+    "slug" : "rose-pop-cream",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 103,
+    "name" : "گل رز پاپ سوکت سفید",
+    "slug" : "rose-pop-cream-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 104,
+    "name" : "گل رز پ سوکت طوسی",
+    "slug" : "rose-pop-gray",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 105,
+    "name" : "میکی لب سفید",
+    "slug" : "micky-lips",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 106,
+    "name" : "میکی چشم",
+    "slug" : "micky-eyes",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 107,
+    "name" : "طلایی",
+    "slug" : "gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 108,
+    "name" : "نقره ای",
+    "slug" : "silver",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 109,
+    "name" : "رز گلد",
+    "slug" : "rose-gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 110,
+    "name" : "طرح بیگ هد",
+    "slug" : "royal-cat-big-head",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 111,
+    "name" : "طرح هد",
+    "slug" : "royal-cat-head",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 112,
+    "name" : "طرح گربه کامل",
+    "slug" : "royal-cat-full-body",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 113,
+    "name" : "گربه روی دیوار",
+    "slug" : "cat-on-wall",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 114,
+    "name" : "گربه سیاه صورت",
+    "slug" : "black-cat-face",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 115,
+    "name" : "رنگین کمان عمودی",
+    "slug" : "rainbow-vertical",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 116,
+    "name" : "رنگین کمان افقی",
+    "slug" : "rainbow-horizontal",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 117,
+    "name" : "گل هلوگرامی طرح مینیمال",
+    "slug" : "minimal-holo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 118,
+    "name" : "گل هلوگرامی طرح گل",
+    "slug" : "flower-holo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 119,
+    "name" : "یونیکورن بیبی",
+    "slug" : "unicorn-baby",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 120,
+    "name" : "یونیکورن هد",
+    "slug" : "unicorn-head",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 121,
+    "name" : "خال خالی مشکی",
+    "slug" : "play-dotted-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 122,
+    "name" : "خال خالی قرمز",
+    "slug" : "play-dotted-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 123,
+    "name" : "راه راه سفید مشکی",
+    "slug" : "line-black-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 124,
+    "name" : "طرح گل یاس",
+    "slug" : "memmui-lavender",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 125,
+    "name" : "طرح گل سرخ",
+    "slug" : "memmui-rose",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 126,
+    "name" : "طرح گل ریز",
+    "slug" : "memmui-small",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 127,
+    "name" : "بلوری هیولا",
+    "slug" : "bluray-monster",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 128,
+    "name" : "بلوری تشتک",
+    "slug" : "bluray-cap",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 129,
+    "name" : "پاپ سوکت",
+    "slug" : "pop-socket",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 130,
+    "name" : "کاشی لوزی بنفش",
+    "slug" : "tilepoly-purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 131,
+    "name" : "جوکر نیم صورت مشکی",
+    "slug" : "joker-new-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 132,
+    "name" : "جوکر نیم تنه قرمز",
+    "slug" : "joker-new-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 133,
+    "name" : "مارول",
+    "slug" : "marvel",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 134,
+    "name" : "چمپیون",
+    "slug" : "champion",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 135,
+    "name" : "آدیداس",
+    "slug" : "adidas",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 136,
+    "name" : "بالنسیاگا بی بی",
+    "slug" : "balenciaga-bb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 137,
+    "name" : "شارک بیپ",
+    "slug" : "shark-bape",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 138,
+    "name" : "سسامی کاوس",
+    "slug" : "sesame-kaws",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 139,
+    "name" : "اف وایت",
+    "slug" : "off-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 140,
+    "name" : "جردن",
+    "slug" : "jordan",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 141,
+    "name" : "اف وایت سفید",
+    "slug" : "off-white-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 142,
+    "name" : "جی تی آر (GTR)",
+    "slug" : "gtr",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 143,
+    "name" : "بالنسیاگا",
+    "slug" : "balenciaga",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 144,
+    "name" : "بی ام و ام 3",
+    "slug" : "m3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 145,
+    "name" : "جاکلیدی",
+    "slug" : "keychain",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 146,
+    "name" : "یونیکورن صورتی کامل",
+    "slug" : "unicorn-keychain-full-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 147,
+    "name" : "یونیکورن صورتی مو آبی",
+    "slug" : "unicorn-pink-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 148,
+    "name" : "یونیکورن سفید صورتی",
+    "slug" : "unicorn-white-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 149,
+    "name" : "یونیکورن بنفش",
+    "slug" : "unicorn-purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 150,
+    "name" : "یونیکورن زرد",
+    "slug" : "unicorn-keychain-yellow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 151,
+    "name" : "همبرگر",
+    "slug" : "airpod-hamburger",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 152,
+    "name" : "سیب زمینی",
+    "slug" : "airpod-fries",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 153,
+    "name" : "مون بلان کربن",
+    "slug" : "monblan-carbon",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 154,
+    "name" : "مون بلان کبریتی",
+    "slug" : "monblan-match",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 155,
+    "name" : "مون بلان کروکودیل",
+    "slug" : "monblan-croco",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 156,
+    "name" : "۱",
+    "slug" : "pattern-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 157,
+    "name" : "۲",
+    "slug" : "pattern-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 158,
+    "name" : "۳",
+    "slug" : "pattern-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 159,
+    "name" : "۴",
+    "slug" : "pattern-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 160,
+    "name" : "۵",
+    "slug" : "pattern-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 161,
+    "name" : "۶",
+    "slug" : "pattern-6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 162,
+    "name" : "۷",
+    "slug" : "pattern-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 163,
+    "name" : "۸",
+    "slug" : "pattern-8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 164,
+    "name" : "۹",
+    "slug" : "pattern-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 165,
+    "name" : "۱۰",
+    "slug" : "pattern-10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 166,
+    "name" : "۱۱",
+    "slug" : "pattern-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 167,
+    "name" : "۱۲",
+    "slug" : "pattern-12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 168,
+    "name" : "۱۳",
+    "slug" : "pattern-13",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 169,
+    "name" : "۱۴",
+    "slug" : "pattern-14",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 170,
+    "name" : "۱۵",
+    "slug" : "pattern-15",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 171,
+    "name" : "۱۶",
+    "slug" : "pattern-16",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 172,
+    "name" : "۱۷",
+    "slug" : "pattern-17",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 173,
+    "name" : "۱۸",
+    "slug" : "pattern-18",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 174,
+    "name" : "۱۹",
+    "slug" : "patter-19",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 175,
+    "name" : "۲۰",
+    "slug" : "patter-20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 176,
+    "name" : "۲۱",
+    "slug" : "pattern-21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 177,
+    "name" : "۲۲",
+    "slug" : "pattern-22",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 178,
+    "name" : "۲۳",
+    "slug" : "pattern-23",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 179,
+    "name" : "۲۴",
+    "slug" : "pattern-24",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 180,
+    "name" : "کابل شارژ",
+    "slug" : "cable-charge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 181,
+    "name" : "پاور بانک",
+    "slug" : "powerbank",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 182,
+    "name" : "گلس و محافظ صفحه",
+    "slug" : "screen-protector",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 183,
+    "name" : "ست جانبی",
+    "slug" : "sets",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 184,
+    "name" : "هولدر و استند",
+    "slug" : "holder-stand",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 185,
+    "name" : "باند و اسپیکر",
+    "slug" : "speaker-headphone",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 186,
+    "name" : "کیف و کوله",
+    "slug" : "bag-backpack",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 187,
+    "name" : "اکسسوری اپل واچ",
+    "slug" : "applewatch-accessory",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 188,
+    "name" : "گارد واچ",
+    "slug" : "watch-guard",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 189,
+    "name" : "سایز 38",
+    "slug" : "iwatch-guard-38",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 190,
+    "name" : "سایز 40",
+    "slug" : "iwatch-guard-40",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 191,
+    "name" : "سایز 42",
+    "slug" : "iwatch-guard-42",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 192,
+    "name" : "سایز 44",
+    "slug" : "iwatch-guard-44",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 193,
+    "name" : "سایز ۳۸",
+    "slug" : "iwatch-guard-38",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 194,
+    "name" : "سایز ۴۰",
+    "slug" : "iwatch-guard-40",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 195,
+    "name" : "سایز ۴۲",
+    "slug" : "iwatch-guard-42",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 196,
+    "name" : "سایز ۴۴",
+    "slug" : "iwatch-guard-44",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 197,
+    "name" : "سایز ۳۸ / ۴۰",
+    "slug" : "iwatch-band-38-40",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 198,
+    "name" : "سایز ۴۲ / ۴۴",
+    "slug" : "iwatch-band-42-44",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 199,
+    "name" : "لوکس",
+    "slug" : "luxury",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 200,
+    "name" : "لوکس",
+    "slug" : "luxury",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 201,
+    "name" : "گلد",
+    "slug" : "golds",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 202,
+    "name" : "صندوقی چارخونه مشکی قهوه ای",
+    "slug" : "lv-box-black-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 203,
+    "name" : "صندوقی قهوه ای روشن",
+    "slug" : "lv-box-light-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 204,
+    "name" : "صندوقی سوپریم قهوه ای طرح ریز",
+    "slug" : "lv-box-supreme-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 205,
+    "name" : "صندوقی سوپریم قرمز",
+    "slug" : "lv-box-supreme-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 206,
+    "name" : "صندوقی سوپریم قرمز شلوغ",
+    "slug" : "lv-box-supreme-crowd-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 207,
+    "name" : "صندوقی سوپریم گل دار",
+    "slug" : "lv-box-supreme-flower",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 208,
+    "name" : "صندوقی لویی نارنجی",
+    "slug" : "lv-box-orange",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 209,
+    "name" : "صندوقی چارخونه مشکی",
+    "slug" : "lv-box-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 210,
+    "name" : "صندوقی چارخونه سفید",
+    "slug" : "lv-box-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 211,
+    "name" : "گوچی زنبوری قرمز",
+    "slug" : "gucci-bee-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 212,
+    "name" : "گوچی زنبوری نقره ای",
+    "slug" : "gucci-bee-silver",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 213,
+    "name" : "تخفیف ویژه",
+    "slug" : "big-sale",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 214,
+    "name" : "جین آبی روشن و قهوه ای",
+    "slug" : "jean-light-blue-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 215,
+    "name" : "جین آبی روشن و مشکی",
+    "slug" : "jean-light-blue-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 216,
+    "name" : "جین آبی تیره و قهوه ای",
+    "slug" : "jean-dark-blue-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 217,
+    "name" : "جین آبی تیره و مشکی",
+    "slug" : "jean-dark-blue-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 218,
+    "name" : "main-mobile",
+    "slug" : "main-mobile",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 219,
+    "name" : "بنز",
+    "slug" : "benz",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 220,
+    "name" : "بی ام و",
+    "slug" : "bmw",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 221,
+    "name" : "قرمز مشکی",
+    "slug" : "red-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 222,
+    "name" : "صورتی مشکی",
+    "slug" : "pink-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 223,
+    "name" : "محافظ کابل",
+    "slug" : "cable-protector",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 224,
+    "name" : "محافظ سالیوان",
+    "slug" : "protector-sullivan",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 225,
+    "name" : "محافظ فیل",
+    "slug" : "protector-eleph",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 226,
+    "name" : "محافظ مینیون",
+    "slug" : "protector-minion",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 227,
+    "name" : "پک و جعبه",
+    "slug" : "pack",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 228,
+    "name" : "پک معمولی",
+    "slug" : "simple-pack",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 229,
+    "name" : "پک گوچی",
+    "slug" : "gucci-pack",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 230,
+    "name" : "پک لویی قهوه ای",
+    "slug" : "lv-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 231,
+    "name" : "پک لویی قرمز",
+    "slug" : "lv-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 232,
+    "name" : "قاب سامسونگ",
+    "slug" : "samsung-cover",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 538,
+    "name" : "Note 20",
+    "slug" : "samsung-cover-note20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 532,
+    "name" : "S20 ultra",
+    "slug" : "samsung-cover-s20ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 533,
+    "name" : "S20",
+    "slug" : "samsung-cover-s20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 531,
+    "name" : "S8 plus",
+    "slug" : "samsung-cover-s8plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 524,
+    "name" : "J7 pro",
+    "slug" : "samsung-cover-j7pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 523,
+    "name" : "Note8",
+    "slug" : "samsung-cover-note8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 804,
+    "name" : "Note10 lite",
+    "slug" : "samsung-cover-note10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 537,
+    "name" : "S10 plus",
+    "slug" : "samsung-cover-s10plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 527,
+    "name" : "J7",
+    "slug" : "samsung-cover-j7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 528,
+    "name" : "S9",
+    "slug" : "samsung-cover-s9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 529,
+    "name" : "S9 plus",
+    "slug" : "samsung-cover-s9plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 530,
+    "name" : "S8",
+    "slug" : "samsung-cover-s8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 525,
+    "name" : "A9 2018",
+    "slug" : "samsung-cover-a9-2018",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 526,
+    "name" : "A7 2018",
+    "slug" : "samsung-cover-a7-2018",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 808,
+    "name" : "Note8 pro",
+    "slug" : "samsung-cover-note8pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 813,
+    "name" : "Note10 lite",
+    "slug" : "xiaomi-cover-note10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 812,
+    "name" : "Redmi Note10 lite",
+    "slug" : "xiaomi-note10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 285,
+    "name" : "واچ سوپریم قرمز",
+    "slug" : "watch-supreme-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 286,
+    "name" : "واچ لویی قهوه ای چارخونه",
+    "slug" : "watch-lv-chess-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 287,
+    "name" : "واچ لویی سفید چارخونه",
+    "slug" : "watch-lv-chess-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 288,
+    "name" : "واچ لویی قهوه ای فونتی",
+    "slug" : "watch-lv-font-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 289,
+    "name" : "گوچی گل بهاری",
+    "slug" : "gucci-flower",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 290,
+    "name" : "گوچی فونتی",
+    "slug" : "gucci-font",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 291,
+    "name" : "پینک سند",
+    "slug" : "pink-sand",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 292,
+    "name" : "کرم",
+    "slug" : "cream",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 293,
+    "name" : "قرمز و زرد",
+    "slug" : "red-yellow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 294,
+    "name" : "آبی سفید",
+    "slug" : "blue-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 295,
+    "name" : "صورتی بنفش",
+    "slug" : "pink-purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 296,
+    "name" : "آبی پررنگ مشکی",
+    "slug" : "darkblue-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 535,
+    "name" : "S10",
+    "slug" : "samsung-cover-s10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 536,
+    "name" : "S10 e",
+    "slug" : "samsung-cover-s10e",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 305,
+    "name" : "سفید قرمز",
+    "slug" : "white-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 306,
+    "name" : "پلنگی ریز",
+    "slug" : "leo-small",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 307,
+    "name" : "پلنگی درشت",
+    "slug" : "leo-big",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 308,
+    "name" : "مشکی سبز",
+    "slug" : "black-green",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 309,
+    "name" : "مشکی بنفش",
+    "slug" : "black-purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 310,
+    "name" : "آبی سبز",
+    "slug" : "blue-green",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 311,
+    "name" : "طوسی مشکی",
+    "slug" : "gray-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 312,
+    "name" : "طوسی سفید",
+    "slug" : "gray-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 313,
+    "name" : "سبز ارتشی مشکی",
+    "slug" : "cherokee-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 314,
+    "name" : "ارتشی مشکی",
+    "slug" : "cherokee-black-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 315,
+    "name" : "گلبهی",
+    "slug" : "golbehi",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 316,
+    "name" : "طوسی سبز",
+    "slug" : "gray-green",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 317,
+    "name" : "آبی صورتی",
+    "slug" : "blue-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 319,
+    "name" : "صورتی روشن",
+    "slug" : "pink-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 320,
+    "name" : "صورتی پررنگ",
+    "slug" : "pink-dark",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 321,
+    "name" : "سرمه ای تیره",
+    "slug" : "mag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 322,
+    "name" : "آبی فیروزه ای",
+    "slug" : "blue-firooz",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 323,
+    "name" : "آبی آسمونی",
+    "slug" : "blue-sky",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 324,
+    "name" : "آبی اقیانوسی",
+    "slug" : "blue-ocean",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 325,
+    "name" : "کیتی اسب",
+    "slug" : "kitty-horse",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 326,
+    "name" : "کیتی قلب ریز",
+    "slug" : "kitty-heart",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 327,
+    "name" : "کیتی خرس",
+    "slug" : "kitty-bear",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 328,
+    "name" : "کیتی پاپیون",
+    "slug" : "kitty-papion",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 329,
+    "name" : "کیتی قلب بزرگ",
+    "slug" : "kitty-big-heart",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 330,
+    "name" : "میکی شلوغ",
+    "slug" : "micky-crowd",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 331,
+    "name" : "میکی تکی",
+    "slug" : "micky-alone",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 332,
+    "name" : "تک بابونه",
+    "slug" : "chamomile-single",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 333,
+    "name" : "بابونه شلوغ",
+    "slug" : "chamomile-crowd",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 334,
+    "name" : "گل رز درشت",
+    "slug" : "rose-bold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 335,
+    "name" : "گل رز ریز",
+    "slug" : "rose-lil",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 336,
+    "name" : "ماربل قلوه ای",
+    "slug" : "gholve-marble",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 337,
+    "name" : "ماربل نارنجی",
+    "slug" : "orange-marble",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 338,
+    "name" : "گل آفتابگردون",
+    "slug" : "sunflower",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 373,
+    "name" : "لیدی هلو مشکی",
+    "slug" : "lady-hello-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 340,
+    "name" : "منوی بالا",
+    "slug" : "%d9%85%d9%86%d9%88%db%8c-%d8%a8%d8%a7%d9%84%d8%a7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 341,
+    "name" : "سیلیکون کد ۱",
+    "slug" : "silicone-code-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 342,
+    "name" : "سیلیکون کد ۲",
+    "slug" : "silicone-code-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 343,
+    "name" : "سیلیکون کد ۳",
+    "slug" : "silicone-code-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 344,
+    "name" : "سیلیکون کد ۴",
+    "slug" : "silicone-code-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 345,
+    "name" : "سیلیکون کد ۵",
+    "slug" : "silicone-code-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 346,
+    "name" : "سیلیکون کد ۶",
+    "slug" : "silicone-code-6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 347,
+    "name" : "سیلیکون کد ۷",
+    "slug" : "silicone-code-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 348,
+    "name" : "سیلیکون کد ۸",
+    "slug" : "silicone-code-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 349,
+    "name" : "سیلیکون کد ۹",
+    "slug" : "silicone-code-9-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 350,
+    "name" : "سیلیکون کد ۱۰",
+    "slug" : "silicone-code-10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 351,
+    "name" : "سیلیکون کد ۱۱",
+    "slug" : "silicone-code-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 352,
+    "name" : "سیلیکون کد ۱۲",
+    "slug" : "silicone-code-12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 353,
+    "name" : "سیلیکون کد ۱۳",
+    "slug" : "silicone-code-13",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 354,
+    "name" : "سیلیکون کد ۱۴",
+    "slug" : "silicone-code-14",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 355,
+    "name" : "سیلیکون کد ۱۵",
+    "slug" : "silicone-code-15",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 356,
+    "name" : "سیلیکون کد ۱۶",
+    "slug" : "silicone-code-16",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 357,
+    "name" : "سیلیکون کد ۱۷",
+    "slug" : "silicone-code-17",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 358,
+    "name" : "سیلیکون کد ۱۸",
+    "slug" : "silicone-code-18",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 359,
+    "name" : "سیلیکون کد ۱۹",
+    "slug" : "silicone-code-19",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 360,
+    "name" : "سیلیکون کد ۲۰",
+    "slug" : "silicone-code-20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 361,
+    "name" : "سیلیکون کد ۲۱",
+    "slug" : "silicone-code-21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 362,
+    "name" : "سیلیکون کد ۲۲",
+    "slug" : "silicone-code-22",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 363,
+    "name" : "سیلیکون کد ۲۳",
+    "slug" : "silicone-code-23",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 364,
+    "name" : "سیلیکون کد ۲۴",
+    "slug" : "silicone-code-24",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 365,
+    "name" : "سیلیکون کد ۲۵",
+    "slug" : "silicone-code-25",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 366,
+    "name" : "سیلیکون کد ۲۶",
+    "slug" : "silicone-code-26",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 367,
+    "name" : "سیلیکون کد ۲۷",
+    "slug" : "silicone-code-27",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 368,
+    "name" : "سیلیکون کد ۲۸",
+    "slug" : "silicone-code-28",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 369,
+    "name" : "سیلیکون کد ۲۹",
+    "slug" : "silicone-code-29",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 370,
+    "name" : "سیلیکون کد ۳۰",
+    "slug" : "silicone-code-30",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 371,
+    "name" : "سیلیکون کد ۳۱",
+    "slug" : "silicone-code-31",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 372,
+    "name" : "سیلیکون کد ۳۲",
+    "slug" : "silicone-code-32",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 374,
+    "name" : "لیدی هلو صورتی",
+    "slug" : "lady-hello-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 375,
+    "name" : "لیدی امور قرمز",
+    "slug" : "lady-amour-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 376,
+    "name" : "لیدی فندی مشکی",
+    "slug" : "lady-fendi-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 377,
+    "name" : "لیدی کوکو مشکی",
+    "slug" : "lady-coco-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 378,
+    "name" : "کرم و قرمز",
+    "slug" : "cream-red",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 379,
+    "name" : "بنفش آبی",
+    "slug" : "purple-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 380,
+    "name" : "سفید صورتی",
+    "slug" : "white-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 381,
+    "name" : "طرح شماره 1",
+    "slug" : "pattern-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 382,
+    "name" : "طرح شماره 2",
+    "slug" : "pattern-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 383,
+    "name" : "نایلون ۱",
+    "slug" : "nylon-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 384,
+    "name" : "نایلون ۲",
+    "slug" : "nylon-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 385,
+    "name" : "نایلون ۳",
+    "slug" : "nylon-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 386,
+    "name" : "نایلون ۴",
+    "slug" : "nylon-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 387,
+    "name" : "نایلون ۵",
+    "slug" : "nylon-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 388,
+    "name" : "نایلون ۶",
+    "slug" : "nylon-6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 389,
+    "name" : "نایلون ۷",
+    "slug" : "nylon-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 390,
+    "name" : "نایلون ۸",
+    "slug" : "nylon-8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 391,
+    "name" : "نایلون ۹",
+    "slug" : "nylon-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 392,
+    "name" : "نایلون ۱۰",
+    "slug" : "nylon-10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 393,
+    "name" : "نایلون ۱۱",
+    "slug" : "nylon-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 394,
+    "name" : "نایلون ۱۲",
+    "slug" : "nylon-12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 395,
+    "name" : "نایلون ۱۳",
+    "slug" : "nylon-13",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 396,
+    "name" : "نایلون ۱۴",
+    "slug" : "nylon-14",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 397,
+    "name" : "نایلون ۱۵",
+    "slug" : "nylon-15",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 398,
+    "name" : "نایلون ۱۶",
+    "slug" : "nylon-16",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 399,
+    "name" : "نایلون ۱۷",
+    "slug" : "nylon-17",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 400,
+    "name" : "نایلون ۱۸",
+    "slug" : "nylon-18",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 401,
+    "name" : "نایلون ۱۹",
+    "slug" : "nylon-19",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 402,
+    "name" : "نایلون ۲۰",
+    "slug" : "nylon-20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 403,
+    "name" : "نایلون ۲۱",
+    "slug" : "nylon-21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 404,
+    "name" : "نایلون ۲۲",
+    "slug" : "nylon-22",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 405,
+    "name" : "نایلون ۲۳",
+    "slug" : "nylon-23",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 406,
+    "name" : "نایلون ۲۴",
+    "slug" : "nylon-24",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 407,
+    "name" : "نایلون ۲۵‍",
+    "slug" : "nylon-25",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 408,
+    "name" : "تبدیل ایرون من",
+    "slug" : "adapt-ironman",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 409,
+    "name" : "تبدیل مینی موس",
+    "slug" : "adabt-minnie",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 410,
+    "name" : "تبدیل استیچ",
+    "slug" : "adapt-stich",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 411,
+    "name" : "تبدیل پاندا",
+    "slug" : "adapt-panda",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 412,
+    "name" : "تبدیل هلو کیتی",
+    "slug" : "adapt-hello",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 413,
+    "name" : "تبدیل پو",
+    "slug" : "adapt-poo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 414,
+    "name" : "تبدیل خوک پو",
+    "slug" : "adapt-pigpoo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 415,
+    "name" : "تبدیل سالیوان",
+    "slug" : "adapt-sullivan",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 416,
+    "name" : "تبدیل مینیون یک چشم",
+    "slug" : "adapt-minnion-one-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 417,
+    "name" : "تبدیل مینیون دو چشم",
+    "slug" : "adapt-minnion-two-eyes",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 418,
+    "name" : "تبدیل یونیکورن",
+    "slug" : "adapt-unicorn",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 419,
+    "name" : "تبدیل خرس قهوه ای",
+    "slug" : "adapt-bear",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 420,
+    "name" : "تبدیل بتمن",
+    "slug" : "adapt-batman",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 421,
+    "name" : "تبدیل آدم فضایی سه چشم",
+    "slug" : "adapt-alien",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 422,
+    "name" : "تبدیل میکی موس",
+    "slug" : "adapt-micky",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 423,
+    "name" : "طرح ۱",
+    "slug" : "pattern-1-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 424,
+    "name" : "طرح ۲",
+    "slug" : "pattern-2-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 425,
+    "name" : "طرح ۳",
+    "slug" : "pattern-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 426,
+    "name" : "طرح ۴",
+    "slug" : "pattern-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 427,
+    "name" : "طرح ۵",
+    "slug" : "pattern-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 428,
+    "name" : "طرح ۶",
+    "slug" : "pattern-6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 429,
+    "name" : "طرح ۷",
+    "slug" : "pattern-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 430,
+    "name" : "طرح ۸",
+    "slug" : "pattern-8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 431,
+    "name" : "طرح ۹",
+    "slug" : "pattern-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 432,
+    "name" : "طرح ۱۰",
+    "slug" : "pattern-10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 433,
+    "name" : "طرح ۱۱",
+    "slug" : "pattern-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 434,
+    "name" : "طرح ۱۲",
+    "slug" : "pattern-12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 435,
+    "name" : "طرح ۱۳",
+    "slug" : "pattern-13",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 436,
+    "name" : "طرح ۱۴",
+    "slug" : "pattern-14",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 437,
+    "name" : "طرح ۱۵",
+    "slug" : "pattern-15",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 438,
+    "name" : "طرح ۱۶",
+    "slug" : "pattern-16",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 439,
+    "name" : "طرح ۱۷",
+    "slug" : "pattern-17",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 440,
+    "name" : "طرح ۱۸",
+    "slug" : "pattern-18",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 441,
+    "name" : "طرح ۱۹",
+    "slug" : "pattern-19",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 442,
+    "name" : "طرح ۲۰",
+    "slug" : "pattern-20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 443,
+    "name" : "طرح ۲۱",
+    "slug" : "pattern-21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 444,
+    "name" : "طرح ۲۲",
+    "slug" : "pattern-22",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 445,
+    "name" : "طرح ۲۳",
+    "slug" : "pattern-23",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 446,
+    "name" : "طرح ۲۴",
+    "slug" : "pattern-24",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 447,
+    "name" : "طرح ۲۵",
+    "slug" : "pattern-25",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 448,
+    "name" : "طرح ۲۶",
+    "slug" : "pattern-26",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 449,
+    "name" : "پن ۱",
+    "slug" : "pen-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 450,
+    "name" : "پن ۲",
+    "slug" : "pen-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 451,
+    "name" : "طلایی کم رنگ",
+    "slug" : "pale-gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 452,
+    "name" : "مشکی طلایی",
+    "slug" : "gold-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 453,
+    "name" : "نقره ای طلایی",
+    "slug" : "silver-gold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 454,
+    "name" : "نقره ای رز گلد",
+    "slug" : "silver-rosegold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 455,
+    "name" : "فندی قرمز ساده",
+    "slug" : "fendi-red-simple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 456,
+    "name" : "فندی قرمز پشمالو",
+    "slug" : "fendi-red-hairy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 457,
+    "name" : "فندی مشکی ساده",
+    "slug" : "fendi-black-simple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 458,
+    "name" : "فندی مشکی پشمالو",
+    "slug" : "fendi-black-hairy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 459,
+    "name" : "کریسمس بابانوئل",
+    "slug" : "christ-santa",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 460,
+    "name" : "کریسمس آدم برفی",
+    "slug" : "christ-snowman",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 461,
+    "name" : "کریسمس گوزن",
+    "slug" : "christ-deer",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 462,
+    "name" : "لویی چارخونه قهوه ای",
+    "slug" : "lv-plaid-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 463,
+    "name" : "لویی چارخونه طوسی",
+    "slug" : "lv-plaid-gray",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 464,
+    "name" : "لویی فونتی قهوه ای",
+    "slug" : "lv-plaid-brown-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 465,
+    "name" : "پینک توپی",
+    "slug" : "pink-ball",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 466,
+    "name" : "پینک طرح سگ",
+    "slug" : "pink-doggy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 467,
+    "name" : "کیف گرد پو",
+    "slug" : "poo-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 468,
+    "name" : "کیف گرد مرد عنکبوتی",
+    "slug" : "spiderman-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 469,
+    "name" : "کیف گرد تدی",
+    "slug" : "teddy-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 470,
+    "name" : "کیف گرد سوپرمن",
+    "slug" : "superman-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 471,
+    "name" : "کیف گرد خرس لاو",
+    "slug" : "lovbear-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 472,
+    "name" : "کیف گرد میکی موس",
+    "slug" : "micky-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 473,
+    "name" : "کیف گرد سالیوان",
+    "slug" : "sullivan-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 474,
+    "name" : "کیف گرد مموش",
+    "slug" : "mamoosh-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 475,
+    "name" : "کیف گرد گربه",
+    "slug" : "cat-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 476,
+    "name" : "کیف گرد مینی موس",
+    "slug" : "minnie-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 477,
+    "name" : "کیف گرد مینیون",
+    "slug" : "minnion-small-bag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 478,
+    "name" : "ادیداس سفید شلوغ",
+    "slug" : "adidas-crowd-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 479,
+    "name" : "ادیداس ببری",
+    "slug" : "adidas-tiger-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 480,
+    "name" : "آدیداس گل آبی",
+    "slug" : "adidas-flower-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 481,
+    "name" : "آدیداس چریکی مشکی",
+    "slug" : "adidas-cherokee-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 482,
+    "name" : "قاب آیپد",
+    "slug" : "ipad-case",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 483,
+    "name" : "mini 1,2,3",
+    "slug" : "ipad-mini-123",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 897,
+    "name" : "mini 5",
+    "slug" : "ipad-mini-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 485,
+    "name" : "mini 4",
+    "slug" : "ipad-mini-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 486,
+    "name" : "Air 1 (9.7)",
+    "slug" : "ipad-air-1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 487,
+    "name" : "طرح سالیوان",
+    "slug" : "sullivan-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 488,
+    "name" : "طرح زاپیتا",
+    "slug" : "zapita-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 489,
+    "name" : "طرح ویکتوریا سکرت",
+    "slug" : "vs-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 490,
+    "name" : "طرح تدی بر",
+    "slug" : "teddy-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 491,
+    "name" : "طرح هلو کیتی",
+    "slug" : "hellokity-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 492,
+    "name" : "طرح بولداگ",
+    "slug" : "bulldog-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 493,
+    "name" : "طرح میکی موس",
+    "slug" : "micky-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 494,
+    "name" : "طرح بتمن",
+    "slug" : "batman-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 495,
+    "name" : "طرح جاکوب",
+    "slug" : "jacob-model",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 496,
+    "name" : "جغد پسر سفید",
+    "slug" : "owl-boy-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 497,
+    "name" : "جغد دختر سفید",
+    "slug" : "owl-girl-white",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 498,
+    "name" : "جغد پسر آبی",
+    "slug" : "owl-boy-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 499,
+    "name" : "جغد دوتایی",
+    "slug" : "owl-couple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 500,
+    "name" : "ریز",
+    "slug" : "%d8%b1%db%8c%d8%b2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 501,
+    "name" : "گوچی مار",
+    "slug" : "gucci-snake",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 502,
+    "name" : "پوچی پروانه",
+    "slug" : "gucci-butterfly",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 503,
+    "name" : "گوچی ببر لاو",
+    "slug" : "guvvi-tiger-loved",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 504,
+    "name" : "گوچی ببر مشکی",
+    "slug" : "gucci-tiger-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 810,
+    "name" : "J7 / J7 core",
+    "slug" : "samsung-cover-j7-1026",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 811,
+    "name" : "J7 pro",
+    "slug" : "samsung-cover-j7pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 805,
+    "name" : "A80",
+    "slug" : "samsung-cover-a80",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 803,
+    "name" : "A7 2018 / A750",
+    "slug" : "samsung-cover-a7-2018",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 539,
+    "name" : "Note 20 ultra",
+    "slug" : "samsung-cover-note20ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 540,
+    "name" : "Note 10",
+    "slug" : "samsung-cover-note10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 541,
+    "name" : "Note10 plus",
+    "slug" : "samsung-cover-note10plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 543,
+    "name" : "S20 plus",
+    "slug" : "samsung-cover-s20plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 544,
+    "name" : "A20/A30",
+    "slug" : "samsung-cover-a20a30",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 545,
+    "name" : "A10 s",
+    "slug" : "samsung-cover-a10s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 546,
+    "name" : "A20 s",
+    "slug" : "samsung-cover-a20s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 547,
+    "name" : "A30s/A50/A50s",
+    "slug" : "samsung-cover-a30sa50a50s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 548,
+    "name" : "A51",
+    "slug" : "samsung-cover-a51",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 549,
+    "name" : "A71",
+    "slug" : "samsung-cover-a71",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 550,
+    "name" : "A70",
+    "slug" : "samsung-cover-a70",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 551,
+    "name" : "A31",
+    "slug" : "samsung-cover-a31",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 552,
+    "name" : "A11",
+    "slug" : "samsung-cover-a11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 553,
+    "name" : "A21 s",
+    "slug" : "samsung-cover-a21s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 554,
+    "name" : "A01",
+    "slug" : "samsung-cover-a01",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 555,
+    "name" : "A80",
+    "slug" : "samsung-cover-a80",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 556,
+    "name" : "A60",
+    "slug" : "samsung-cover-a60",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 557,
+    "name" : "M11",
+    "slug" : "samsung-cover-m11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 558,
+    "name" : "M30 s",
+    "slug" : "samsung-cover-m30s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 559,
+    "name" : "قاب گوشی",
+    "slug" : "phone-case",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 560,
+    "name" : "آرسنال",
+    "slug" : "arsenal",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 561,
+    "name" : "بایرن مونیخ",
+    "slug" : "bayern",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 562,
+    "name" : "چلسی",
+    "slug" : "chelsea",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 563,
+    "name" : "لیورپول",
+    "slug" : "liverpool",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 564,
+    "name" : "بارسلونا",
+    "slug" : "barcelona",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 565,
+    "name" : "رونالدو",
+    "slug" : "ronaldo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 566,
+    "name" : "پرچم آرژانتین",
+    "slug" : "argentina-flag",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 567,
+    "name" : "مسی",
+    "slug" : "messi",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 568,
+    "name" : "برزیل",
+    "slug" : "brazil",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 569,
+    "name" : "12mini",
+    "slug" : "iphone-12-mini",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 570,
+    "name" : "12",
+    "slug" : "iphone-12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 571,
+    "name" : "12pro",
+    "slug" : "iphone-12-pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 572,
+    "name" : "12promax",
+    "slug" : "iphone-12-promax",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 573,
+    "name" : "12mini",
+    "slug" : "iphone-12-mini",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 574,
+    "name" : "12 / 12pro",
+    "slug" : "iphone-12-12pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 576,
+    "name" : "12promax",
+    "slug" : "iphone-12-promax",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 577,
+    "name" : "رئال مادرید",
+    "slug" : "real-madrid",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 578,
+    "name" : "A01 core",
+    "slug" : "samsung-cover-a01core",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 579,
+    "name" : "A2 core",
+    "slug" : "samsung-cover-a2core",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 580,
+    "name" : "J5",
+    "slug" : "samsung-cover-j5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 581,
+    "name" : "J510",
+    "slug" : "samsung-cover-j510",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 582,
+    "name" : "J710",
+    "slug" : "samsung-cover-j710",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 583,
+    "name" : "J7 prime",
+    "slug" : "samsung-cover-j7prime",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 584,
+    "name" : "J5 prime",
+    "slug" : "samsung-cover-j5prime",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 585,
+    "name" : "J2 prime",
+    "slug" : "samsung-cover-j2prime",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 586,
+    "name" : "A520",
+    "slug" : "samsung-cover-a520",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 587,
+    "name" : "A720",
+    "slug" : "samsung-cover-a720",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 588,
+    "name" : "A750",
+    "slug" : "samsung-cover-a750",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 589,
+    "name" : "قاب شیاومی",
+    "slug" : "xiaomi-cover",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 590,
+    "name" : "Note8",
+    "slug" : "xiaomi-cover-note8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 591,
+    "name" : "Note8 pro",
+    "slug" : "xiaomi-cover-note8pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 592,
+    "name" : "Note9 pro/Note9s",
+    "slug" : "xiaomi-cover-note9pro-note9s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 593,
+    "name" : "Note 9",
+    "slug" : "xiaomi-cover-note9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 594,
+    "name" : "Mi Note10 lite",
+    "slug" : "xiaomi-cover-minote10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 595,
+    "name" : "Mi 9",
+    "slug" : "xiaomi-cover-mi9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 596,
+    "name" : "Mi 9A",
+    "slug" : "xiaomi-cover-mi9a",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 597,
+    "name" : "Mi 8A",
+    "slug" : "xiaomi-cover-mi8a",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 598,
+    "name" : "Note 9s",
+    "slug" : "xiaomi-cover-note9s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 599,
+    "name" : "A3 2017",
+    "slug" : "samsung-cover-a3-2017",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 600,
+    "name" : "A310",
+    "slug" : "samsung-cover-a310",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 601,
+    "name" : "A5 2017",
+    "slug" : "samsung-cover-a5-2017",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 602,
+    "name" : "A510",
+    "slug" : "samsung-cover-a510",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 603,
+    "name" : "A7 2017",
+    "slug" : "samsung-cover-a7-2017",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 604,
+    "name" : "Note 4",
+    "slug" : "samsung-cover-note4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 605,
+    "name" : "Note 5",
+    "slug" : "samsung-cover-note5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 606,
+    "name" : "S6",
+    "slug" : "samsung-cover-s6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 607,
+    "name" : "S6 edge",
+    "slug" : "samsung-cover-s6edge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 608,
+    "name" : "S7",
+    "slug" : "samsung-cover-s7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 609,
+    "name" : "S7 edge",
+    "slug" : "samsung-cover-s7edge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 610,
+    "name" : "بابانوئل",
+    "slug" : "santa",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 611,
+    "name" : "گوزن",
+    "slug" : "santa-deer",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 612,
+    "name" : "آدم برفی",
+    "slug" : "snowman",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 613,
+    "name" : "یونیکورن شاخدار",
+    "slug" : "unicorn-horn",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 614,
+    "name" : "یونیکورن مو دار",
+    "slug" : "unicorn-hair",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 615,
+    "name" : "جیونچی سه خط",
+    "slug" : "givenchy-3line",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 616,
+    "name" : "جیونچی لوگو",
+    "slug" : "givenchy-logo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 617,
+    "name" : "جیونچی 3 ستاره",
+    "slug" : "givenchy-3star",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 618,
+    "name" : "جیونچی تک ستاره",
+    "slug" : "givenchy-bigstar",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 619,
+    "name" : "خاکی",
+    "slug" : "khaki",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 620,
+    "name" : "سفید طوسی",
+    "slug" : "white-gray",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 621,
+    "name" : "قرمز پاپیون",
+    "slug" : "red-pap",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 622,
+    "name" : "مشکی پاپیون",
+    "slug" : "black-pap",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 623,
+    "name" : "مشکی نگین گربه",
+    "slug" : "black-catt",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 624,
+    "name" : "ستاره",
+    "slug" : "star",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 625,
+    "name" : "مدال گرد",
+    "slug" : "medal-round",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 626,
+    "name" : "صورتی آبی",
+    "slug" : "pink-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 627,
+    "name" : "سفید آبی طوسی",
+    "slug" : "white-blue-gray",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 628,
+    "name" : "سفید پینک سند",
+    "slug" : "white-pinksand",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 629,
+    "name" : "سفید آبی",
+    "slug" : "white-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 630,
+    "name" : "سفید آبی بنفش",
+    "slug" : "white-blue-purple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 631,
+    "name" : "کرم و مشکی",
+    "slug" : "cream-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 632,
+    "name" : "نوک مدادی",
+    "slug" : "light-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 633,
+    "name" : "سرمه ای مات",
+    "slug" : "sorm-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 634,
+    "name" : "مشکی مات",
+    "slug" : "black-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 635,
+    "name" : "آبی کم رنگ مات",
+    "slug" : "blue-light-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 636,
+    "name" : "صورتی مات",
+    "slug" : "pink-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 637,
+    "name" : "سفید مات",
+    "slug" : "white-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 638,
+    "name" : "قرمز مات",
+    "slug" : "red-matte",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 639,
+    "name" : "آبی کمرنگ متالیک",
+    "slug" : "blue-light-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 640,
+    "name" : "بژ متالیک",
+    "slug" : "bezh-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 641,
+    "name" : "زرد متالیک",
+    "slug" : "yellow-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 642,
+    "name" : "رز گلد متالیک",
+    "slug" : "rosegold-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 643,
+    "name" : "قرمز متالیک",
+    "slug" : "red-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 644,
+    "name" : "نقره ای متالیک",
+    "slug" : "silver-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 645,
+    "name" : "سفید متالیک",
+    "slug" : "white-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 646,
+    "name" : "مشکی متالیک",
+    "slug" : "black-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 647,
+    "name" : "بی رنگ متالیک",
+    "slug" : "tp-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 648,
+    "name" : "گلبهی متالیک",
+    "slug" : "golbeh-metallic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 649,
+    "name" : "12pro / 12",
+    "slug" : "iphone-12-12pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 650,
+    "name" : "پروانه شلوغ",
+    "slug" : "butterfly-crowd",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 651,
+    "name" : "پروانه تکی",
+    "slug" : "butterfly-single",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 652,
+    "name" : "سیلیکون کد ۳۳",
+    "slug" : "silicone-code-33",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 653,
+    "name" : "سیلیکون کد ۳۴",
+    "slug" : "silicon-code-34",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 654,
+    "name" : "سیلیکون کد ۳۵",
+    "slug" : "silicon-code-35",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 655,
+    "name" : "سیلیکون کد ۳۶",
+    "slug" : "silicon-code-36",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 656,
+    "name" : "سیلیکون کد ۳۷",
+    "slug" : "silicon-code-37",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 657,
+    "name" : "سیلیکون کد ۳۸",
+    "slug" : "silicon-code-38",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 658,
+    "name" : "سیلیکون کد ۳۹",
+    "slug" : "silicon-code-39",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 659,
+    "name" : "سیلیکون کد ۴۰",
+    "slug" : "silicon-code-40",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 660,
+    "name" : "سیلیکون کد ۴۱",
+    "slug" : "silicon-code-41",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 661,
+    "name" : "سیلیکون کد ۴۲",
+    "slug" : "silicon-code-42",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 662,
+    "name" : "سیلیکون کد ۴۳",
+    "slug" : "silicon-code-43",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 663,
+    "name" : "سیلیکون کد ۴۴",
+    "slug" : "silicon-code-44",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 664,
+    "name" : "سیلیکون کد ۴۵",
+    "slug" : "silicon-code-45",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 665,
+    "name" : "یونیکورن خوشحال",
+    "slug" : "happy-unicorn",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 666,
+    "name" : "سگ و گربه",
+    "slug" : "cat-dog",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 667,
+    "name" : "لیورپول",
+    "slug" : "livp",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 668,
+    "name" : "عمو سیبیلو",
+    "slug" : "amoo-sibil",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 669,
+    "name" : "یوونتوس",
+    "slug" : "juventus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 670,
+    "name" : "سیبیل چشی",
+    "slug" : "sibil-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 671,
+    "name" : "کاترپیلار",
+    "slug" : "caterpillar",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 672,
+    "name" : "هیس",
+    "slug" : "hiss",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 673,
+    "name" : "گربه ملوس",
+    "slug" : "cat-cutiee",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 674,
+    "name" : "جوکر",
+    "slug" : "jokkkier",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 675,
+    "name" : "ماریوانا",
+    "slug" : "mj",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 676,
+    "name" : "لب گز",
+    "slug" : "lippie",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 677,
+    "name" : "یوونتوس روشن",
+    "slug" : "juventus-light",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 678,
+    "name" : "چشم فندی",
+    "slug" : "fendi-dont",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 679,
+    "name" : "آدیداس",
+    "slug" : "adidas-pop",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 680,
+    "name" : "mi band 2",
+    "slug" : "mi-band-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 681,
+    "name" : "mi band 3",
+    "slug" : "mi-band-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 682,
+    "name" : "mi band 4",
+    "slug" : "mi-band-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 683,
+    "name" : "مشکی زرد",
+    "slug" : "black-yellow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 684,
+    "name" : "پلنگ سفید",
+    "slug" : "white-leo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 685,
+    "name" : "پلنگ قهوه ای",
+    "slug" : "brown-leo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 686,
+    "name" : "پلنگ نارنجی",
+    "slug" : "orange-leo",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 687,
+    "name" : "باب اسفنجی",
+    "slug" : "sponge-bob",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 688,
+    "name" : "رز پینک",
+    "slug" : "rose-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 689,
+    "name" : "دیاموند",
+    "slug" : "%d8%af%db%8c%d8%a7%d9%85%d9%88%d9%86%d8%af",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 690,
+    "name" : "Note 10",
+    "slug" : "xiaomi-cover-note10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 691,
+    "name" : "Note 10 plus",
+    "slug" : "xiaomi-cover-note10plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 692,
+    "name" : "Note10 lite",
+    "slug" : "samsung-cover-note10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 693,
+    "name" : "A8",
+    "slug" : "samsung-cover-a8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 694,
+    "name" : "A12",
+    "slug" : "samsung-cover-a12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 695,
+    "name" : "A02 S",
+    "slug" : "samsung-cover-a02s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 696,
+    "name" : "سگک ایو سن لورن",
+    "slug" : "bag-ysl",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 697,
+    "name" : "سگک شنل",
+    "slug" : "bag-chanel",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 698,
+    "name" : "فلش یو اس بی عروسکی",
+    "slug" : "flash-usb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 699,
+    "name" : "64 گیگ",
+    "slug" : "flash-64gb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 700,
+    "name" : "32 گیگ",
+    "slug" : "flash-32gb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 701,
+    "name" : "رولکس",
+    "slug" : "%d8%b1%d9%88%d9%84%da%a9%d8%b3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 702,
+    "name" : "5تیکه",
+    "slug" : "5%d8%aa%db%8c%da%a9%d9%87",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 703,
+    "name" : "32 گیگ",
+    "slug" : "32-gb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 704,
+    "name" : "64 گیگ",
+    "slug" : "64-gb",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 705,
+    "name" : "خاکستری",
+    "slug" : "khak",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 706,
+    "name" : "سفید گوش طوسی",
+    "slug" : "white-gray-ear",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 707,
+    "name" : "کاپیتان آمریکا",
+    "slug" : "captain-america",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 708,
+    "name" : "سوپرمن",
+    "slug" : "superman",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 709,
+    "name" : "آیرون من",
+    "slug" : "iron-man",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 710,
+    "name" : "اسپایدر من",
+    "slug" : "spider-man",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 711,
+    "name" : "گارفیلد چشم بسته",
+    "slug" : "garfield-eye-closed",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 712,
+    "name" : "گارفیلد چشم باز",
+    "slug" : "garfield-eye-open",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 713,
+    "name" : "موتور هوندا",
+    "slug" : "hunda",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 714,
+    "name" : "موتور یاماها",
+    "slug" : "yamaha",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 715,
+    "name" : "پاندا چشم بزرگ",
+    "slug" : "panda-big-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 716,
+    "name" : "پاندا چشم کوچک",
+    "slug" : "panda-small-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 717,
+    "name" : "سالیوان",
+    "slug" : "flash-sullivan",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 718,
+    "name" : "مایک تک چشم",
+    "slug" : "flash-mike",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 719,
+    "name" : "مایک و سالیوان دوقلو",
+    "slug" : "mike-sully-twin",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 720,
+    "name" : "باگز بانی",
+    "slug" : "bugs-bunny",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 721,
+    "name" : "تاسمانی دویل",
+    "slug" : "tasmanian",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 722,
+    "name" : "سیلوستر گربه",
+    "slug" : "sylvester-cat",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 723,
+    "name" : "توییتی",
+    "slug" : "tweety",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 724,
+    "name" : "جغد تپل",
+    "slug" : "owl-fat",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 725,
+    "name" : "جغد آبی",
+    "slug" : "owl-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 726,
+    "name" : "جغد نارنجی",
+    "slug" : "owl-orange",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 727,
+    "name" : "فراگ نیم تنه",
+    "slug" : "frog-half",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 728,
+    "name" : "فراگ ایستاده",
+    "slug" : "frog-full",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 729,
+    "name" : "اسکلت سر کنده",
+    "slug" : "skeleton-head-shitty",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 730,
+    "name" : "اسکلت صلیبی",
+    "slug" : "skeleton-ghost",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 731,
+    "name" : "اسکلت چشم قرمز",
+    "slug" : "skeleton-red-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 732,
+    "name" : "اسکلت اتخونی",
+    "slug" : "skeleton-bone",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 733,
+    "name" : "مینیون دو چشم",
+    "slug" : "minion-2eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 734,
+    "name" : "مینیون تک چشم",
+    "slug" : "minion-oneye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 735,
+    "name" : "گربه چشم بسته",
+    "slug" : "cat-close-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 736,
+    "name" : "خرگوس و بچه صورتی",
+    "slug" : "bunny-kid-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 737,
+    "name" : "جغد چشم بسته صورتی",
+    "slug" : "owl-closed-eye-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 738,
+    "name" : "خرگوش چشم بسته هویج به بغل",
+    "slug" : "bunny-carroty",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 739,
+    "name" : "گربه هد چشم بسته",
+    "slug" : "cat-head-closed-eye",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 740,
+    "name" : "خرگوش شلوغ آبی",
+    "slug" : "rabbit-crowd-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 741,
+    "name" : "گربه شال گردنی",
+    "slug" : "cat-scarf",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 742,
+    "name" : "گربه شلوغ آبی",
+    "slug" : "cat-crowd-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 743,
+    "name" : "خرگوش یواشکی آبی",
+    "slug" : "bunny-sneaky-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 744,
+    "name" : "کروکودیل پاپیونی",
+    "slug" : "croco-papion",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 745,
+    "name" : "مرد ریشو",
+    "slug" : "bearded-man",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 746,
+    "name" : "اتوبوس لندنی",
+    "slug" : "london-bus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 747,
+    "name" : "پپا دا پیگ",
+    "slug" : "peppa-pig",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 748,
+    "name" : "فیل هندی",
+    "slug" : "elephant-indian",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 749,
+    "name" : "گوزن آبی",
+    "slug" : "deer-blue",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 750,
+    "name" : "کیف گوچی فونتی قهوه ای",
+    "slug" : "gucci-fint-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 751,
+    "name" : "کیف گوچی فونتی سه خط",
+    "slug" : "wallet-gucci-triple",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 752,
+    "name" : "کیف گوچی داغی مشکی",
+    "slug" : "gucci-leather",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 753,
+    "name" : "کیف گوچی فونتی زنبوری",
+    "slug" : "gucci-font-bee",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 754,
+    "name" : "کیف لویی ویتون چارخونه قهوه ای",
+    "slug" : "lv-brrrowwwwn",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 755,
+    "name" : "کیف لویی ویتون فونتی",
+    "slug" : "lv-font-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 815,
+    "name" : "Note9",
+    "slug" : "samsung-cover-note9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 762,
+    "name" : "Redmi Note8 pro",
+    "slug" : "xiaomi-note8pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 763,
+    "name" : "Redmi Note 8",
+    "slug" : "xiaomi-note8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 764,
+    "name" : "mi 9A",
+    "slug" : "xiaomi-redmi9a",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 765,
+    "name" : "mi 9",
+    "slug" : "xiaomi-redmi-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 766,
+    "name" : "mi 8a / mi 8",
+    "slug" : "xiaomi-redmi8a",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 767,
+    "name" : "Redmi Note9 pro / Note9s",
+    "slug" : "xiaomi-note9pro-note9s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 768,
+    "name" : "Redmi Note9",
+    "slug" : "xiaomi-note9-note10x",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 769,
+    "name" : "Note9 / Note10x",
+    "slug" : "xiaomi-cover-note9-note10x",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 770,
+    "name" : "A20 / A30",
+    "slug" : "samsung-cover-a20-a30",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 771,
+    "name" : "A31",
+    "slug" : "samsung-cover-a31",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 772,
+    "name" : "A20s",
+    "slug" : "samsung-cover-a20s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 773,
+    "name" : "A10s",
+    "slug" : "samsung-a10s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 774,
+    "name" : "A70 / A70s",
+    "slug" : "samsung-cover-70",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 775,
+    "name" : "A51 / A40s",
+    "slug" : "samsung-cover-a51-a40s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 776,
+    "name" : "A71",
+    "slug" : "samsung-cover-a71",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 777,
+    "name" : "A21 s",
+    "slug" : "samsung-cover-a21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 778,
+    "name" : "A01",
+    "slug" : "samsung-cover-a01",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 779,
+    "name" : "A9 2018",
+    "slug" : "samsung-cover-a9-2018",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 780,
+    "name" : "A11",
+    "slug" : "samsung-cover-a11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 781,
+    "name" : "A60 / A60s",
+    "slug" : "samsung-cover-a60-a60s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 782,
+    "name" : "A750 / A7 2018",
+    "slug" : "samsung-cover-a750",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 783,
+    "name" : "A30s / A50s / A50",
+    "slug" : "samsung-a30s-a50s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 784,
+    "name" : "Note8",
+    "slug" : "samsung-cover-note8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 785,
+    "name" : "Note10",
+    "slug" : "samsung-cover-note10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 786,
+    "name" : "Note10 plus",
+    "slug" : "samsung-cover-note10plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 787,
+    "name" : "Note20",
+    "slug" : "samsung-cover-note20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 788,
+    "name" : "Note20 ultra",
+    "slug" : "samsung-cover-note20ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 814,
+    "name" : "mi8",
+    "slug" : "xiaomi-case-mi8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 790,
+    "name" : "S8",
+    "slug" : "samsung-cover-s8",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 791,
+    "name" : "S8 plus",
+    "slug" : "samsung-cover-s8plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 792,
+    "name" : "S9",
+    "slug" : "samsung-cover-s9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 793,
+    "name" : "S9 plus",
+    "slug" : "samsung-cover-s9plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 794,
+    "name" : "S10",
+    "slug" : "samsung-cover-s10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 795,
+    "name" : "S10 plus",
+    "slug" : "samsung-cover-s10plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 796,
+    "name" : "S10e",
+    "slug" : "samsung-cover-s10e",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 797,
+    "name" : "S20",
+    "slug" : "samsung-cover-s20",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 798,
+    "name" : "S20 plus",
+    "slug" : "samsung-cover-s20plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 799,
+    "name" : "S20 ultra / s11 plus",
+    "slug" : "samsung-cover-s20ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 800,
+    "name" : "M11",
+    "slug" : "samsung-cover-m11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 801,
+    "name" : "M30s",
+    "slug" : "samsung-cover-m30s",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 802,
+    "name" : "J7 prime 2016",
+    "slug" : "samsung-cover-j7prime-2016",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 816,
+    "name" : "مرمر سفید صورتی(طرح ۳)",
+    "slug" : "mar-white-pink",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 817,
+    "name" : "مرمر سه خط(طرح ۴)",
+    "slug" : "mar-triple-line",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 818,
+    "name" : "مرمر نارنجی سبز(طرح ۱)",
+    "slug" : "mar-orange-green",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 819,
+    "name" : "مرمر نارنجی مشکی(طرح ۲)",
+    "slug" : "mar-orange-black",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 820,
+    "name" : "Note9",
+    "slug" : "samsung-cover-note9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 821,
+    "name" : "Redmi 9",
+    "slug" : "xiaomi-redmi9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 822,
+    "name" : "شیاومی بند",
+    "slug" : "xiaomi-miband",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 823,
+    "name" : "خرس ماسچینو",
+    "slug" : "moschino",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 824,
+    "name" : "خرس لباس آبی",
+    "slug" : "teddy-blue-dress",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 825,
+    "name" : "خرس لباس راه راه",
+    "slug" : "teddy-dalton",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 826,
+    "name" : "خرس لباس قرمز",
+    "slug" : "teddy-red-dress",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 827,
+    "name" : "خرس قهوه ای دختر",
+    "slug" : "teddy-square-girl",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 828,
+    "name" : "خرس قهوه ای پسر",
+    "slug" : "teddy-square-boy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 829,
+    "name" : "خرس قهوه ای تیره",
+    "slug" : "teddy-dark-brown",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 830,
+    "name" : "قلب سیلیکونی",
+    "slug" : "heart-silic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 831,
+    "name" : "گل رز سیلیکونی",
+    "slug" : "rose-silic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 832,
+    "name" : "لب و دندون سیلیکونی",
+    "slug" : "lip-theet-silic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 833,
+    "name" : "لب درشت قرمز",
+    "slug" : "lip-bold",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 834,
+    "name" : "رژ لب سیلیکونی",
+    "slug" : "matic-silic",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 835,
+    "name" : "برند",
+    "slug" : "brand",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 836,
+    "name" : "فانتزی",
+    "slug" : "fantasy",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 837,
+    "name" : "j7 core",
+    "slug" : "dsmdung-cover-j7core",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 838,
+    "name" : "Redmi 8a",
+    "slug" : "xiaomi-case-redmi8a",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 839,
+    "name" : "ُُُS20 Fe",
+    "slug" : "samsung-cover-s20fe",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 840,
+    "name" : "S21",
+    "slug" : "samsung-cover-s21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 841,
+    "name" : "S21 ultra",
+    "slug" : "samsung-cover-s21ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 842,
+    "name" : "S21 plus",
+    "slug" : "samsung-cover-s21plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 843,
+    "name" : "A42",
+    "slug" : "samsung-cover-a42",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 844,
+    "name" : "mi10 / mi10 pro",
+    "slug" : "xiaomi-cover-mi10mi10pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 845,
+    "name" : "mi10 lite",
+    "slug" : "xiaomi-cover-mi10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 846,
+    "name" : "10t lite / 10t pro",
+    "slug" : "xiaomi-cover-10tlite10tpro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 847,
+    "name" : "poco m3",
+    "slug" : "xiaomi-pocom3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 848,
+    "name" : "poco x3",
+    "slug" : "xiaomi-pocox3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 849,
+    "name" : "mi10 / mi10 pro",
+    "slug" : "xiaomi-mi10mi10pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 850,
+    "name" : "mi10 lite",
+    "slug" : "xiaomi-mi10lite",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 851,
+    "name" : "10t lite 5G / Note9 pro 5G",
+    "slug" : "xiaomi-10tlite10tpro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 852,
+    "name" : "poco m3",
+    "slug" : "xiaomi-pocom3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 853,
+    "name" : "poco x3",
+    "slug" : "xiaomi-pocox3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 854,
+    "name" : "S20 Fe",
+    "slug" : "samsung-cover-s20fe",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 855,
+    "name" : "S21",
+    "slug" : "samsung-cover-s21",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 856,
+    "name" : "S21 ultra",
+    "slug" : "samsung-cover-s21ultra",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 857,
+    "name" : "S21 plus",
+    "slug" : "samsung-cover-s21plus",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 858,
+    "name" : "A42",
+    "slug" : "samsung-cover-a42",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 859,
+    "name" : "موز صورتی",
+    "slug" : "pink-banana",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 860,
+    "name" : "آناناس صورتی",
+    "slug" : "pink-ananas",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 861,
+    "name" : "هندونه عینکی",
+    "slug" : "melon-glass",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 862,
+    "name" : "هندونه",
+    "slug" : "watermelon",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 863,
+    "name" : "Note 10",
+    "slug" : "xiaomi-case-note10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 864,
+    "name" : "پلنگی قهوه ای",
+    "slug" : "leopard-brownish",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 865,
+    "name" : "پلنگی سه رنگ",
+    "slug" : "leopard-triple-color",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 866,
+    "name" : "بدون محافظ لنز",
+    "slug" : "no-lens-protection",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 867,
+    "name" : "محافظ لنز سر هم",
+    "slug" : "with-lens-protection",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 868,
+    "name" : "کیف لویی چارخونه سفید",
+    "slug" : "handbag-plaid-white-lv",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 869,
+    "name" : "کیف لویی چارخونه برجسته",
+    "slug" : "handbag-plaid-bold-lv",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 870,
+    "name" : "کیف گوچی داغی خط سبز",
+    "slug" : "handbag-daghi-greenline-gucci",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 871,
+    "name" : "کیف لویی چارخونه طوسی مشکی",
+    "slug" : "handbag-plaid-blackgray-lv",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 872,
+    "name" : "کیف چرمی داغی گوچی فونتی",
+    "slug" : "handbag-daghi-font-gucci",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 873,
+    "name" : "A10",
+    "slug" : "samsung-cover-a10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 874,
+    "name" : "S10 edge",
+    "slug" : "samsung-cover-s10edge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 875,
+    "name" : "A10",
+    "slug" : "samsung-case-a10",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 876,
+    "name" : "A310",
+    "slug" : "samsung-cover-a310",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 877,
+    "name" : "A510",
+    "slug" : "samsung-cover-a510",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 878,
+    "name" : "S6 edge",
+    "slug" : "samsung-cover-s6edge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 879,
+    "name" : "S7 edge",
+    "slug" : "samsung-cover-s7edge",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 880,
+    "name" : "J5 / J510",
+    "slug" : "samsung-cover-j5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 881,
+    "name" : "Note 6",
+    "slug" : "samsung-cover-note6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 882,
+    "name" : "J7",
+    "slug" : "samsung-cover-j7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 883,
+    "name" : "A7 2017 / A720",
+    "slug" : "samsung-cover-a71027",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 884,
+    "name" : "S6",
+    "slug" : "samsung-cover-s6",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 885,
+    "name" : "S7",
+    "slug" : "samsung-cover-s7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 886,
+    "name" : "A3 2017",
+    "slug" : "samsung-cover-a32017",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 887,
+    "name" : "Note5",
+    "slug" : "samsung-cover-note5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 888,
+    "name" : "J5 prime",
+    "slug" : "samsung-cover-j5prime",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 889,
+    "name" : "A5 2017 / A520",
+    "slug" : "samsung-cover-a52017",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 890,
+    "name" : "لویی ویتون فونتی قهوه ای طرح ریز",
+    "slug" : "lv-font-crowd-small",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 891,
+    "name" : "لویی ویتون فونتی قهوه ای طرح درشت",
+    "slug" : "lv-font-big",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 892,
+    "name" : "فلامینگو عروسکی فلامینگویی",
+    "slug" : "flam-flam-doll",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 893,
+    "name" : "فلامینگو غروسکی گل گلی",
+    "slug" : "flam-flow",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 894,
+    "name" : "مو مشکی",
+    "slug" : "black-hair",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 895,
+    "name" : "مو زرد",
+    "slug" : "yellow-hair",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 896,
+    "name" : "مو بنفش",
+    "slug" : "purple-hair",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 898,
+    "name" : "Air 2 (9.7)",
+    "slug" : "ipad-air-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 899,
+    "name" : "Air 3 (10.5)",
+    "slug" : "ipdad-air-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 900,
+    "name" : "Air 4 (10.9)",
+    "slug" : "ipad-air-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 901,
+    "name" : "5th (9.7)",
+    "slug" : "ipad-5th-9-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 902,
+    "name" : "6th (9.7)",
+    "slug" : "ipad-6th-9-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 903,
+    "name" : "7th 8th (10.2)",
+    "slug" : "ipad-7th-6th-10-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 904,
+    "name" : "Pro 2018 (11)",
+    "slug" : "ipad-pro-2018-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 905,
+    "name" : "Pro 2020 (11)",
+    "slug" : "ipda-pro-2018-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 906,
+    "name" : "Pro 2018 (12.9)",
+    "slug" : "ipad-pro-1028-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 907,
+    "name" : "Pro 2020 (12.9)",
+    "slug" : "ipad-pro-2020-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 908,
+    "name" : "Pro 2015-2017 (12.9)",
+    "slug" : "ipad-pro-2015-2017-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 909,
+    "name" : "Pro 2017 (10.5)",
+    "slug" : "ipad-pro-2017-10-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 910,
+    "name" : "ipad mini 1,2,3",
+    "slug" : "ipad-mini-model-1-2-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 911,
+    "name" : "ipad mini 4",
+    "slug" : "ipad-mini-model-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 912,
+    "name" : "ipad mini 5",
+    "slug" : "ipad-mini-model-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 913,
+    "name" : "Air 1 (9.7)",
+    "slug" : "ipad-air-model1",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 914,
+    "name" : "Air 2 (9.7)",
+    "slug" : "ipad-air-model-2",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 915,
+    "name" : "Air 3 (10.5)",
+    "slug" : "ipad-air-model-3",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 916,
+    "name" : "Air 4 (10.9)",
+    "slug" : "ipad-air-model-4",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 917,
+    "name" : "5th (9.7)",
+    "slug" : "ipad-air-model-5th",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 918,
+    "name" : "6th (9.7)",
+    "slug" : "ipad-air-model-6th",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 919,
+    "name" : "7th 8th (10.2)",
+    "slug" : "ipad-air-model-7th-8th",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 920,
+    "name" : "Pro 2018 (11)",
+    "slug" : "ipad-pro-model2018-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 921,
+    "name" : "Pro 2020 (11)",
+    "slug" : "ipad-pro-model-2020-11",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 922,
+    "name" : "Pro 2018 (12.9)",
+    "slug" : "ipad-model-2018-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 923,
+    "name" : "Pro 2020 (12.9)",
+    "slug" : "ipad-model-2020-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 924,
+    "name" : "Pro 2015-2017 (12.9)",
+    "slug" : "ipad-pro-model-2015-2017-12-9",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 925,
+    "name" : "Pro 2017 (10.5)",
+    "slug" : "ipad-pro-model-2017-10-5",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 926,
+    "name" : "ipad Pro 2nd 9.7",
+    "slug" : "ipad-pro-model-9-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 927,
+    "name" : "Pro 2nd (9.7)",
+    "slug" : "ipad-pro-2md-9-7",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 928,
+    "name" : "قهوه ای مارون",
+    "slug" : "maron",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 929,
+    "name" : "A12",
+    "slug" : "samsung-cover-a12",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 930,
+    "name" : "Note10 pro",
+    "slug" : "samsung-cover-note10pro",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 931,
+    "name" : "M51",
+    "slug" : "samsung-cover-m51",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 932,
+    "name" : "M51",
+    "slug" : "samsung-cover-m-51",
+    "term_group" : 0
+  },
+  {
+    "term_id" : 933,
+    "name" : "M31",
+    "slug" : "samsung-cover-m31",
+    "term_group" : 0
+  }
+]

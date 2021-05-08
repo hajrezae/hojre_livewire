@@ -1,0 +1,42 @@
+<?php
+
+return [
+	'name' => 'نام محصول',
+	'slug' => 'نامک محصول',
+	'SKU'  => 'شناسه محصول',
+	'product_url' => 'لینک محصول',
+	'image_url' => '',
+	'short_description' => 'توضیحات کوتاه محصول',
+	'description' => '',
+	'user_id' => '',
+	'vendor_id' => '',
+	'stock_input' => 'موجودی اول دوره',
+	'stock' => 'موجودی انبار',
+	'stock_aisle_number' => 'شماره راهرو انبار',
+	'stock_unit' => 'شماره یونیت راهرو',
+	'stock_shelf' => 'شماره شلف قفسه انبار',
+	'stock_shelf_row' => 'ردیف قفسه انبار',
+	'available' => 'موجود',
+	'unavailable' => '',
+	'soon' => '',
+	'price' => 'قیمت',
+	'discount_price' => 'قیمت تخفیف خورده',
+	'buy_price' => 'قیمت خرید',
+	'label' => '',
+	'tax' => 'کلاس مالیاتی',
+	'sell_individual' => '',
+	'sell_with_credit' => '',
+	'point' => '',
+	'weight' => '',
+	'dimensions' => '',
+	'product_attributes' => '',
+	'note' => '',
+	'meta' => '',
+
+	'statuses' => [
+		'available' => 'موجود',
+		'unavailable' => 'ناموجود',
+		'soon' => 'به زودی',
+		'backorder' => 'پیش سفارش'
+],
+];
