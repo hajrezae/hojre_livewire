@@ -33,7 +33,7 @@ class Form extends Component {
 
 	public function updated($key, $value) {
 		$this->validateOnly($key);
-		session()->flash($key);
+		session()->flash($key, 'valid');
 	}
 
 	public function rules() {

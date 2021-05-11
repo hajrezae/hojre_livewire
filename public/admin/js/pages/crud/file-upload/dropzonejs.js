@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 45);
+/******/ 	return __webpack_require__(__webpack_require__.s = 46);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($) { // Class definition\n\nvar KTDro
 
 /***/ }),
 
-/***/ 45:
+/***/ 46:
 /*!********************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/file-upload/dropzonejs.js ***!
   \********************************************************************************/

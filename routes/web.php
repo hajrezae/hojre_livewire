@@ -7,11 +7,14 @@ use App\Http\Controllers\Admin\Product\ProductController;
 use App\Http\Controllers\Admin\Product\TagController;
 use App\Http\Controllers\Admin\User\AddressController;
 use App\Http\Controllers\Admin\User\UserController;
+use App\Http\Livewire\Admin\Auth\Login;
+use App\Http\Livewire\Admin\Dashboard\DashboardIndex;
 use App\Http\Livewire\Admin\Product\Product\Create;
 use App\Http\Livewire\Admin\Product\Product\Edit;
 use App\Http\Livewire\Admin\Product\Product\Index;
 use App\Http\Livewire\Admin\Shop\Coupon\CouponIndex;
 use App\Http\Livewire\Admin\Shop\Discount\DiscountIndex;
+use App\Http\Livewire\Admin\Shop\Setting\SettingIndex;
 use App\Http\Livewire\Admin\Shop\Supplier\SupplierIndex;
 use App\Http\Livewire\Admin\Shop\Tax\TaxIndex;
 use App\Http\Livewire\Admin\User\Role\RoleIndex;
@@ -30,6 +33,15 @@ use Illuminate\Support\Facades\Route;
 
 //Admin Routes
 Route::prefix('admin')->name('admin.')->group(function () {
+
+	//Dashboard Route
+	Route::get('dashboard', DashboardIndex::class)->name('dashboard');
+
+	//Shop Setting
+	Route::get('shop/setting', SettingIndex::class)->name('shop.setting');
+
+	//Auth Routes
+	Route::get('auth/login', Login::class)->name('auth.login');
 	//User Routes
 	Route::resource('user', UserController::class);
 	Route::get('role', RoleIndex::class)->name('role.index');

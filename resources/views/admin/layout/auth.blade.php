@@ -6,21 +6,22 @@
         <meta name="description" content="Login page example">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--begin::Page Custom Styles(used by this page)-->
-        <link href="{{ asset('css/pages/login/classic/login-4.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/pages/login/classic/login-4.rtl.css') }}" rel="stylesheet" type="text/css">
         <!--end::Page Custom Styles-->
         <!--begin::GLobal Styles-->
-        <link href="{{ asset('plugins/global/plugins.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('plugins/global/plugins.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/plugins/global/plugins.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/plugins/global/plugins.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/style.bundle.rtl.css') }}" rel="stylesheet" type="text/css">
         <!--end::GLobal Styles-->
         <!--begin::Layout تمs(used by all pages)-->
-        <link href="{{ asset('css/themes/layout/header/base/light.rtl.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/themes/layout/header/menu/light.rtl.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/themes/layout/brand/dark.rtl.css') }}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/themes/layout/aside/dark.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/themes/layout/header/base/light.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/themes/layout/header/menu/light.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/themes/layout/brand/dark.rtl.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('/admin/css/themes/layout/aside/dark.rtl.css') }}" rel="stylesheet" type="text/css">
     @yield('styles')
     <!--end::Layout تمs-->
         <link rel="shortcut icon" href="{{ asset('media/logos/favicon.ico') }}">
+        <livewire:styles/>
     </head>
     <!--end::Head-->
     <!--begin::Body-->
@@ -38,11 +39,12 @@
             <!--end::Login-->
         </div>
         <!--begin::Global تم Bundle(used by all pages)-->
-        <script src="{{ asset('plugins/global/plugins.bundle.js') }}"></script>
-        <script src="{{ asset('plugins/custom/prismjs/prismjs.bundle.js') }}"></script>
-        <script src="{{ asset('js/scripts.bundle.js') }}"></script>
+        <script src="{{ asset('/admin/plugins/global/plugins.bundle.js') }}"></script>
+        <script src="{{ asset('/admin/plugins/custom/prismjs/prismjs.bundle.js') }}"></script>
+        <script src="{{ asset('/admin/js/scripts.bundle.js') }}"></script>
         <!--end::Global تم Bundle-->
-    @yield('scripts')
-    <!--end::Body-->
+        @yield('scripts')
+        <livewire:scripts/>
+        <!--end::Body-->
     </body>
 </html>

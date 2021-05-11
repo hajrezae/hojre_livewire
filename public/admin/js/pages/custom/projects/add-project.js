@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 114);
+/******/ 	return __webpack_require__(__webpack_require__.s = 115);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) { // Class definition\n\nvar 
 
 /***/ }),
 
-/***/ 114:
+/***/ 115:
 /*!********************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/custom/projects/add-project.js ***!
   \********************************************************************************/

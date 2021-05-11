@@ -4,7 +4,7 @@
         @isset($label)
             <label>{{ $label }} :</label>
         @endisset
-        <input {{ $attributes->class(['is-valid' => session()->has($attributes->get('wire:model')), 'is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
+        <input {{ $attributes->class(['is-valid' => session()->get($attributes->get('wire:model')) == 'valid', 'is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
         @error($attributes->get('wire:model'))
         <div class="invalid-feedback">{{ $message }}</div>
         @enderror
@@ -31,7 +31,7 @@
                     </div>
                 @endisset
             @endisset
-            <input {{ $attributes->class(['is-valid' => session()->has($attributes->get('wire:model')),'is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
+            <input {{ $attributes->class(['is-valid' => session()->get($attributes->get('wire:model')) === 'valid','is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
             @isset($append)
                 <div class="input-group-append">
                     <div class="input-group-text">
@@ -53,7 +53,7 @@
             <label>{{ $label }} :</label>
         @endisset
         <div class="input-icon">
-            <input {{ $attributes->class(['is-valid' => session()->has($attributes->get('wire:model')),'is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
+            <input {{ $attributes->class(['is-valid' => session()->get($attributes->get('wire:model')) == 'valid','is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
             <span>
                 <i {{ $attributes->merge(['class' => isset($icon) ? $icon : null]) }}></i>
             </span>

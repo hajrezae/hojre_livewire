@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 13);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -119,7 +119,7 @@ eval("// jKanban Board - Vanilla Javascript plugin for manage kanban boards: htt
 
 /***/ }),
 
-/***/ 13:
+/***/ 14:
 /*!***************************************************************!*\
   !*** multi ./resources/admin/plugins/custom/kanban/kanban.js ***!
   \***************************************************************/

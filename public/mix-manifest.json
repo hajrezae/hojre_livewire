@@ -158,6 +158,7 @@
     "/admin/plugins/custom/tinymce/tinymce.bundle.js": "/admin/plugins/custom/tinymce/tinymce.bundle.js",
     "/admin/plugins/custom/uppy/uppy.bundle.js": "/admin/plugins/custom/uppy/uppy.bundle.js",
     "/admin/plugins/global/plugins.bundle.js": "/admin/plugins/global/plugins.bundle.js",
+    "/js/app.js": "/js/app.js",
     "/admin/plugins/global/plugins.bundle.css": "/admin/plugins/global/plugins.bundle.css",
     "/admin/css/style.bundle.css": "/admin/css/style.bundle.css",
     "/admin/plugins/custom/cropper/cropper.bundle.css": "/admin/plugins/custom/cropper/cropper.bundle.css",

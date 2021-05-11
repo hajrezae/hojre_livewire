@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 142);
+/******/ 	return __webpack_require__(__webpack_require__.s = 143);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) { // Class definition\n\nvar 
 
 /***/ }),
 
-/***/ 142:
+/***/ 143:
 /*!*************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/maps/jqvmap.js ***!
   \*************************************************************************/

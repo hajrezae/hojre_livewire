@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 71);
+/******/ 	return __webpack_require__(__webpack_require__.s = 72);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) {// Class definition\nvar KTR
 
 /***/ }),
 
-/***/ 71:
+/***/ 72:
 /*!****************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/widgets/google-recaptcha.js ***!
   \****************************************************************************************/

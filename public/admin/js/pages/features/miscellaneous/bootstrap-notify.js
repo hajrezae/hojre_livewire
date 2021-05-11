@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 146);
+/******/ 	return __webpack_require__(__webpack_require__.s = 147);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) { // Class definition\n\nv
 
 /***/ }),
 
-/***/ 146:
+/***/ 147:
 /*!********************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/miscellaneous/bootstrap-notify.js ***!
   \********************************************************************************************/

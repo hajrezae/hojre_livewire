@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 54);
+/******/ 	return __webpack_require__(__webpack_require__.s = 55);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) {// Class definition\nvar KTQ
 
 /***/ }),
 
-/***/ 54:
+/***/ 55:
 /*!*****************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/editors/quill.js ***!
   \*****************************************************************************/

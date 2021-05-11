@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 36);
+/******/ 	return __webpack_require__(__webpack_require__.s = 37);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) {\n\nvar KTDatatablesExten
 
 /***/ }),
 
-/***/ 36:
+/***/ 37:
 /*!*******************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/datatables/extensions/fixedheader.js ***!
   \*******************************************************************************************/

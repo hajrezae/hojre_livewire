@@ -26,8 +26,8 @@ class CreateProductsAndCategoriesTables extends Migration
     			$table->longText('short_description')->nullable();
     			$table->longText('description')->nullable();
     			$table->unsignedBigInteger('user_id')->nullable();
-    			$table->unsignedBigInteger('vendor_id')->nullable();
-    			$table->tinyInteger('multi_supplier')->nullable()->default(0);
+    			$table->tinyInteger('has_supplier')->nullable()->default(0);
+    			$table->unsignedBigInteger('supplier_id')->nullable();
     			$table->tinyInteger('manage_stock')->nullable()->default(0);
     			$table->bigInteger('stock_input')->nullable()->default(0);
     			$table->bigInteger('stock')->nullable()->default(0);
@@ -36,7 +36,7 @@ class CreateProductsAndCategoriesTables extends Migration
     			$table->bigInteger('stock_shelf')->nullable();
     			$table->bigInteger('stock_shelf_row')->nullable();
     			$table->tinyInteger('stop_selling')->nullable()->default(0);
-    			$table->unsignedBigInteger('price')->nullable()->default(0);
+    			$table->unsignedBigInteger('price')->nullable();
     			$table->unsignedBigInteger('discount_price')->nullable();
     			$table->unsignedBigInteger('buy_price')->nullable();
     			$table->string('label')->nullable();

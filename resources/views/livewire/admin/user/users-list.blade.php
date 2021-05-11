@@ -44,7 +44,7 @@
                             <span class="d-flex">
                                 <a href="{{ route('admin.user.edit', $user) }}" class="btn btn-sm btn-icon btn-light-primary mr-2"><i class="flaticon2-edit"></i></a>
                                 <a href="{{ route('admin.user.address.index', $user) }}" class="btn btn-sm btn-icon btn-light-primary mr-2"><i class="flaticon2-location"></i></a>
-                                <a href="#" class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></a>
+                                <a class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1" onclick="confirmDelete(event, {{ $user->id }}, 'کاربر', 'deleteUser')"></i></a>
                             </span>
                         </td>
                     </tr>

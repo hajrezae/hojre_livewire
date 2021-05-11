@@ -9,11 +9,14 @@ use Livewire\Component;
 
 class Form extends Component {
 	public $product;
-	public $listeners = ['saveProductInfo'];
+	public $tab;
 
-	public function mount(Product $product) {
-		$this->product = $product;
-	}
+//	public $listeners = ['productUpdated'];
+
+	//Event Listeners
+//	public function productUpdated() {
+//		$this->product = Product::find($this->product->id);
+//	}
 
 	public function render() {
 		return view('livewire.admin.product.product.form');
@@ -54,10 +57,5 @@ class Form extends Component {
 			'product.note'               => ['nullable'],
 			'product.meta'               => ['nullable'],
 		];
-	}
-
-	public function saveProductInfo() {
-		$this->validateOnly('product.name');
-		$this->product->save();
 	}
 }

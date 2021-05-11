@@ -30,6 +30,7 @@
         "@uppy/tus": "^1.7.9",
         "@yaireo/tagify": "3.21.4",
         "acorn": "^8.0.4",
+        "alpinejs": "^2.8.2",
         "animate.css": "^4.1.1",
         "apexcharts": "^3.22.3",
         "autosize": "^4.0.2",

@@ -167,7 +167,6 @@ return [
          */
         App\Providers\MetronicServiceProvider::class,
 				Ybazli\Faker\FakerServiceProvider::class,
-				Barryvdh\Debugbar\ServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -234,8 +233,6 @@ return [
         'Metronic' => App\Classes\Theme\Metronic::class,
         'Menu' => App\Classes\Theme\Menu::class,
 				'Faker' => Ybazli\Faker\Facades\Faker::class,
-				'Debugbar' => Barryvdh\Debugbar\Facade::class,
-
     ],
 
 ];

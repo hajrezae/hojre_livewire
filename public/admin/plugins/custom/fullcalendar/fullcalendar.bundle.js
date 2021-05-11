@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 11);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -187,7 +187,7 @@ eval("// FullCalendar - Full-sized, drag & drop event calendar in JavaScript: ht
 
 /***/ }),
 
-/***/ 10:
+/***/ 11:
 /*!***************************************************************************!*\
   !*** multi ./resources/admin/plugins/custom/fullcalendar/fullcalendar.js ***!
   \***************************************************************************/

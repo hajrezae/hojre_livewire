@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 80);
+/******/ 	return __webpack_require__(__webpack_require__.s = 81);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) { // Class definition\n\nv
 
 /***/ }),
 
-/***/ 80:
+/***/ 81:
 /*!*******************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/ktdatatable/advanced/column-width.js ***!
   \*******************************************************************************************/

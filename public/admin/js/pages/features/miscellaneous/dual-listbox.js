@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 148);
+/******/ 	return __webpack_require__(__webpack_require__.s = 149);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,7 +98,7 @@ eval(" // Class definition\n\nvar KTDualListbox = function () {\n  // Private fu
 
 /***/ }),
 
-/***/ 148:
+/***/ 149:
 /*!****************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/miscellaneous/dual-listbox.js ***!
   \****************************************************************************************/

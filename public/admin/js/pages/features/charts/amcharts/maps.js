@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 135);
+/******/ 	return __webpack_require__(__webpack_require__.s = 136);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) { // Class definition\n\nvar 
 
 /***/ }),
 
-/***/ 135:
+/***/ 136:
 /*!**********************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/charts/amcharts/maps.js ***!
   \**********************************************************************************/

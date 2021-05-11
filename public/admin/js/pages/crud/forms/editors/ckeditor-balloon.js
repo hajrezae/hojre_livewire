@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 50);
+/******/ 	return __webpack_require__(__webpack_require__.s = 51);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) { // Class definition\n\nvar 
 
 /***/ }),
 
-/***/ 50:
+/***/ 51:
 /*!****************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/editors/ckeditor-balloon.js ***!
   \****************************************************************************************/

@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Admin\User\Address;
 
 use App\Models\User;
+use App\Models\User\Address;
 use Livewire\Component;
 
 class AddressList extends Component {
@@ -11,7 +12,7 @@ class AddressList extends Component {
 	public $addresses;
 	public $selectedAddressId;
 
-	public $listeners = ['addressSelected', 'addressUpdated', 'addressUpdateCancel'];
+	public $listeners = ['addressSelected', 'addressUpdated', 'addressUpdateCancel', 'deleteAddress'];
 
 	public function mount() {
 		$this->addresses = $this->user->addresses;
@@ -27,11 +28,15 @@ class AddressList extends Component {
 	}
 
 	public function deleteAddress($addressId) {
-		User\Address::destroy($addressId);
+		try {
+			Address::destroy($addressId);
 
-		$this->addresses = $this->user->addresses = $this->user->addresses()->get();
-		$this->dispatchBrowserEvent('success', ['message' => 'آدرس با موفقیت حذف شد']);
-		$this->emit('$refresh');
+			$this->addresses = $this->user->addresses()->get();
+			$this->dispatchBrowserEvent('action_success', ['message' => 'آدرس با موفقیت حذف شد']);
+			$this->emit('$refresh');
+		}catch(\Exception $e) {
+			$this->dispatchBrowserEvent('action_failed', ['message' => 'مشکلی در ارتباط با دیتابیس رخ داده لطقا دقایقی دیگر امتخان کنید!']);
+		}
 	}
 
 

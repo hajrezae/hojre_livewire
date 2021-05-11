@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 61);
+/******/ 	return __webpack_require__(__webpack_require__.s = 62);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) {// Class definition\nvar 
 
 /***/ }),
 
-/***/ 61:
+/***/ 62:
 /*!*************************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/widgets/bootstrap-daterangepicker.js ***!
   \*************************************************************************************************/

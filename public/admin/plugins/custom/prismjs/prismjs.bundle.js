@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 15);
+/******/ 	return __webpack_require__(__webpack_require__.s = 16);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -141,7 +141,7 @@ eval("// Prism - is a lightweight, extensible syntax highlighter, built with mod
 
 /***/ }),
 
-/***/ 15:
+/***/ 16:
 /*!*****************************************************************!*\
   !*** multi ./resources/admin/plugins/custom/prismjs/prismjs.js ***!
   \*****************************************************************/

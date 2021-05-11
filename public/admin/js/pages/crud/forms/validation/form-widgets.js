@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 58);
+/******/ 	return __webpack_require__(__webpack_require__.s = 59);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) {// Class definition\nvar 
 
 /***/ }),
 
-/***/ 58:
+/***/ 59:
 /*!***************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/validation/form-widgets.js ***!
   \***************************************************************************************/

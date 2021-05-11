@@ -43,3 +43,4 @@ window.KTLayoutScrolltop = require('../metronic/js/layout/extended/scrolltop.js'
 window.KTLayoutSearch = window.KTLayoutSearchOffcanvas = require('../metronic/js/layout/extended/search.js');
 
 require('../metronic/js/layout/initialize.js');
+

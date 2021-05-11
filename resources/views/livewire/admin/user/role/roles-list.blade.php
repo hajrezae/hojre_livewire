@@ -20,7 +20,7 @@
                                 <button wire:click="$emit('roleSelected', {{ $role }})" class="btn btn-sm btn-icon btn-light-primary">
                                     <i class="fas fa-pen"></i>
                                 </button>
-                                <button class="btn btn-sm btn-icon btn-light-danger deleteBtn" id="{{ $role->id }}" onclick="confirmDelete(event, {{$role->id}})">
+                                <button class="btn btn-sm btn-icon btn-light-danger deleteBtn" id="{{ $role->id }}" onclick="confirmDelete(event, {{$role->id}}, 'نقش کاربری', 'deleteRole')">
                                     <i class="fas fa-trash"></i>
                                 </button>
                             </td>

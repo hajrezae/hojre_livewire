@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 77);
+/******/ 	return __webpack_require__(__webpack_require__.s = 78);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) {// Class definition\nvar KTT
 
 /***/ }),
 
-/***/ 77:
+/***/ 78:
 /*!******************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/forms/widgets/tagify.js ***!
   \******************************************************************************/

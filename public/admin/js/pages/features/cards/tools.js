@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 133);
+/******/ 	return __webpack_require__(__webpack_require__.s = 134);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) {\n\nvar KTCardTools = functi
 
 /***/ }),
 
-/***/ 133:
+/***/ 134:
 /*!*************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/cards/tools.js ***!
   \*************************************************************************/

@@ -3,6 +3,7 @@
 namespace App\Models\Product;
 
 use App\Models\Product\Attribute\Attribute;
+use App\Models\Product\Attribute\AttributeValue;
 use App\Models\Shop\Supplier;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -12,6 +13,8 @@ class Product extends Model {
 
 	protected $guarded = [];
 
+	public $timestamps = false;
+
 	public function categories() {
 		return $this->hasMany(Category::class);
 	}
@@ -20,8 +23,12 @@ class Product extends Model {
 		return $this->hasMany(Tag::class);
 	}
 
-	public function productAttributes() {
-		return $this->hasMany(ProductAttribute::class);
+	public function attribute() {
+		return $this->belongsToMany(Attribute::class, 'product_attribute');
+	}
+
+	public function attributeValues() {
+		return $this->belongsToMany(AttributeValue::class, 'product_attribute_values');
 	}
 
 	public function variations() {
@@ -29,7 +36,7 @@ class Product extends Model {
 	}
 
 	public function supplier() {
-		return $this->hasOne(Supplier::class, 'id', 'vendor_id');
+		return $this->hasOne(Supplier::class, 'id', 'supplier_id');
 	}
 
 	public function getThumbnailAttribute($image_url) {

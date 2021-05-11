@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 156);
+/******/ 	return __webpack_require__(__webpack_require__.s = 157);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) {\n\nvar KTTreeview = func
 
 /***/ }),
 
-/***/ 156:
+/***/ 157:
 /*!************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/miscellaneous/treeview.js ***!
   \************************************************************************************/

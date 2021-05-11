@@ -28,7 +28,7 @@
                         <td scope="col">
                             <span class="d-flex">
                                 <button wire:click="$emit('addressSelected', {{$address->id}})" class="btn btn-sm btn-icon btn-light-primary mr-2"><i class="flaticon2-edit"></i></button>
-                                <button wire:click="deleteAddress({{ $address->id }})" class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></button>
+                                <button class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1" onclick="confirmDelete(event, {{ $address->id }}, 'آدرس' , 'deleteAddress')"></i></button>
                             </span>
                         </td>
                     </tr>

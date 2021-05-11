@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -120,7 +120,7 @@ eval("// Gmaps.js - allows you to use the potential of Google Maps in a simple w
 
 /***/ }),
 
-/***/ 11:
+/***/ 12:
 /*!*************************************************************!*\
   !*** multi ./resources/admin/plugins/custom/gmaps/gmaps.js ***!
   \*************************************************************/

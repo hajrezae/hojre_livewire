@@ -12,21 +12,6 @@
 @section('scripts')
     @parent
     <script>
-      function confirmDelete(event, roleId) {
-        Swal.fire({
-                    title: 'از پاک کردن این نقش کاربری مطمئن هستید؟',
-                    text: "این کار غیر قابل بازگشت است!",
-                    icon: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: '#3085d6',
-                    cancelButtonColor: '#d33',
-                    confirmButtonText: 'بله',
-                    cancelButtonText: 'لغو'
-                  }).then((result) => {
-          if (result.isConfirmed) {
-            Livewire.emit('deleteRole', roleId)
-          }
-        })
-      }
+
     </script>
 @endsection

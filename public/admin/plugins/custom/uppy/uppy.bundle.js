@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 17);
+/******/ 	return __webpack_require__(__webpack_require__.s = 18);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -119,7 +119,7 @@ eval("// Uppy - Uppy fetches files locally and from remote places like Dropbox o
 
 /***/ }),
 
-/***/ 17:
+/***/ 18:
 /*!***********************************************************!*\
   !*** multi ./resources/admin/plugins/custom/uppy/uppy.js ***!
   \***********************************************************/

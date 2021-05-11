@@ -2,7 +2,7 @@
 <div {{ $attributes }}>
     <span class="switch {{ isset($outline) ? 'switch-outline switch-' . $color : 'switch-' . $color }} {{ $withIcon ? 'switch-icon' : null }}">
         <label>
-            <input type="checkbox" {{ $checked  ? 'checked' : null}} name="select">
+            <input wire:model="{{ $attributes->get('wire:model') }}" type="checkbox" {{ $checked  ? 'checked' : null}} name="select" value=1>
             <span></span>
         </label>
     </span>

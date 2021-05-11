@@ -13,6 +13,13 @@ class UsersList extends Component {
 	public $userCount;
 	public $search;
 
+	public $listeners = ['deleteUser'];
+
+	public function deleteUser($userId) {
+		User::find($userId)->delete();
+		$this->dispatchBrowserEvent('success', ['message'=> 'کاربر با موفقیت حذف شد']);
+		$this->emit('$refresh');
+	}
 	public function mount() {
 		$this->userCount = User::all()->count();
 	}

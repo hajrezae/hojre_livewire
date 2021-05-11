@@ -24,11 +24,15 @@
                 <x-admin.form.textarea wire:model="attribute.description" type="text" label="{{ __('model/attribute.description') }}"/>
             </div>
             <div class="col-12">
-                <x-admin.form.select wire:model="attribute.style" type="text" label="{{ __('model/attribute.style') }}">
+                <x-admin.form.checkbox checkboxType="horizontal" type="text" label="{{ __('model/attribute.style') }}">
                     @foreach(['list' => 'لیست', 'button' => 'دکمه', 'image' => 'عکس', 'color' => 'رنگ', 'input' => 'ورودی', 'radio' => 'رادیو انتخابی'] as $style => $label)
-                        <option value="{{ $style }}">{{ $label }}</option>
+                        <div class="btn-group-toggle mr-2" data-toggle="buttons">
+                            <label class="btn btn-light-primary {{ $attribute->style == $style? 'active' : null }}" >
+                                <input wire:model="attribute.style" type="radio" value="{{ $style }}" {{ $attribute->style == $style? 'checked' : null }}> {{ $label }}
+                            </label>
+                        </div>
                     @endforeach
-                </x-admin.form.select>
+                </x-admin.form.checkbox>
             </div>
         </div>
     </div>

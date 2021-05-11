@@ -33,7 +33,7 @@
                                 <div class="d-flex">
                                     <a class="d-block" href="{{ route('admin.product.edit', $product) }}" width="100px">
                                         @if($product->image_url)
-                                            <img src="{{ $product->image_url ? asset( $product->thumbnail) : null}}" class="bg-light rounded-sm" width="100px" height="100px" alt="product-image">
+                                            <img src="{{ $product->image_url ? asset( $product->image_url) : null}}" class="bg-light rounded-sm" width="100px" height="100px" alt="product-image">
                                         @else
                                             <div style="width: 100px;height: 100px" class="bg-light d-flex align-items-center justify-content-center rounded-lg">
                                                 <i class="fas fa-image fa-3x"></i>

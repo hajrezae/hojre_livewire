@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 20);
+/******/ 	return __webpack_require__(__webpack_require__.s = 21);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function($, jQuery) {\n\nvar KTDatatablesAdvan
 
 /***/ }),
 
-/***/ 20:
+/***/ 21:
 /*!***********************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/crud/datatables/advanced/column-visibility.js ***!
   \***********************************************************************************************/

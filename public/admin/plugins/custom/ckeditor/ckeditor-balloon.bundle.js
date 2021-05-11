@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,7 +108,7 @@ eval("// CKEditor  - Rock-solid, free WYSIWYG editor with collaborative editing,
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***************************************************************************!*\
   !*** multi ./resources/admin/plugins/custom/ckeditor/ckeditor-balloon.js ***!
   \***************************************************************************/

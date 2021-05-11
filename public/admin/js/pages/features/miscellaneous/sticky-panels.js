@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 153);
+/******/ 	return __webpack_require__(__webpack_require__.s = 154);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -109,7 +109,7 @@ eval("/* WEBPACK VAR INJECTION */(function(jQuery) { // Class definition\n// Bas
 
 /***/ }),
 
-/***/ 153:
+/***/ 154:
 /*!*****************************************************************************************!*\
   !*** multi ./resources/admin/metronic/js/pages/features/miscellaneous/sticky-panels.js ***!
   \*****************************************************************************************/
