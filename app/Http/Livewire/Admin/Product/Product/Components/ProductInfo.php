@@ -10,15 +10,17 @@ class ProductInfo extends Component {
 
 	//Actions
 	public function saveProductInfo() {
+	    sleep(1);
 		$this->validate();
+		$this->product->tax_id = $this->product->tax_id == 'null' ? null : $this->product->tax_id;
 		$this->product->save();
 		$this->dispatchBrowserEvent('success', ['message' => 'اطلاعات کلی محصول با موفقیت ذخیره شد.']);
 	}
 
-	public function saveTax($taxId) {
-		$this->product->tax_id = $taxId;
-		$this->product->save();
-	}
+//	public function saveTax($taxId) {
+//		$this->product->tax_id = $taxId;
+//		$this->product->save();
+//	}
 
 	public function render() {
 		return view('livewire.admin.product.product.components.product-info');

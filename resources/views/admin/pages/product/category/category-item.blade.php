@@ -6,8 +6,7 @@
             <td scope="col">
                 <span class="d-flex justify-content-end">
                     <button wire:click="$emit('categorySelected', {{ $category->id }})" class="btn btn-sm btn-icon btn-light-primary mr-2"><i class="flaticon2-edit"></i></button>
-                    <button wire:click="$emit('deleteCategory', {{ $category->id }})" class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></button>
-
+                    <button onclick="confirmDelete(event, {{ $category->id }}, 'دسته بندی', 'deleteCategory')" class="delete-btn btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></button>
                 </span>
             </td>
         </tr>
@@ -19,7 +18,7 @@
             <td scope="col">
                 <span class="d-flex justify-content-end">
                     <button wire:click="$emit('categorySelected', {{ $category->id }})" class="btn btn-sm btn-icon btn-light-primary mr-2"><i class="flaticon2-edit"></i></button>
-                    <button wire:click="$emit('deleteCategory', {{ $category->id }})" class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></button>
+                    <button onclick="confirmDelete(event, {{ $category->id }}, 'دسته بندی', 'deleteCategory')" class="btn btn-sm btn-icon btn-light-danger mr-2"><i class="flaticon-delete-1"></i></button>
                 </span>
             </td>
         </tr>

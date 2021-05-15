@@ -7,6 +7,15 @@ use Livewire\Component;
 class ProductInventory extends Component {
 	public $product;
 
+	//Actions
+    public function saveProductInventory()
+    {
+        sleep(1);
+        $this->validate();
+        $this->product->save();
+        $this->dispatchBrowserEvent('success', ['message' => 'مشخصات انبار محصول با موفقیت ذخیره شد']);
+    }
+
 	public function render() {
 		return view('livewire.admin.product.product.components.product-inventory');
 	}

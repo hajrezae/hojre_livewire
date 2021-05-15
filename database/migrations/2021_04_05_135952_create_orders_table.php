@@ -17,6 +17,7 @@ class CreateOrdersTable extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('user_id');
+            $table->string('code', 250)->unique();
             $table->unsignedDouble('total');
             $table->unsignedDouble('subtotal');
             $table->integer('discount');
@@ -27,6 +28,8 @@ class CreateOrdersTable extends Migration
             $table->json('notes')->nullable();
             $table->timestamps();
         });
+
+        DB::update('alter table orders AUTO_INCREMENT = 100000');
 
         Schema::create('order_statuses', function(Blueprint $table) {
         	$table->id();

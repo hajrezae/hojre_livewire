@@ -10,6 +10,6 @@ class ProductAttributes extends Component {
 	public $product;
 
 	public function render() {
-		return view('livewire.admin.product.product.components.product-attributes')->with(['attributes' => $this->attributes]);
+		return view('livewire.admin.product.product.components.product-attributes');
 	}
 }

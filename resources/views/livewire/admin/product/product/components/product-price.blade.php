@@ -1,5 +1,5 @@
 <x-admin.card.simple title="تنظیمات قیمت محصول"
-                     class="tab-pane fade rounded-lg {{ $active ? 'active show': null }}"
+                     class="rounded-lg"
                      id="product-price"
                      role="tabpanel"
                      aria-labelledby="product-info"

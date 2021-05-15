@@ -23,8 +23,8 @@ class Product extends Model {
 		return $this->hasMany(Tag::class);
 	}
 
-	public function attribute() {
-		return $this->belongsToMany(Attribute::class, 'product_attribute');
+	public function attributes() {
+		return $this->belongsToMany(Attribute::class, 'product_attributes');
 	}
 
 	public function attributeValues() {

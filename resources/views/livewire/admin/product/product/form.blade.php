@@ -8,17 +8,25 @@
                 <div class="row">
                     <div class="col-12 col-md-2">
                         <livewire:admin.product.product.components.nav-menu-list :product="$product"/>
-
                     </div>
                     <div class="col-12 col-md-10">
                         <div class="tab-content"
                              id="myTabContent5">
-                            <livewire:admin.product.product.components.product-info :product="$product"/>
-                            <livewire:admin.product.product.components.product-supplier :product="$product"/>
-                            <livewire:admin.product.product.components.product-price :product="$product"/>
-                            {{--                            <livewire:admin.product.product.components.product-inventory :product="$product"/>--}}
-                            {{--                            <livewire:admin.product.product.components.product-attributes :product="$product"/>--}}
-                            {{--                            <livewire:admin.product.product.components.product-variations :product="$product"/>--}}
+                            <div class="card-custom tab-pane show active fade rounded-lg" id="product-info">
+                                <livewire:admin.product.product.components.product-info :product="$product"/>
+                            </div>
+                            <div class="card-custom tab-pane fade rounded-lg" id="product-supplier">
+                                <livewire:admin.product.product.components.product-supplier :product="$product"/>
+                            </div>
+                            <div class="card-custom tab-pane fade rounded-lg" id="product-price">
+                                <livewire:admin.product.product.components.product-price :product="$product"/>
+                            </div>
+                            <div class="card-custom tab-pane fade rounded-lg" id="product-inventory">
+                                <livewire:admin.product.product.components.product-inventory :product="$product"/>
+                            </div>
+                            <div class="card-custom tab-pane fade rounded-lg" id="product-attributes">
+                                <livewire:admin.product.product.components.product-attributes :product="$product"/>
+                            </div>
                         </div>
                     </div>
                 </div>

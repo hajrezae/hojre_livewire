@@ -24,7 +24,7 @@
                 <div class="col-12">
                     <x-admin.form.select wire:model="category.parent_id" id="categoriesList" label="{{ __('model/category.parent_id') }}">
                         <option value=0>بدون دسته بندی مادر</option>
-                        @include('admin.pages.product.category.category-option', ['categories' => \App\Models\Product\Category::where('parent_id', 0)->get()])
+                        @include('admin.pages.product.category.category-option', ['selectedCategory' => $selectedCategory, 'categories' => \App\Models\Product\Category::where('parent_id', 0)->get()])
                     </x-admin.form.select>
                 </div>
                 <div class="col-12">

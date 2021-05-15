@@ -2,7 +2,7 @@
 
 @section('content')
     <livewire:admin.product.category.category-list/>
-    <x-admin.modal.simple size="md" id="categoryForm">
+    <x-admin.modal.simple size="md" id="categoryForm" @click.away="console.log('fuck off')">
         <livewire:admin.product.category.form action="create"/>
     </x-admin.modal.simple>
 @endsection

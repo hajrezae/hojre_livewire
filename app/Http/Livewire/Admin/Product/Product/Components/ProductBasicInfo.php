@@ -8,54 +8,59 @@ use Illuminate\Validation\Rule;
 use Livewire\Component;
 
 class ProductBasicInfo extends Component {
-	public $product;
-	public $name = 'akbar';
-	//	public $listeners = [];
-	//Event Listeners
+    public $product;
+//    public $listeners = [];
+    //Event Listeners
 
 
-	//rules
-	public function rules() {
-		return [
-			'product.name'        => ['nullable'],
-			'product.slug'        => ['nullable'],
-			'product.product_url' => ['nullable'],
-			'product.type'        => [Rule::in(['simple', 'variable'])]
-		];
-	}
+    //rules
+    public function rules()
+    {
+        return [
+            'product.name'        => ['nullable'],
+            'product.slug'        => ['nullable'],
+            'product.product_url' => ['nullable'],
+            'product.type'        => [Rule::in(['simple', 'variable'])]
+        ];
+    }
 
 
-	//Actions
-	public function saveProductBasicInfo() {
-		$this->validate();
+    //Actions
+    public function saveProductBasicInfo()
+    {
+        sleep(1);
+        $this->validate();
 
-		DB::beginTransaction();
-		try {
-			$this->product->save();
+        DB::beginTransaction();
+        try {
+            $this->product->save();
 
-			$this->dispatchBrowserEvent('success', ['message' => 'اطلاعات اولیه محصول با موفقیت ذخیره شد.']);
-			$this->emit('productUpdated');
-		} catch (\Exception $e) {
-			DB::rollback();
-		}
-		DB::commit();
-	}
+            $this->dispatchBrowserEvent('success', ['message' => 'اطلاعات اولیه محصول با موفقیت ذخیره شد.']);
+            $this->emit('productUpdated');
+        } catch (\Exception $e) {
+            DB::rollback();
+        }
+        DB::commit();
+    }
 
-	public function render() {
-		return view('livewire.admin.product.product.components.product-basic-info');
-	}
+    public function render()
+    {
+        return view('livewire.admin.product.product.components.product-basic-info');
+    }
 
-	//Update Methods
-	public function updatedProductType() {
-		$this->validateOnly('product.type');
-		DB::beginTransaction();
-		try {
-			$this->product->save();
+    //Update Methods
+    public function updatedProductType()
+    {
+        sleep(1);
+        $this->validateOnly('product.type');
+        DB::beginTransaction();
+        try {
+            $this->product->save();
 
-			$this->emit('productUpdated');
-		} catch (\Exception $e) {
-			DB::rollback();
-		}
-		DB::commit();
-	}
+            $this->emit('productUpdated');
+        } catch (\Exception $e) {
+            DB::rollback();
+        }
+        DB::commit();
+    }
 }

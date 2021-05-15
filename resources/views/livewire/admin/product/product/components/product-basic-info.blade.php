@@ -1,5 +1,7 @@
 <x-admin.card.simple title="مشخصات اولیه محصول"
-                     icon="fas fa-box">
+                     icon="fas fa-box"
+                     wire:loading.class="overlay overlay-block"
+>
     <x-slot name="toolbar">
         <select wire:model="product.type"
                 class="form-control"
@@ -50,7 +52,7 @@
                 </div>
             </div>
             <div wire:loading.class.remove="d-none"
-                 wire:target="save"
+                 wire:target="saveProductBasicInfo"
                  class="overlay-layer bg-dark-o-10 d-none">
                 <div class="spinner spinner-primary"></div>
             </div>

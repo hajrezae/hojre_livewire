@@ -1,6 +1,6 @@
 <x-admin.card.simple title="لیست دسته بندی های محصولات" icon="flaticon-gird">
     <x-slot name="toolbar">
-        <button  class="btn btn-primary" data-toggle="modal" data-target="#categoryForm">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#categoryForm" x-click="console.log('kir')">
             <i class="fas fa-plus"></i>
             افزودن دسته بندی جدید
         </button>

@@ -1,7 +1,7 @@
 @props(['checkboxType' => 'horizontal', 'label', 'caption'])
 
 @if($checkboxType = 'horizontal')
-    <div class="form-group">
+    <div class="form-group validated">
         @isset($label)
             <label>{{ $label }}</label>
         @endisset
@@ -11,9 +11,12 @@
         @isset($caption)
             <span class="form-text text-muted">{{ $caption }}</span>
         @endisset
+        @error($attributes->get('wire:model'))
+        <div class="invalid-feedback">{{ $message }}</div>
+        @enderror
     </div>
 @elseif($checkboxType = 'vertical')
-    <div class="form-group row">
+    <div class="form-group row validated">
         @isset($label)
             <label>{{ $label }}</label>
         @endisset
@@ -22,5 +25,8 @@
                 {{ $slot }}
             </div>
         </div>
+        @error($attributes->get('wire:model'))
+        <div class="invalid-feedback">{{ $message }}</div>
+        @enderror
     </div>
 @endif

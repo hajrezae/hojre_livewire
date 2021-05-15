@@ -12,11 +12,13 @@ class Variant extends Model {
 	protected $table   = 'product_variants';
 	protected $guarded = [];
 
-	public function variation() {
-		return $this->belongsTo(Variation::class);
+    public function product()
+    {
+        return $this->belongsTo(Product::class, 'product_id', 'id');
 	}
 
-	public function attributeValue() {
-		return $this->hasOne(AttributeValue::class, 'id', 'attribute_value_id');
+    public function variantValues()
+    {
+        return $this->hasMany(VariantValue::class, 'variant_id', 'variant_id');
 	}
 }
