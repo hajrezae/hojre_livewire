@@ -3,7 +3,7 @@
     @isset($label)
         <label>{{ $label }} :</label>
     @endisset
-    <select {{ $attributes->class(['is-valid' => session()->has($attributes->get('wire:model')), 'is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
+    <select {{ $attributes->class(['is-invalid' => $errors->has($attributes->get('wire:model'))])->merge(['class' => 'form-control']) }}>
         {{ $slot }}
     </select>
         @error($attributes->get('wire:model'))

@@ -27,6 +27,9 @@
                             <div class="card-custom tab-pane fade rounded-lg" id="product-attributes">
                                 <livewire:admin.product.product.components.product-attributes :product="$product"/>
                             </div>
+                            <div class="card-custom tab-pane fade rounded-lg" id="product-variations">
+                                <livewire:admin.product.product.components.product-variations :product="$product"/>
+                            </div>
                         </div>
                     </div>
                 </div>

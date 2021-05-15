@@ -31,8 +31,8 @@ class Product extends Model {
 		return $this->belongsToMany(AttributeValue::class, 'product_attribute_values');
 	}
 
-	public function variations() {
-		return $this->hasMany(Variation::class);
+	public function variants() {
+		return $this->hasMany(Variant::class);
 	}
 
 	public function supplier() {

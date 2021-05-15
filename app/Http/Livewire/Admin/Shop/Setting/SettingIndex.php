@@ -8,6 +8,8 @@ class SettingIndex extends Component
 {
     public function render()
     {
-        return view('livewire.admin.shop.setting.setting-index');
+        return view('livewire.admin.shop.setting.setting-index')
+            ->extends('admin.layout.default')
+            ->section('content');
     }
 }

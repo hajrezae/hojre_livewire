@@ -12,6 +12,8 @@ class Variant extends Model {
 	protected $table   = 'product_variants';
 	protected $guarded = [];
 
+	public $timestamps = false;
+
     public function product()
     {
         return $this->belongsTo(Product::class, 'product_id', 'id');
@@ -20,5 +22,10 @@ class Variant extends Model {
     public function variantValues()
     {
         return $this->hasMany(VariantValue::class, 'variant_id', 'variant_id');
+	}
+
+    public function attributeValue()
+    {
+        return $this->belongsToMany(AttributeValue::class, 'variant_values');
 	}
 }

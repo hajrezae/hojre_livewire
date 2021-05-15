@@ -64,6 +64,10 @@ Route::prefix('admin')->name('admin.')->group(function () {
 	Route::get('tax', TaxIndex::class)->name('tax.index');
 });
 
+Route::get('/', function() {
+   return view('shop.pages.first-page');
+});
+
 Route::post('qq', function () {
 
 })->name('quick-search');

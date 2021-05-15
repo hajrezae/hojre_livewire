@@ -13,6 +13,8 @@ class VariantValue extends Model
     protected $table = 'variant_values';
     protected $guarded = [];
 
+    public $timestamps = false;
+
     public function variant()
     {
         return $this->belongsTo(Variant::class, 'variant_id', 'variant_id');
@@ -25,6 +27,6 @@ class VariantValue extends Model
 
     public function attributeValue()
     {
-        return $this->hasOne(AttributeValue::class, 'attribute_value_id', 'attribute_value_id');
+        return $this->hasOne(AttributeValue::class, 'id', 'attribute_value_id');
     }
 }
