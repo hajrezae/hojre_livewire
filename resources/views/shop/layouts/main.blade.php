@@ -8,10 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>قالب فروشگاهی فاکسیک - صفحه اصلی - لایه 7</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
-    <link href="/shop/css/vendor/bootstrap.min.css" rel="stylesheet">
-    <link href="/shop/css/vendor/vendor.min.css" rel="stylesheet">
-    <link href="/shop/css/style-sport.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/shop/images/favicon.ico"/>
+    <link href="/shop/css/main.css" rel="stylesheet">
     <link href="fonts/icomoon/icons.css" rel="stylesheet">
 </head>
 
@@ -94,14 +92,14 @@
             </div>
             <div class="collection-grid-2">
                 <div class="collection-grid-2-item col-9 col-md-quarter col-lg-3">
-                    <a href="#" class="bnr-wrap collection-grid-2-item-inside">
+                    <a hr`ef="#" class="bnr-wrap collection-grid-2-item-inside">
                         <div
                                 class="collection-grid-2-img image-hover-scale image-container"
                                 style="padding-bottom: 77.78%"
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-01.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-01.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">کفش زنانه</h3>
@@ -115,7 +113,7 @@
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-02.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-02.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">لباس ورزشی</h3>
@@ -129,7 +127,7 @@
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-03.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-03.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">شرت ورزشی زنانه</h3>
@@ -143,7 +141,7 @@
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-04.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-04.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">تاپ ورزشی</h3>
@@ -157,7 +155,7 @@
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-05.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-05.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">تی شرت</h3>
@@ -171,7 +169,7 @@
                         >
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/categories/category-img-06.webp" class="lazyload fade-up" alt=""
+                                    data-src="/shop/images/categories/category-img-06.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <h3 class="collection-grid-2-title">پیراهن ورزشی</h3>
@@ -198,7 +196,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-01.webp" alt="Legging Red/Black"
+                                        data-src="/shop/images/products/product-01.webp" alt="Legging Red/Black"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -258,46 +256,46 @@
                                         ></span>
                                     </i>
                                     <ul>
-                                        <li data-image="images/products/product-01.webp">
+                                        <li data-image="/shop/images/products/product-01.webp">
                                             <a
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="right"
                                                     title="نام رنگ"
                                             >
                                                 <img
-                                                        src="images/colorswatch/color-red.webp"
+                                                        src="/shop/images/colorswatch/color-red.webp"
                                                         alt=""
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-01-1.webp">
+                                        <li data-image="/shop/images/products/product-01-1.webp">
                                             <a
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="right"
                                                     title="نام رنگ"
                                             >
                                                 <img
-                                                        src="images/colorswatch/color-mint.webp"
+                                                        src="/shop/images/colorswatch/color-mint.webp"
                                                         alt=""
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-01-2.webp">
+                                        <li data-image="/shop/images/products/product-01-2.webp">
                                             <a
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="right"
                                                     title="نام رنگ"
                                             >
                                                 <img
-                                                        src="images/colorswatch/color-violet.webp"
+                                                        src="/shop/images/colorswatch/color-violet.webp"
                                                         alt=""
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-01-3.webp">
+                                        <li data-image="/shop/images/products/product-01-3.webp">
                                             <a
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="right"
                                                     title="نام رنگ"
                                             >
                                                 <img
-                                                        src="images/colorswatch/color-green.webp"
+                                                        src="/shop/images/colorswatch/color-green.webp"
                                                         alt=""
                                                 >
                                             </a>
@@ -306,7 +304,7 @@
                                 </div>
                             </div>
                             <ul class="list-options color-swatch">
-                                <li data-image="images/products/product-01.webp" class="active">
+                                <li data-image="/shop/images/products/product-01.webp" class="active">
                                     <a
                                             href="#"
                                             class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -314,12 +312,12 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01.webp" class="lazyload fade-up"
+                                                data-src="/shop/images/products/product-01.webp" class="lazyload fade-up"
                                                 alt="Color Name"
                                         >
                                     </a>
                                 </li>
-                                <li data-image="images/products/product-01-1.webp">
+                                <li data-image="/shop/images/products/product-01-1.webp">
                                     <a
                                             href="#"
                                             class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -327,12 +325,12 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01-1.webp" class="lazyload fade-up"
+                                                data-src="/shop/images/products/product-01-1.webp" class="lazyload fade-up"
                                                 alt="Color Name"
                                         >
                                     </a>
                                 </li>
-                                <li data-image="images/products/product-01-2.webp">
+                                <li data-image="/shop/images/products/product-01-2.webp">
                                     <a
                                             href="#"
                                             class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -340,12 +338,12 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01-2.webp" class="lazyload fade-up"
+                                                data-src="/shop/images/products/product-01-2.webp" class="lazyload fade-up"
                                                 alt="Color Name"
                                         >
                                     </a>
                                 </li>
-                                <li data-image="images/products/product-01-3.webp">
+                                <li data-image="/shop/images/products/product-01-3.webp">
                                     <a
                                             href="#"
                                             class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -353,7 +351,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01-3.webp" class="lazyload fade-up"
+                                                data-src="/shop/images/products/product-01-3.webp" class="lazyload fade-up"
                                                 alt="Color Name"
                                         >
                                     </a>
@@ -429,7 +427,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "ساق بلند قرمز / مشکی", "path":"images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "ساق بلند قرمز / مشکی", "path":"/shop/images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -471,7 +469,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-06.webp" alt="Fitness Jumpsuit Camouflage"
+                                        data-src="/shop/images/products/product-06.webp" alt="Fitness Jumpsuit Camouflage"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -574,7 +572,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لباس راحتی تناسب اندام", "path":"images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لباس راحتی تناسب اندام", "path":"/shop/images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -616,7 +614,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-07.webp" alt="Fitness Jumpsuit Black"
+                                        data-src="/shop/images/products/product-07.webp" alt="Fitness Jumpsuit Black"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -716,7 +714,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لباس تناسب اندام مشکی", "path":"images/products/product-07.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لباس تناسب اندام مشکی", "path":"/shop/images/products/product-07.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -758,7 +756,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-03.webp" alt="Striped Leggings and Top"
+                                        data-src="/shop/images/products/product-03.webp" alt="Striped Leggings and Top"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -862,7 +860,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "شلوار استرچ راه راه با تاپ", "path":"images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "شلوار استرچ راه راه با تاپ", "path":"/shop/images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -904,7 +902,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-04.webp" alt="Fitness Jumpsuit"
+                                        data-src="/shop/images/products/product-04.webp" alt="Fitness Jumpsuit"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1004,7 +1002,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لباس راحتی تناسب اندام", "path":"images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لباس راحتی تناسب اندام", "path":"/shop/images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1046,7 +1044,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-05.webp" alt="Fitness Jumpsuit Khaki/Black"
+                                        data-src="/shop/images/products/product-05.webp" alt="Fitness Jumpsuit Khaki/Black"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1150,7 +1148,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لباس تناسب اندام خاکی / مشکی", "path":"images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لباس تناسب اندام خاکی / مشکی", "path":"/shop/images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1192,7 +1190,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-14.webp" alt="Active Sports Black Shirt"
+                                        data-src="/shop/images/products/product-14.webp" alt="Active Sports Black Shirt"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1292,7 +1290,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لباس فعالیت ورزشی مشکی", "path":"images/products/product-14.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لباس فعالیت ورزشی مشکی", "path":"/shop/images/products/product-14.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1334,7 +1332,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-15.webp" alt="Demi Puffer Jacket"
+                                        data-src="/shop/images/products/product-15.webp" alt="Demi Puffer Jacket"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1434,7 +1432,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "ژاکت پافر دمی", "path":"images/products/product-15.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "ژاکت پافر دمی", "path":"/shop/images/products/product-15.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1476,7 +1474,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-20.webp" alt="Winter Puffer Jacket"
+                                        data-src="/shop/images/products/product-20.webp" alt="Winter Puffer Jacket"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1576,7 +1574,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "ژاکت پافر زمستانی", "path":"images/products/product-20.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "ژاکت پافر زمستانی", "path":"/shop/images/products/product-20.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1618,7 +1616,7 @@
                             >
                                 <img
                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                        data-src="images/products/product-18.webp" alt="Jumpsuit with a hood"
+                                        data-src="/shop/images/products/product-18.webp" alt="Jumpsuit with a hood"
                                         class="js-prd-img lazyload"
                                 >
                                 <div class="foxic-loader"></div>
@@ -1718,7 +1716,7 @@
                                         <form action="#">
                                             <button
                                                     class="btn js-prd-addtocart"
-                                                    data-product='{"name": "لبس بلند با هودی", "path":"images/products/product-18.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                    data-product='{"name": "لبس بلند با هودی", "path":"/shop/images/products/product-18.webp", "url":"product.html", "aspect_ratio":0.778}'
                                             >افزودن
                                              به سبد خرید
                                             </button>
@@ -1810,7 +1808,7 @@
                         <div class="bnr-img">
                             <img
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-srcset="images/banners/banner-index-05.webp" class="lazyload fade-up" alt=""
+                                    data-srcset="/shop/images/banners/banner-index-05.webp" class="lazyload fade-up" alt=""
                             >
                         </div>
                         <div class="bnr-caption" style="padding: 8%;">
@@ -1838,7 +1836,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-01.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -1882,7 +1880,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-01.webp" class="active">
+                                        <li data-image="/shop/images/products/product-01.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -1890,55 +1888,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-01.webp"
+                                                        data-src="/shop/images/products/product-01.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -2022,7 +2020,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -2064,7 +2062,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-06.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-06.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -2104,7 +2102,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-06.webp" class="active">
+                                        <li data-image="/shop/images/products/product-06.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -2112,55 +2110,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-06.webp"
+                                                        data-src="/shop/images/products/product-06.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -2244,7 +2242,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -2286,7 +2284,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-05.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-05.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -2326,7 +2324,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-05.webp" class="active">
+                                        <li data-image="/shop/images/products/product-05.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -2334,55 +2332,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -2466,7 +2464,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -2508,7 +2506,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-04.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-04.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -2548,7 +2546,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-04.webp" class="active">
+                                        <li data-image="/shop/images/products/product-04.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -2556,55 +2554,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -2688,7 +2686,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -2730,7 +2728,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-03.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-03.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -2770,7 +2768,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-03.webp" class="active">
+                                        <li data-image="/shop/images/products/product-03.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -2778,55 +2776,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -2910,7 +2908,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -2952,7 +2950,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-02.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-02.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -2992,7 +2990,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-02.webp" class="active">
+                                        <li data-image="/shop/images/products/product-02.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -3000,55 +2998,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -3132,7 +3130,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-02.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-02.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -3182,7 +3180,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-01.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-01.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -3226,7 +3224,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-01.webp" class="active">
+                                        <li data-image="/shop/images/products/product-01.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -3234,55 +3232,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-01.webp"
+                                                        data-src="/shop/images/products/product-01.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -3366,7 +3364,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -3408,7 +3406,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-06.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-06.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -3448,7 +3446,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-06.webp" class="active">
+                                        <li data-image="/shop/images/products/product-06.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -3456,55 +3454,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-06.webp"
+                                                        data-src="/shop/images/products/product-06.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -3588,7 +3586,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-06.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -3630,7 +3628,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-05.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-05.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -3670,7 +3668,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-05.webp" class="active">
+                                        <li data-image="/shop/images/products/product-05.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -3678,55 +3676,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -3810,7 +3808,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-05.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -3852,7 +3850,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-04.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-04.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -3892,7 +3890,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-04.webp" class="active">
+                                        <li data-image="/shop/images/products/product-04.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -3900,55 +3898,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -4032,7 +4030,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-04.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -4074,7 +4072,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-03.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-03.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -4114,7 +4112,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-03.webp" class="active">
+                                        <li data-image="/shop/images/products/product-03.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -4122,55 +4120,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -4254,7 +4252,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-03.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -4296,7 +4294,7 @@
                                     >
                                         <img
                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                data-src="images/products/product-02.webp" alt="Product Name"
+                                                data-src="/shop/images/products/product-02.webp" alt="Product Name"
                                                 class="js-prd-img lazyload"
                                         >
                                         <div class="foxic-loader"></div>
@@ -4336,7 +4334,7 @@
                                         </a>
                                     </div>
                                     <ul class="list-options color-swatch">
-                                        <li data-image="images/products/product-02.webp" class="active">
+                                        <li data-image="/shop/images/products/product-02.webp" class="active">
                                             <a
                                                     href="#"
                                                     class="js-color-toggle" data-toggle="tooltip" data-placement="left"
@@ -4344,55 +4342,55 @@
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-02.webp">
+                                        <li data-image="/shop/images/products/product-02.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-02.webp"
+                                                        data-src="/shop/images/products/product-02.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-03.webp">
+                                        <li data-image="/shop/images/products/product-03.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-03.webp"
+                                                        data-src="/shop/images/products/product-03.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-04.webp">
+                                        <li data-image="/shop/images/products/product-04.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-04.webp"
+                                                        data-src="/shop/images/products/product-04.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
                                         </li>
-                                        <li data-image="images/products/product-05.webp">
+                                        <li data-image="/shop/images/products/product-05.webp">
                                             <a
                                                     href="#" class="js-color-toggle" data-toggle="tooltip"
                                                     data-placement="left" title="نام رنگ"
                                             >
                                                 <img
                                                         src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                        data-src="images/products/product-05.webp"
+                                                        data-src="/shop/images/products/product-05.webp"
                                                         class="lazyload fade-up" alt="Color Name"
                                                 >
                                             </a>
@@ -4476,7 +4474,7 @@
                                                 <form action="#">
                                                     <button
                                                             class="btn js-prd-addtocart"
-                                                            data-product='{"name": "نام محصول", "path":"images/products/product-02.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                                            data-product='{"name": "نام محصول", "path":"/shop/images/products/product-02.webp", "url":"product.html", "aspect_ratio":0.778}'
                                                     >افزودن
                                                      به سبد خرید
                                                     </button>
@@ -4690,7 +4688,7 @@
                             <img
                                     class="lazyload fade-up"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-srcset="images/logo-footer.webp 1x, images/logo-footer2x.webp 2x"
+                                    data-srcset="/shop/images/logo-footer.webp 1x, /shop/images/logo-footer2x.webp 2x"
                                     alt="Logo"
                             >
                         </a>
@@ -4728,7 +4726,7 @@
             <div class="row">
                 <div class="col-auto sticky-addcart_image">
                     <a href="product.html">
-                        <img src="images/skins/fashion/products/product-01-1.webp" alt=""/>
+                        <img src="/shop/images/skins/fashion/products/product-01-1.webp" alt=""/>
                     </a>
                 </div>
                 <div class="col col-sm-5 col-lg-4 col-xl-5 sticky-addcart_info">
@@ -4777,14 +4775,14 @@
                 <div class="col-auto popup-addedtocart_logo">
                     <img
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="images/logo-white-sm.webp" class="lazyload fade-up" alt=""
+                            data-src="/shop/images/logo-white-sm.webp" class="lazyload fade-up" alt=""
                     >
                 </div>
                 <div class="col popup-addedtocart_info">
                     <div class="row">
                         <a href="product.html" class="col-auto popup-addedtocart_image">
 								<span class="image-container w-100">
-									<img src="images/skins/fashion/products/product-01-1.webp" alt=""/>
+									<img src="/shop/images/skins/fashion/products/product-01-1.webp" alt=""/>
 								</span>
                         </a>
                         <div class="col popup-addedtocart_text">
@@ -4877,13 +4875,13 @@
     <div
             class="payment-notification-wrap js-pn" data-visible-time="3000" data-hidden-time="3000" data-delay="500"
             data-from="تهران ,مشهد ,تبریز ,مازندران ,شیراز"
-            data-products='[{"productname":"شلوار چرمی", "productlink":"product.html","productimage":"images/skins/fashion/products/product-01-1.webp"},{"productname":"کوله پشتی پارچه ای مشکی", "productlink":"product.html","productimage":"images/skins/fashion/products/product-28-1.webp"},{"productname":"کفش های کتانی", "productlink":"product.html","productimage":"images/skins/fashion/products/product-23-1.webp"}]'
+            data-products='[{"productname":"شلوار چرمی", "productlink":"product.html","productimage":"/shop/images/skins/fashion/products/product-01-1.webp"},{"productname":"کوله پشتی پارچه ای مشکی", "productlink":"product.html","productimage":"/shop/images/skins/fashion/products/product-28-1.webp"},{"productname":"کفش های کتانی", "productlink":"product.html","productimage":"/shop/images/skins/fashion/products/product-23-1.webp"}]'
     >
         <div class="payment-notification payment-notification--squared">
             <div class="payment-notification-inside">
                 <div class="payment-notification-container">
                     <a href="#" class="payment-notification-image js-pn-link">
-                        <img src="images/products/product-01.webp" class="js-pn-image" alt="">
+                        <img src="/shop/images/products/product-01.webp" class="js-pn-image" alt="">
                     </a>
                     <div class="payment-notification-content-wrapper">
                         <div class="payment-notification-content">

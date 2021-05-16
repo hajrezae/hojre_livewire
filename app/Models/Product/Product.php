@@ -2,6 +2,7 @@
 
 namespace App\Models\Product;
 
+use App\Models\Price;
 use App\Models\Product\Attribute\Attribute;
 use App\Models\Product\Attribute\AttributeValue;
 use App\Models\Shop\Supplier;
@@ -61,6 +62,11 @@ class Product extends Model {
     public function supplier()
     {
         return $this->hasOne(Supplier::class, 'id', 'supplier_id');
+    }
+
+    public function prices()
+    {
+        return $this->morphMany(Price::class, 'priceable');
     }
 
     public function getThumbnailAttribute($image_url)

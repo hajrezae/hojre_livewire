@@ -15,7 +15,8 @@ class CreatePaymentsTable extends Migration {
 			$table->string('method_name')->unique();
 			$table->string('label');
 			$table->tinyInteger('active')->default(0);
-			$table->longText('logo_url')->nullable();
+			$table->longText('logo')->nullable();
+			$table->text('api_key')->nullable();
 			$table->json('options')->nullable();
 			$table->timestamps();
 		});

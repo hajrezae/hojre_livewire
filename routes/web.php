@@ -14,6 +14,7 @@ use App\Http\Livewire\Admin\Product\Product\Edit;
 use App\Http\Livewire\Admin\Product\Product\Index;
 use App\Http\Livewire\Admin\Shop\Coupon\CouponIndex;
 use App\Http\Livewire\Admin\Shop\Discount\DiscountIndex;
+use App\Http\Livewire\Admin\Shop\PaymentMethod\MethodsList;
 use App\Http\Livewire\Admin\Shop\Setting\SettingIndex;
 use App\Http\Livewire\Admin\Shop\Supplier\SupplierIndex;
 use App\Http\Livewire\Admin\Shop\Tax\TaxIndex;
@@ -62,6 +63,7 @@ Route::prefix($adminRoute)->name('admin.')->group(function () {
 	Route::get('discount', DiscountIndex::class)->name('discount.index');
 	Route::get('coupon', CouponIndex::class)->name('coupon.index');
 	Route::get('tax', TaxIndex::class)->name('tax.index');
+	Route::get('payment-method', MethodsList::class)->name('payment-method.index');
 });
 
 Route::get('/', function() {

@@ -3,6 +3,9 @@
 /public/js
 /public/media
 /public/plugins
+/public/images
+/public/admin
+/public/public
 /storage/*.key
 /vendor
 .env

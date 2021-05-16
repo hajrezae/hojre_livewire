@@ -116,6 +116,17 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/barryvdh/laravel-debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/maximebf/debugbar" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/public/css" />
+      <excludeFolder url="file://$MODULE_DIR$/public/js" />
+      <excludeFolder url="file://$MODULE_DIR$/public/media" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/public/products" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/public/uploads" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/livewire-tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/app/uploads" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/44" />
+      <excludeFolder url="file://$MODULE_DIR$/storage/framework/cache/data/c2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/public/admin" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

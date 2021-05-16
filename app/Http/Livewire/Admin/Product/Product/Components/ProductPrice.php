@@ -8,6 +8,8 @@ use Livewire\Component;
 class ProductPrice extends Component {
 	public $active;
 	public $product;
+
+	public $rolePrices;
 	
 	
 	//Actions
@@ -18,6 +20,11 @@ class ProductPrice extends Component {
 
 		$this->dispatchBrowserEvent('success', ['message' => 'قیمت های محصول با موفقیت ذخیره شد']);
 		$this->active = true;
+	}
+
+    public function addRoleBasedPrice()
+    {
+
 	}
 	
 	

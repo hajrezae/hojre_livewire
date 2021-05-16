@@ -72,7 +72,8 @@
                                         <small>تومان</small>
                                     </h3>
                                 @else
-                                    <h3 class="text-success font-weight-boldest">{{ $product->getRegularPrice() }}
+                                    <h3 class="text-success font-weight-boldest">
+                                        {{ $product->getRegularPrice() }}
                                         <small>تومان</small>
                                     </h3>
                                 @endif
