@@ -20,14 +20,46 @@
             <div class="col-12">
                 <x-admin.form.input wire:model="attributeValue.label" label="نام مقدار ویژگی"/>
             </div>
+            @if($attribute->style == 'color')
+                <div class="col-12">
+                    <input wire:model="attributeValue.color" class="form-control" type="color">
+                </div>
+            @endif
+        </div>
+        <div class="separator separator-dashed my-7"></div>
+        <div class="row">
+            @if($attribute->style == 'image')
+                <div class="col-6">
+                    <label class='btn btn-light-primary'>
+                        عکس ویژگی
+                        <input hidden wire:model="image" class="form-control" type="file">
+                    </label>
+                </div>
+                <div class="col-6 rounded-lg">
+                    @if(!is_null($image))
+                        <img class="rounded-lg" src="{{ $image->temporaryUrl() }}" alt="" width="80px" height="80px">
+                    @endif
+                    @if($attributeValue->image && is_null($image))
+                        <img class="rounded-lg" src="{{ asset($attributeValue->image) }}" alt="" width="80px" height="80px">
+                    @endif
+                </div>
+            @endif
         </div>
     </div>
     <div class="modal-footer">
-        <button wire:click="clearAttributeValue" type="button" class="btn btn-light-primary font-weight-bold" data-dismiss="modal">بستن</button>
+        <button
+                wire:click="clearAttributeValue" type="button" class="btn btn-light-primary font-weight-bold"
+                data-dismiss="modal"
+        >بستن
+        </button>
         @if($action == 'create')
-            <button wire:click="addAttributeValue" type="button" class="btn btn-primary font-weight-bold">افزودن مقدار ویژگی</button>
+            <button wire:click="addAttributeValue" type="button" class="btn btn-primary font-weight-bold">افزودن مقدار
+                                                                                                          ویژگی
+            </button>
         @else
-            <button wire:click="updateAttributeValue" type="button" class="btn btn-primary font-weight-bold">ذخیره تغییرات</button>
+            <button wire:click="updateAttributeValue" type="button" class="btn btn-primary font-weight-bold">ذخیره
+                                                                                                             تغییرات
+            </button>
         @endif
     </div>
 </form>

@@ -11,20 +11,48 @@
                 <tr>
                     <th scope="col" style="width: 30px">#</th>
                     <th scope="col">عنوان مقدار ویژگی</th>
-                    <th scope="col" class="d-flex justify-content-end">@lang('common.actions')</th>
+                    <th scope="col">
+                        <span class="d-flex justify-content-end">@lang('common.actions')</span>
+                    </th>
                 </tr>
             </x-slot>
-            <x-slot name="body">
+            <x-slot
+                    name="body"
+            >
                 @forelse($attributeValues as $attributeValue)
                     <tr>
-                        <td scope="col">{{ $attributeValue->id }}</td>
-                        <td scope="col">{{ $attributeValue->label }}</td>
-                        <td scope="col">
+                        <td class="align-middle" scope="col">{{ $attributeValue->id }}</td>
+                        <td class="align-middle" scope="col">
+                            <div class="d-flex justify-content-between align-items-center" style="width: 150px">
+                                {{ $attributeValue->label }}
+                                @if($attributeValue->attribute->style == 'color')
+                                    <div
+                                            class="rounded-circle"
+                                            style="width:14px;height: 14px;background-color: {{ $attributeValue->color }}"
+                                    ></div>
+                                @endif
+                                @if($attributeValue->attribute->style == 'image' && $attributeValue->image)
+                                    <img
+                                            src="{{ asset($attributeValue->image) }}"
+                                            class="ml-5 rounded-sm"
+                                            style="width: 30px;height: 100%;background-color: {{ $attributeValue->color }}"
+                                    />
+                                @endif
+                            </div>
+
+                        </td>
+                        <td class="align-middle" scope="col">
                             <span class="d-flex justify-content-end">
-                                <button wire:click="$emit('attributeValueSelected', {{ $attributeValue->id }})" class="btn btn-sm btn-icon btn-light-primary">
+                                <button
+                                        wire:click="$emit('attributeValueSelected', {{ $attributeValue->id }})"
+                                        class="btn btn-sm btn-icon btn-light-primary"
+                                >
                                     <i class="flaticon2-edit"></i>
                                 </button>
-                                <button wire:click="deleteAttributeValue({{ $attributeValue->id }})" class="btn btn-sm btn-icon btn-light-danger ml-3">
+                                <button
+                                        wire:click="deleteAttributeValue({{ $attributeValue->id }})"
+                                        class="btn btn-sm btn-icon btn-light-danger ml-3"
+                                >
                                     <i class="flaticon-delete-1"></i>
                                 </button>
                             </span>
@@ -32,7 +60,9 @@
                     </tr>
                 @empty
                     <tr scope="col">
-                        <td colspan="3" class="p-20 text-center">@lang('common.not_found', ['attribute' => 'مقدار ویژگی ای'])</td>
+                        <td
+                                colspan="3" class="p-20 text-center"
+                        >@lang('common.not_found', ['attribute' => 'مقدار ویژگی ای'])</td>
                     </tr>
                 @endforelse
             </x-slot>

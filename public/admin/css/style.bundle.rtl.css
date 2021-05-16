@@ -8,10 +8,10 @@
 
 @font-face {
     font-family: "IRANSansWeb";
-    src: url("../fonts/IRANSansWeb.eot"); /* IE */
-    src: url("../fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), /* IE */
-    url("../fonts/IRANSansWeb.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/IRANSansWeb.ttf") format("truetype"); /* Safari, Android, iOS */
+    src: url("../fonts/IRANSans-web.eot"); /* IE */
+    src: url("../fonts/IRANSans-web.eot?#iefix") format("embedded-opentype"), /* IE */
+    url("../fonts/IRANSans-web.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/IRANSans-web.ttf") format("truetype"); /* Safari, Android, iOS */
     font-weight: normal;
 }
 :root {

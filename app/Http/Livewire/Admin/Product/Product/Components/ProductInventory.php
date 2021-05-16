@@ -12,6 +12,9 @@ class ProductInventory extends Component {
     {
         sleep(1);
         $this->validate();
+        if($this->product->manage_stock == false) {
+            $this->product->stock = null;
+        }
         $this->product->save();
         $this->dispatchBrowserEvent('success', ['message' => 'مشخصات انبار محصول با موفقیت ذخیره شد']);
     }

@@ -33,9 +33,16 @@
                                 <div class="d-flex">
                                     <a class="d-block" href="{{ route('admin.product.edit', $product) }}" width="100px">
                                         @if($product->image_url)
-                                            <img src="{{ $product->image_url ? asset( $product->image_url) : null}}" class="bg-light rounded-sm" width="100px" height="100px" alt="product-image">
+                                            <img
+                                                    src="{{ $product->image_url ? asset( $product->image_url) : null}}"
+                                                    class="bg-light rounded-sm" width="100px" height="100px"
+                                                    alt="product-image"
+                                            >
                                         @else
-                                            <div style="width: 100px;height: 100px" class="bg-light d-flex align-items-center justify-content-center rounded-lg">
+                                            <div
+                                                    style="width: 100px;height: 100px"
+                                                    class="bg-light d-flex align-items-center justify-content-center rounded-lg"
+                                            >
                                                 <i class="fas fa-image fa-3x"></i>
                                             </div>
                                         @endif
@@ -55,18 +62,41 @@
                                 {{$product->short_description ?? 'بدون توضیح کوتاه'}}
                             </td>
                             <td class="align-middle">
-                                <h3 class="text-success font-weight-boldest">{{ number_format($product->price) }}
-                                    <small>تومان</small>
-                                </h3>
+                                @if($product->discount_price)
+                                    <h6 class="text-success font-weight-boldest text-">
+                                        <del>{{ $product->getRegularPrice() }}
+                                            <small>تومان</small>
+                                        </del>
+                                    </h6>
+                                    <h3 class="text-success font-weight-boldest text-danger">{{ $product->getDiscountPrice() }}
+                                        <small>تومان</small>
+                                    </h3>
+                                @else
+                                    <h3 class="text-success font-weight-boldest">{{ $product->getRegularPrice() }}
+                                        <small>تومان</small>
+                                    </h3>
+                                @endif
                             </td>
                             <td class="align-middle">
-                                // Availability Status
+                                @if($product->isAvailable() === true)
+                                    <span class="label label-inline label-light-success font-weight-bold">موجود در انبار</span>
+                                @elseif($product->isAvailable() === false)
+                                    <span class="label label-inline label-light-danger font-weight-bold">ناموجود</span>
+                                @elseif($product->isAvailable() === 2)
+                                    <span class="label label-inline label-light font-weight-bold">عدم مدیریت موجودی</span>
+                                @endif
                             </td>
                             <td class="align-middle">
-                                <a href="{{ route('admin.product.edit', $product) }}" class="btn btn-light-primary btn-icon">
+                                <a
+                                        href="{{ route('admin.product.edit', $product) }}"
+                                        class="btn btn-light-primary btn-icon"
+                                >
                                     <i class="fas fa-pen"></i>
                                 </a>
-                                <button wire:click="deleteProduct({{ $product->id }})" class="btn btn-light-danger btn-icon">
+                                <button
+                                        onclick="confirmDelete(event, {{ $product->id }}, 'محصول', 'deleteProduct')"
+                                        class="btn btn-light-danger btn-icon"
+                                >
                                     <i class="fas fa-trash"></i>
                                 </button>
                             </td>

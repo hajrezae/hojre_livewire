@@ -26,7 +26,7 @@
                 @else
                     <div class="input-group-prepend">
                         <div class="input-group-text">
-                        {{ $prepend }}
+                            {{ $prepend }}
                         </div>
                     </div>
                 @endisset

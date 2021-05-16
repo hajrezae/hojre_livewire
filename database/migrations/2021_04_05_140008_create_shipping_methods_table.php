@@ -20,7 +20,7 @@ class CreateShippingMethodsTable extends Migration
             $table->unsignedBigInteger('cost')->default(0);
             $table->tinyInteger('active')->default(0);
             $table->longText('description')->nullable();
-            $table->longText('icon_url')->nullable();
+            $table->longText('icon')->nullable();
             $table->timestamps();
         });
     }

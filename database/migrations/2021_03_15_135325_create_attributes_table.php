@@ -32,7 +32,8 @@ class CreateAttributesTable extends Migration {
             $table->string('label');
             $table->longText('description')->nullable();
             $table->json('style')->nullable();
-            $table->longText('image_url')->nullable();
+            $table->string('color', 30)->nullable();
+            $table->longText('image')->nullable();
             $table->timestamps();
 
             $table->index(['id', 'attribute_id', 'name']);
@@ -105,6 +106,9 @@ class CreateAttributesTable extends Migration {
      */
     public function down()
     {
+        Schema::dropIfExists('variant_values');
+        Schema::dropIfExists('product_variants');
+        Schema::dropIfExists('product_attribute_values');
         Schema::dropIfExists('product_attributes');
         Schema::dropIfExists('attribute_values');
         Schema::dropIfExists('attributes');

@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire\Admin\Product\Product\Components;
 
+use Illuminate\Validation\Rule;
 use Livewire\Component;
 
 class ProductPrice extends Component {
@@ -12,6 +13,7 @@ class ProductPrice extends Component {
 	//Actions
 	public function saveProductPrice() {
 		$this->validate();
+
 		$this->product->save();
 
 		$this->dispatchBrowserEvent('success', ['message' => 'قیمت های محصول با موفقیت ذخیره شد']);

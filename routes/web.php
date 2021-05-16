@@ -30,9 +30,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+$adminRoute = \App\Models\ShopOption::firstWhere('option_name', 'admin_url')->option_value ?? 'admin';
 //Admin Routes
-Route::prefix('admin')->name('admin.')->group(function () {
+Route::prefix($adminRoute)->name('admin.')->group(function () {
 
 	//Dashboard Route
 	Route::get('dashboard', DashboardIndex::class)->name('dashboard');

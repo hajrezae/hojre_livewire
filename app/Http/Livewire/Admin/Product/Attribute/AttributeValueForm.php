@@ -5,11 +5,15 @@ namespace App\Http\Livewire\Admin\Product\Attribute;
 use App\Models\Product\Attribute\Attribute;
 use App\Models\Product\Attribute\AttributeValue;
 use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class AttributeValueForm extends Component {
+    use WithFileUploads;
+
 	public $action;
 	public $attribute;
 	public $attributeValue;
+	public $image;
 
 	public $listeners = ['attributeValueSelected'];
 
@@ -34,6 +38,8 @@ class AttributeValueForm extends Component {
 	public function clearAttributeValue() {
 		$this->attributeValue = new AttributeValue();
 		$this->resetErrorBag();
+		$this->image = null;
+		$this->action = 'create';
 	}
 
 	public function attributeValueSelected($attributeValueId) {
@@ -43,7 +49,10 @@ class AttributeValueForm extends Component {
 
 	public function addAttributeValue() {
 		$this->validate();
-		$this->attributeValue->attribute_id = $this->attribute->id;
+        $this->attributeValue->attribute_id = $this->attribute->id;
+        if(!is_null($this->image)) {
+            $this->attributeValue->image = $this->image->store('public/uploads');
+        }
 		$this->attributeValue->save();
 		$this->emit('attributeValueAdded');
 		$this->dispatchBrowserEvent('success', ['message' => 'مقدار ویژگی با موفقیت اضافه شد']);
@@ -52,11 +61,14 @@ class AttributeValueForm extends Component {
 
 	public function updateAttributeValue() {
 		$this->validate();
+		if(!is_null($this->image)) {
+            $this->attributeValue->image = $this->image->store('public/uploads');
+        }
 		$this->attributeValue->save();
 
 		$this->emit('attributeValueUpdated');
 		$this->dispatchBrowserEvent('success', ['message' => 'مقدار ویژگی با موفقیت به روز رسانی شد']);
-
+        $this->clearAttributeValue();
 	}
 
 	public function rules() {
@@ -65,15 +77,19 @@ class AttributeValueForm extends Component {
 				'attributeValue.name' => ['required'],
 				'attributeValue.label' => ['required'],
 				'attributeValue.description' => ['nullable'],
-				'attributeValue.style' => ['nullable']
+				'attributeValue.style' => ['nullable'],
+                'attributeValue.color' => ['nullable'],
+                'image' => ['nullable']
 			];
 		}
 		return [
 			'attributeValue.name' => ['required'],
 			'attributeValue.label' => ['required'],
 			'attributeValue.description' => ['nullable'],
-			'attributeValue.style' => ['nullable']
-		];
+			'attributeValue.style' => ['nullable'],
+            'attributeValue.color' => ['nullable'],
+            'image' => ['nullable']
+        ];
 
 	}
 }

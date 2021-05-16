@@ -24,7 +24,7 @@
                         >
                             <i class="flaticon2-grids"></i>
                             @foreach($variant as $variantValue)
-                                {{ $variantValue->attributeValue->label }} @if(!$loop->last) -  @endif
+                                {{ $variantValue->attributeValue->label }} @if(!$loop->last) +  @endif
                             @endforeach
                         </div>
                     </div>

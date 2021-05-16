@@ -9,6 +9,16 @@ use Livewire\WithPagination;
 class Index extends Component {
 	use WithPagination;
 
+	public $listeners = ['deleteProduct'];
+
+	//Actions
+    public function deleteProduct($productId)
+    {
+        Product::find($productId)->delete();
+        $this->dispatchBrowserEvent('success', ['message' => 'محصول با موفقیت حذف شد']);
+        $this->emit('$refresh');
+    }
+
 
 	public function render() {
 

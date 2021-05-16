@@ -1,11 +1,12 @@
 <?php
+
 namespace App\Classes\Theme;
 
 use App\Classes\Theme\Metronic;
+use App\Models\ShopOption;
 use Illuminate\Support\Facades\Route;
 
-class Menu
-{
+class Menu {
     /**
      * Aside menu
      * @param $item
@@ -18,7 +19,9 @@ class Menu
     public static function renderVerMenu($item, $parent = null, $rec = 0, $singleItem = false)
     {
         self::checkRecursion($rec);
-        if (!$item) { return 'menu misconfiguration'; }
+        if (!$item) {
+            return 'menu misconfiguration';
+        }
 
         if (isset($item['separator'])) {
             echo '<li class="menu-separator"><span></span></li>';
@@ -84,7 +87,8 @@ class Menu
                     $target = 'target="_blank"';
                 }
 
-                echo '<a ' . $target . ' href="' . $url . '" class="menu-link ' . (isset($item['submenu']) ? 'menu-toggle' : '') . '">';
+                echo '<a ' . $target . ' href="' . $url . '" class="menu-link ' . (isset($item['submenu'])
+                        ? 'menu-toggle' : '') . '">';
             }
 
             // Menu arrow
@@ -194,12 +198,14 @@ class Menu
      * Header menu
      * @param $item
      * @param null $parent
-     * @param int  $rec
+     * @param int $rec
      */
     public static function renderHorMenu($item, $parent = null, $rec = 0)
     {
         self::checkRecursion($rec);
-        if (!$item) { return 'menu misconfiguration'; }
+        if (!$item) {
+            return 'menu misconfiguration';
+        }
 
         // render separator
         if (isset($item['separator'])) {
@@ -270,7 +276,7 @@ class Menu
             }
 
             if (isset($item['heading']) == false) {
-                echo '<li class="menu-item ' . $item_class . '" ' . $item_attr .  ' aria-haspopup="true">';
+                echo '<li class="menu-item ' . $item_class . '" ' . $item_attr . ' aria-haspopup="true">';
             }
 
             // check if code is provided instead of link
@@ -290,7 +296,8 @@ class Menu
                         $target = 'target="_blank"';
                     }
 
-                    echo '<a '.$target.' href="'.$url.'" class="menu-link '.(isset($item['submenu']) ? 'menu-toggle' : '').'">';
+                    echo '<a ' . $target . ' href="' . $url . '" class="menu-link ' . (isset($item['submenu'])
+                            ? 'menu-toggle' : '') . '">';
                 } else {
                     echo '<h3 class="menu-heading menu-toggle">';
                 }
@@ -391,7 +398,7 @@ class Menu
                             }
                         }
 
-                        echo '<div class="menu-submenu ' . $submenu_class  . '" ' . ($submenu_fixed_width) . '>';
+                        echo '<div class="menu-submenu ' . $submenu_class . '" ' . ($submenu_fixed_width) . '>';
 
                         echo '<div class="menu-subnav">';
                         echo '<ul class="menu-content">';
@@ -402,7 +409,7 @@ class Menu
                                 $item_class .= ' menu-item-open menu-item-here'; // m-menu__item--active
                             }
 
-                            echo '<li class="menu-item '.$item_class.'">';
+                            echo '<li class="menu-item ' . $item_class . '">';
                             if (isset($column['heading'])) {
                                 self::renderHorMenu($column['heading'], null, $rec++);
                             }
@@ -494,7 +501,7 @@ class Menu
         if (Metronic::isSVG($icon)) {
             echo Metronic::getSVG($icon, 'menu-icon');
         } else {
-            echo '<i class="menu-icon '.$icon.'"></i>';
+            echo '<i class="menu-icon ' . $icon . '"></i>';
         }
 
     }

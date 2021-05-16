@@ -11,7 +11,11 @@
                 <tr>
                     <th scope="col" style="width: 30px">#</th>
                     <th scope="col">@lang('model/attribute.label')</th>
-                    <th scope="col" class="d-flex justify-content-end">@lang('common.actions')</th>
+                    <th scope="col">
+                        <span class="d-flex justify-content-end">
+                            @lang('common.actions')
+                        </span>
+                    </th>
                 </tr>
             </x-slot>
             <x-slot name="body">
@@ -21,13 +25,23 @@
                         <td scope="col">{{ $attribute->label }}</td>
                         <td scope="col">
                             <span class="d-flex justify-content-end">
-                                <a href="{{ route('admin.attribute.attributeValue.index', $attribute) }}" class="btn btn-sm btn-light-primary mr-4">
+                                <a
+                                        href="{{ route('admin.attribute.attributeValue.index', $attribute) }}"
+                                        class="btn btn-sm btn-light-primary mr-4"
+                                >
                                     مقادیر ویژگی
                                 </a>
-                                <button wire:click="$emit('attributeSelected', {{ $attribute->id }})"  data-toggle="modal" data-target="#attributeForm" class="btn btn-sm btn-icon btn-light-primary mr-4">
+                                <button
+                                        wire:click="$emit('attributeSelected', {{ $attribute->id }})"
+                                        data-toggle="modal" data-target="#attributeForm"
+                                        class="btn btn-sm btn-icon btn-light-primary mr-4"
+                                >
                                     <i class="flaticon2-edit"></i>
                                 </button>
-                                <button wire:click="$emit('deleteAttribute', {{ $attribute->id }})" class="btn btn-sm btn-icon btn-light-danger">
+                                <button
+                                        wire:click="$emit('deleteAttribute', {{ $attribute->id }})"
+                                        class="btn btn-sm btn-icon btn-light-danger"
+                                >
                                     <i class="flaticon-delete-1"></i>
                                 </button>
                             </span>
@@ -35,7 +49,9 @@
                     </tr>
                 @empty
                     <tr scope="col">
-                        <td colspan="3" class="p-20 text-center">@lang('common.not_found', ['attribute' => 'ویژگی ای'])</td>
+                        <td
+                                colspan="3" class="p-20 text-center"
+                        >@lang('common.not_found', ['attribute' => 'ویژگی ای'])</td>
                     </tr>
                 @endforelse
             </x-slot>
