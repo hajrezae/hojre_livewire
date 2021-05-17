@@ -57,7 +57,7 @@ class CreateProductsAndCategoriesTables extends Migration {
             $table->string('label');
             $table->unsignedBigInteger('parent_id')->default(0);
             $table->longText('description')->nullable();
-            $table->longText('image_url')->nullable();
+            $table->longText('image')->nullable();
             $table->json('meta')->nullable();
             $table->timestamps();
         });

@@ -18,8 +18,7 @@ const rimraf = require('rimraf');
 // // Default
 // mix.js('resources/admin/js/app.js', 'public/js');
 //
-// //Shop
-mix.sass('resources/shop/css/main.scss', 'public/shop/css/main.css');
+
 //
 // // Global jquery
 // mix.autoload({
@@ -36,14 +35,14 @@ mix.sass('resources/shop/css/main.scss', 'public/shop/css/main.css');
 // }).sourceMaps(!mix.inProduction())
 //     // .setResourceRoot('./')
 //     .options({processCssUrls: false}).js(['resources/admin/plugins/plugins.js'], 'public/admin/plugins/global/plugins.bundle.js');
-//
+
 // // Metronic css/js
 // mix.sass('resources/admin/metronic/sass/style.scss', 'public/admin/css/style.bundle.css', {
 //     sassOptions: {includePaths: ['node_modules']},
 // })
-//     // .options({processCssUrls: false})
+//     .options({processCssUrls: false})
 //     .js('resources/admin/js/scripts.js', 'public/admin/js/scripts.bundle.js');
-//
+
 // // Custom 3rd party plugins
 // (glob.sync('resources/admin/plugins/custom/**/*.js') || []).forEach(file => {
 //     mix.js(file, `public/${file.replace('resources/', '').replace('.js', '.bundle.js')}`);

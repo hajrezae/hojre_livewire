@@ -88,8 +88,9 @@ class CreateAttributesTable extends Migration {
             $table->unsignedBigInteger('attribute_id');
             $table->unsignedBigInteger('attribute_value_id');
 
+
             $table->foreign(['product_id', 'variant_id'])->references(['product_id', 'variant_id'])
-                  ->on('product_variants')->cascadeOnDelete();
+                  ->on('product_variants')->cascadeOnDelete()->cascadeOnUpdate();
             $table->foreign(['product_id', 'attribute_id'])->references(['product_id', 'attribute_id'])
                   ->on('product_attributes')->cascadeOnDelete();
             $table->foreign(['attribute_id', 'attribute_value_id'])->references(['attribute_id',

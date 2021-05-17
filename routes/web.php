@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\Product\ProductController;
 use App\Http\Controllers\Admin\Product\TagController;
 use App\Http\Controllers\Admin\User\AddressController;
 use App\Http\Controllers\Admin\User\UserController;
+use App\Http\Controllers\Shop\HomeController;
 use App\Http\Livewire\Admin\Auth\Login;
 use App\Http\Livewire\Admin\Dashboard\DashboardIndex;
 use App\Http\Livewire\Admin\Product\Product\Create;
@@ -65,10 +66,8 @@ Route::prefix($adminRoute)->name('admin.')->group(function () {
 	Route::get('tax', TaxIndex::class)->name('tax.index');
 	Route::get('payment-method', MethodsList::class)->name('payment-method.index');
 });
-
-Route::get('/', function() {
-   return view('shop.pages.first-page');
-});
+// Store Routes
+Route::get('/', [HomeController::class, 'index']);
 
 Route::post('qq', function () {
 

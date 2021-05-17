@@ -11,10 +11,11 @@
                 </div>
                 <div class="col-auto hdr-logo">
                     <a href="index.html" class="logo">
-                        <img
-                                srcset="images/logo.webp 1x, images/logo2x.webp 2x"
-                                alt="Logo"
-                        >
+{{--                        <img--}}
+{{--                                srcset="/shop/images/logo.webp 1x, /shop/images/logo2x.webp 2x"--}}
+{{--                                alt="Logo"--}}
+{{--                        >--}}
+                        <h2 class="m-0">{{ env('APP_NAME') }}</h2>
                     </a>
                 </div>
                 <div class="hdr-phone hide-mobile">
@@ -132,6 +133,76 @@
                     </div>
                     <div class="col hdr-topline-right hide-mobile">
                         <div class="hdr-inline-link">
+                            <div class="dropdn_language">
+                                <div class="dropdn dropdn_language dropdn_language--noimg dropdn_caret">
+                                    <a href="#" class="dropdn-link js-dropdn-link"><span
+                                                class="js-dropdn-select-current"
+                                        >فارسی</span>
+                                        <i
+                                                class="icon-angle-down"
+                                        ></i>
+                                    </a>
+                                    <div class="dropdn-content">
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#">
+                                                    <img
+                                                            src="/shop/images/flags/en.webp"
+                                                            alt=""
+                                                    >
+                                                    فارسی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/shop/images/flags/en.webp" alt="">
+                                                    انگلیسی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/shop/images/flags/de.webp" alt="">
+                                                    آلمانی
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="/shop/images/flags/fr.webp" alt="">
+                                                    فرانسوی
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdn_currency">
+                                <div class="dropdn dropdn_caret">
+                                    <a href="#" class="dropdn-link js-dropdn-link">تومان
+                                        <i
+                                                class="icon-angle-down"
+                                        ></i>
+                                    </a>
+                                    <div class="dropdn-content">
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#">
+                                                    <span>تومان</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span>دلار</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <span>لیر</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="dropdn dropdn_account dropdn_fullheight">
                                 <a href="#" class="dropdn-link js-dropdn-link" data-panel="#dropdnAccount">
                                     <i
@@ -168,7 +239,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen01.webp"
+                                                        src="/shop/images/screen/screen01.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -177,7 +248,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-sport.webp" alt=""
+                                                        src="/shop/images/screen/screen-sport.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -189,7 +260,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-books.webp" alt=""
+                                                        src="/shop/images/screen/screen-books.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -201,7 +272,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-electronics.webp" alt=""
+                                                        src="/shop/images/screen/screen-electronics.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -213,7 +284,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-vaping.webp" alt=""
+                                                        src="/shop/images/screen/screen-vaping.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -221,7 +292,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-pets.webp"
+                                                        src="/shop/images/screen/screen-pets.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -230,7 +301,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-zir.webp" alt=""
+                                                        src="/shop/images/screen/screen-zir.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -238,7 +309,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-games.webp" alt=""
+                                                        src="/shop/images/screen/screen-games.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -246,7 +317,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-halloween.webp" alt=""
+                                                        src="/shop/images/screen/screen-halloween.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -254,7 +325,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-medical.webp" alt=""
+                                                        src="/shop/images/screen/screen-medical.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -262,7 +333,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-food.webp"
+                                                        src="/shop/images/screen/screen-food.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -271,7 +342,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-cosmetics.webp" alt=""
+                                                        src="/shop/images/screen/screen-cosmetics.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -279,7 +350,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-fishing.webp" alt=""
+                                                        src="/shop/images/screen/screen-fishing.webp" alt=""
                                                 ></span>
                                         </li>
                                     </ul>
@@ -293,7 +364,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-cups.webp"
+                                                        src="/shop/images/screen/screen-cups.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -303,7 +374,7 @@
 														زودی</span>
                                             </a>
                                             <span class="submenu-link-image"><img
-                                                        src="images/screen/screen-bikes.webp" alt=""
+                                                        src="/shop/images/screen/screen-bikes.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -313,7 +384,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-tshirts.webp" alt=""
+                                                        src="/shop/images/screen/screen-tshirts.webp" alt=""
                                                 ></span>
                                         </li>
                                         <li>
@@ -321,7 +392,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen02.webp"
+                                                        src="/shop/images/screen/screen02.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -330,7 +401,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen03.webp"
+                                                        src="/shop/images/screen/screen03.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -339,7 +410,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen04.webp"
+                                                        src="/shop/images/screen/screen04.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -348,7 +419,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen05.webp"
+                                                        src="/shop/images/screen/screen05.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -357,7 +428,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen06.webp"
+                                                        src="/shop/images/screen/screen06.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -366,7 +437,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen07.webp"
+                                                        src="/shop/images/screen/screen07.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -375,7 +446,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen08.webp"
+                                                        src="/shop/images/screen/screen08.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -384,7 +455,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen09.webp"
+                                                        src="/shop/images/screen/screen09.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -393,7 +464,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen10.webp"
+                                                        src="/shop/images/screen/screen10.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -402,7 +473,7 @@
                                             <span
                                                     class="submenu-link-image"
                                             ><img
-                                                        src="images/screen/screen-rtl.webp"
+                                                        src="/shop/images/screen/screen-rtl.webp"
                                                         alt=""
                                                 ></span>
                                         </li>
@@ -571,7 +642,7 @@
                                                     <a href="#" class="image-hover-scale">
                                                         <img
                                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                                data-srcset="images/menu/mmenu-bnr-01.webp"
+                                                                data-srcset="/shop/images/menu/mmenu-bnr-01.webp"
                                                                 class="lazyload fade-up" alt=""
                                                         >
                                                     </a>
@@ -792,7 +863,7 @@
                                                     <a href="#" class="image-hover-scale">
                                                         <img
                                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                                                data-srcset="images/menu/mmenu-bnr-02.webp"
+                                                                data-srcset="/shop/images/menu/mmenu-bnr-02.webp"
                                                                 class="lazyload fade-up" alt=""
                                                         >
                                                     </a>
@@ -1150,14 +1221,19 @@
                     </div>
                     <div class="hdr-logo">
                         <a href="index.html" class="logo">
-                            <img
-                                    srcset="images/logo.webp 1x, images/logo2x.webp 2x"
-                                    alt="Logo"
-                            >
+{{--                            <img--}}
+{{--                                    srcset="/shop/images/logo.webp 1x, /shop/images/logo2x.webp 2x"--}}
+{{--                                    alt="Logo"--}}
+{{--                            >--}}
+                            <h2 class="m-0">{{ env('APP_NAME') }}</h2>
                         </a>
                     </div>
                     <div class="col col-lg-8 hdr-links-wrap">
                         <div class="hdr-links">
+                            <div class="hdr-phone">
+                                <i class="icon-phone"></i>
+                                <span>02155667788</span>
+                            </div>
                             <div class="hdr-inline-link">
                                 <div class="search_container_desktop">
                                     <div class="dropdn dropdn_search dropdn_fullwidth">
@@ -1686,6 +1762,80 @@
                     </ul>
                 </div>
                 <div class="mobilemenu-bottom">
+                    <div class="mobilemenu-currency">
+                        <div class="dropdn_currency">
+                            <div class="dropdn dropdn_caret">
+                                <a href="#" class="dropdn-link js-dropdn-link">تومان
+                                    <i
+                                            class="icon-angle-down"
+                                    ></i>
+                                </a>
+                                <div class="dropdn-content">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="#">
+                                                <span>تومان</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>دلار</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>لیر</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobilemenu-language">
+                        <div class="dropdn_language">
+                            <div class="dropdn dropdn_language dropdn_language--noimg dropdn_caret">
+                                <a href="#" class="dropdn-link js-dropdn-link"><span
+                                            class="js-dropdn-select-current"
+                                    >فارسی</span>
+                                    <i
+                                            class="icon-angle-down"
+                                    ></i>
+                                </a>
+                                <div class="dropdn-content">
+                                    <ul>
+                                        <li class="active">
+                                            <a href="#">
+                                                <img
+                                                        src="/shop/images/flags/en.webp"
+                                                        alt=""
+                                                >
+                                                فارسی
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="/shop/images/flags/en.webp" alt="">
+                                                انگلیسی
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="/shop/images/flags/de.webp" alt="">
+                                                آلمانی
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="/shop/images/flags/fr.webp" alt="">
+                                                فرانسوی
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1749,7 +1899,7 @@
                             <img
                                     class="lazyload fade-up"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/skins/fashion/products/product-01-1.webp" alt=""
+                                    data-src="/shop/images/skins/fashion/products/product-01-1.webp" alt=""
                             >
                         </a>
                     </div>
@@ -1781,7 +1931,7 @@
                             <img
                                     class="lazyload fade-up"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-src="images/skins/fashion/products/product-16-1.webp" alt=""
+                                    data-src="/shop/images/skins/fashion/products/product-16-1.webp" alt=""
                             >
                         </a>
                     </div>

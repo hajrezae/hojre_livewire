@@ -22,8 +22,8 @@ class General extends Component {
 
     public function mount()
     {
-        $this->shop_name = ShopOption::firstWhere('option_name', 'shop_name')->option_value;
-        $this->admin_url = ShopOption::firstWhere('option_name', 'admin_url')->option_value;
+        $this->shop_name = ShopOption::firstWhere('option_name', 'shop_name')->option_value ?? null;
+        $this->admin_url = ShopOption::firstWhere('option_name', 'admin_url')->option_value ?? null;
     }
 
     public function render()

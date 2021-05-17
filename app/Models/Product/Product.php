@@ -28,6 +28,13 @@ class Product extends Model {
         return Persian::Number(number_format($this->discount_price));
     }
 
+    public function discountPercent()
+    {
+        if($this->discount_price != null) {
+            return (($this->price - $this->discount_price) / $this->price) * 100;
+        }
+    }
+
     public function isAvailable()
     {
         if ($this->manage_stock == 0) return 2;

@@ -34,9 +34,7 @@
                     </div>
                 </div>
             @endforeach
-
         </div>
-
         <div
                 wire:loading.class.remove="d-none"
                 class="overlay-layer bg-dark-o-10 d-none rounded-lg"
