@@ -1,7 +1,7 @@
 @extends('shop.layouts.main')
 
 @section('content')
-    <div class="holder mt-0 py-3 py-lg-4 bg-fullheight">
+    <div class="holder mt-0 py-3 py-lg-4">
         <div class="container">
             <div class="search-full">
                 <form action="#">
@@ -16,14 +16,17 @@
     <div class="holder holder-mt-xsmall">
         <div class="container">
             <div class="title-wrap text-center">
-                <h2 class="h1-style">دسته بندی</h2>
+                <h2 class="h1-style">دسته بندی ها</h2>
             </div>
             <x-shop.product.collectionGrid :categories="null" />
         </div>
     </div>
     <div class="holder">
+        <div class="container mb-4">
+            <hr>
+        </div>
         <div class="container">
-            <x-shop.product.product-slider :products="\App\Models\Product\Product::all()"/>
+            <x-shop.product.product-slider title="جدید ترین محصولات" :products="\App\Models\Product\Product::take(10)->get()" />
         </div>
     </div>
     <div class="holder">

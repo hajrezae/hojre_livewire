@@ -4,14 +4,9 @@
     <form wire:submit.prevent="saveSettings">
         <div class="row">
             <div class="col-12 col-md-4">
-                <x-admin.form.input wire:model.defer="shop_name" label="اسم فروشگاه"/>
+                <x-admin.form.input class="form-control-lg" row wire:model.defer="shop_name" label="اسم فروشگاه"/>
             </div>
-            <div class="col-12 col-md-4">
-                <x-admin.form.input wire:model.defer="admin_url" label="آدرس پنل ادمین" />
-            </div>
-            <div class="col-12 col-md-4">
-                <x-admin.form.input wire:model.defer="admin_url" label="آدرس پنل ادمین" />
-            </div>
+
         </div>
 
     </form>

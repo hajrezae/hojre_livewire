@@ -1,12 +1,4 @@
 /node_modules
-/public/css
-/public/js
-/public/media
-/public/plugins
-/public/images
-/public/admin
-/public/public
-/public/shop
 /storage/*.key
 /vendor
 .env

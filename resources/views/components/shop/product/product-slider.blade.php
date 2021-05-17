@@ -1,159 +1,79 @@
-@props(['products'])
+@props(['products', 'title'])
 <div class="title-wrap text-center">
-    <h2 class="h1-style">محصولات ویژه</h2>
-    <div class="carousel-arrows"></div>
+    <h2 class="h-lg-style">{{ $title }}</h2>
 </div>
-<div
-        class="prd-grid prd-carousel js-prd-carousel data-to-show-4 data-to-show-md-2 data-to-show-sm-2 data-to-show-xs-2 js-product-grid-sm"
->
-    @foreach($products as $product)
-        <div class="prd ">
-            <div class="prd-inside">
-                <div class="prd-img-area">
-                    <a
-                            href="{{ $product->product_url }}" class="prd-img image-hover-scale image-container"
-                            style="padding-bottom: 128.48%"
-                    >
-                        <img
-                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                data-src="{{ $product->image_url }}" alt="Legging Red/Black"
-                                class="js-prd-img lazyload"
+<div class="prd-grid-wrap position-relative">
+    <div
+            class="prd-grid data-to-show-5 data-to-show-lg-4 data-to-show-md-3 data-to-show-sm-2 data-to-show-xs-2 js-category-grid"
+    >
+        @foreach($products as $product)
+            <div class="prd prd--style2 prd-labels--max prd-labels-shadow ">
+                <div class="prd-inside">
+                    <div class="prd-img-area">
+                        <a
+                                href="{{ route('shop.product', $product) }}"
+                                class="prd-img image-hover-scale image-container"
                         >
-                        <div class="foxic-loader"></div>
-                        @if($product->discount_price != null)
-                            <div class="prd-big-circle-labels">
-                                <div class="label-sale">
-                                    <span class="font-weight-boldest">{{ $product->discountPercent() }} %</span>
+                            <img
+                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                    data-src="{{ $product->image_url }}" alt="کتاب 23"
+                                    class="js-prd-img lazyload fade-up"
+                            >
+                            <div class="foxic-loader"></div>
+                            <div class="prd-big-squared-labels">
+                                <div class="label-new">
+                                    <span>جدید</span>
+                                </div>
+                                @if($product->discount_price)
+                                    <div class="label-new bg-danger">
+                                        <span>{{ $product->discountPercent() }}</span>
+                                    </div>
+                                @endif
+                            </div>
+                        </a>
+                        <div class="prd-circle-labels">
+                            <a
+                                    href="#"
+                                    class="circle-label-compare circle-label-wishlist--add js-add-wishlist mt-0"
+                                    title="افزودن به لیست علاقه مندی"
+                            >
+                                <i class="icon-heart-stroke"></i>
+                            </a>
+                            <a
+                                    href="#"
+                                    class="circle-label-compare circle-label-wishlist--off js-remove-wishlist mt-0"
+                                    title="حذف از لیست علاقه مندی"
+                            >
+                                <i class="icon-heart-hover"></i>
+                            </a>
+                            <a
+                                    href="#" class="circle-label-qview js-prd-quickview prd-hide-mobile"
+                                    data-src="ajax/ajax-quickview.html"
+                            >
+                                <i class="icon-eye"></i>
+                                <span>مشاهده
+												سریع</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="prd-info">
+                        <div class="prd-info-wrap">
+                            <div class="prd-info-top">
+                                <div class="prd-rating">
+                                    <i class="icon-star-fill fill"></i>
+                                    <i
+                                            class="icon-star-fill fill"
+                                    ></i>
+                                    <i
+                                            class="icon-star-fill fill"
+                                    ></i>
+                                    <i
+                                            class="icon-star-fill fill"
+                                    ></i>
+                                    <i class="icon-star-fill fill"></i>
                                 </div>
                             </div>
-                        @endif
-                    </a>
-                    <div class="prd-circle-labels">
-                        <a
-                                href="#"
-                                class="circle-label-compare circle-label-wishlist--add js-add-wishlist mt-0"
-                                title="افزودن به لیست علاقه مندی"
-                        >
-                            <i class="icon-heart-stroke"></i>
-                        </a>
-                        <a
-                                href="#"
-                                class="circle-label-compare circle-label-wishlist--off js-remove-wishlist mt-0"
-                                title="حذف از لیست علاقه مندی"
-                        >
-                            <i class="icon-heart-hover"></i>
-                        </a>
-                        <a
-                                href="#" class="circle-label-qview js-prd-quickview"
-                                data-src="ajax/ajax-quickview.html"
-                        >
-                            <i class="icon-eye"></i>
-                            <span>مشاهده
-											سریع</span>
-                        </a>
-                        <div class="colorswatch-label colorswatch-label--variants js-prd-colorswatch">
-                            <i class="icon-palette">
-                                <span class="path1"></span>
-                                <span
-                                        class="path2"
-                                ></span>
-                                <span class="path3"></span>
-                                <span
-                                        class="path4"
-                                ></span>
-                                <span class="path5"></span>
-                                <span
-                                        class="path6"
-                                ></span>
-                                <span class="path7"></span>
-                                <span
-                                        class="path8"
-                                ></span>
-                                <span class="path9"></span>
-                                <span
-                                        class="path10"
-                                ></span>
-                            </i>
-                            @if($product->attributes()->firstWhere('name', 'color'))
-                                <ul>
-                                    @foreach($product->attributeValues as $attributeValue)
-                                        <li>
-                                            <a
-                                                    style="background-color: {{ $attributeValue->color }}"
-                                                    class="js-color-toggle" data-toggle="tooltip" data-placement="right"
-                                                    title="{{ $attributeValue->label }}"
-                                            >
-                                            </a>
-                                        </li>
-                                    @endforeach
-                                </ul>
-                            @endif
-                        </div>
-                    </div>
-                    {{--                    <ul class="list-options color-swatch">--}}
-                    {{--                        <li data-image="/shop/images/products/product-01.webp" class="active">--}}
-                    {{--                            <a--}}
-                    {{--                                    href="#"--}}
-                    {{--                                    class="js-color-toggle" data-toggle="tooltip" data-placement="left"--}}
-                    {{--                                    title="نام رنگ"--}}
-                    {{--                            >--}}
-                    {{--                                <img--}}
-                    {{--                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="--}}
-                    {{--                                        data-src="/shop/images/products/product-01.webp"--}}
-                    {{--                                        class="lazyload fade-up"--}}
-                    {{--                                        alt="Color Name"--}}
-                    {{--                                >--}}
-                    {{--                            </a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li data-image="/shop/images/products/product-01-1.webp">--}}
-                    {{--                            <a--}}
-                    {{--                                    href="#"--}}
-                    {{--                                    class="js-color-toggle" data-toggle="tooltip" data-placement="left"--}}
-                    {{--                                    title="نام رنگ"--}}
-                    {{--                            >--}}
-                    {{--                                <img--}}
-                    {{--                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="--}}
-                    {{--                                        data-src="/shop/images/products/product-01-1.webp"--}}
-                    {{--                                        class="lazyload fade-up"--}}
-                    {{--                                        alt="Color Name"--}}
-                    {{--                                >--}}
-                    {{--                            </a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li data-image="/shop/images/products/product-01-2.webp">--}}
-                    {{--                            <a--}}
-                    {{--                                    href="#"--}}
-                    {{--                                    class="js-color-toggle" data-toggle="tooltip" data-placement="left"--}}
-                    {{--                                    title="نام رنگ"--}}
-                    {{--                            >--}}
-                    {{--                                <img--}}
-                    {{--                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="--}}
-                    {{--                                        data-src="/shop/images/products/product-01-2.webp"--}}
-                    {{--                                        class="lazyload fade-up"--}}
-                    {{--                                        alt="Color Name"--}}
-                    {{--                                >--}}
-                    {{--                            </a>--}}
-                    {{--                        </li>--}}
-                    {{--                        <li data-image="/shop/images/products/product-01-3.webp">--}}
-                    {{--                            <a--}}
-                    {{--                                    href="#"--}}
-                    {{--                                    class="js-color-toggle" data-toggle="tooltip" data-placement="left"--}}
-                    {{--                                    title="نام رنگ"--}}
-                    {{--                            >--}}
-                    {{--                                <img--}}
-                    {{--                                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="--}}
-                    {{--                                        data-src="/shop/images/products/product-01-3.webp"--}}
-                    {{--                                        class="lazyload fade-up"--}}
-                    {{--                                        alt="Color Name"--}}
-                    {{--                                >--}}
-                    {{--                            </a>--}}
-                    {{--                        </li>--}}
-                    {{--                    </ul>--}}
-                </div>
-                <div class="prd-info">
-                    <div class="prd-info-wrap">
-                        <div class="prd-info-top">
-                            <div class="prd-rating">
-                                <i class="icon-star-fill fill"></i>
+                            <div class="prd-rating justify-content-center">
                                 <i
                                         class="icon-star-fill fill"
                                 ></i>
@@ -162,91 +82,93 @@
                                         class="icon-star-fill fill"
                                 ></i>
                                 <i class="icon-star-fill fill"></i>
+                                <i
+                                        class="icon-star-fill fill"
+                                ></i>
                             </div>
                             <div class="prd-tag">
-                                <a href="#">هجره</a>
+                                <a href="#">{{ env('APP_NAME') }}</a>
                             </div>
-                        </div>
-                        <h2 class="prd-title">
-                            <a href="product.html">{{ $product->name ?? "-" }}
-                            </a>
-                        </h2>
-                        <div class="prd-description">
-                            {{ $product->short_description }}
-                        </div>
-                    </div>
-                    <div class="prd-hovers">
-                        <div class="prd-circle-labels">
-                            <div>
-                                <a
-                                        href="#"
-                                        class="circle-label-compare circle-label-wishlist--add js-add-wishlist mt-0"
-                                        title="افزودن به لیست علاقه مندی"
-                                >
-                                    <i
-                                            class="icon-heart-stroke"
-                                    ></i>
-                                </a>
-                                <a
-                                        href="#"
-                                        class="circle-label-compare circle-label-wishlist--off js-remove-wishlist mt-0"
-                                        title="حذف از لیست علاقه مندی"
-                                >
-                                    <i class="icon-heart-hover"></i>
-                                </a>
+                            <h2 class="prd-title" style="min-height: 60px">
+                                <a href="{{ route('shop.product', $product) }}">{{ $product->name ?? '-' }}</a>
+                            </h2>
+                            <div class="prd-description">
+                                {{ $product->short_description }}
                             </div>
-                            <div>
-                                <a
-                                        href="#" class="circle-label-qview prd-hide-mobile js-prd-quickview"
-                                        data-src="ajax/ajax-quickview.html"
-                                >
-                                    <i class="icon-eye"></i>
-                                    <span>مشاهده
-													سریع</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="prd-price">
-                            <div class="price-old">{{ $product->getRegularPrice() }} تومان</div>
-                            <div class="price-new text-danger">{{ $product->getDiscountPrice() }} تومان</div>
-                        </div>
-                        <div class="prd-action">
-                            <div class="prd-action-left">
+                            <div class="prd-action">
                                 <form action="#">
                                     <button
                                             class="btn js-prd-addtocart"
-                                            data-product='{"name": "ساق بلند قرمز / مشکی", "path":"/shop/images/products/product-01.webp", "url":"product.html", "aspect_ratio":0.778}'
+                                            data-product='{"name": "{{ $product->name }}", "path":"images/skins/books/products/product-23.webp", "url":"product.html", "aspect_ratio":0.778}'
                                     >افزودن
                                      به سبد خرید
                                     </button>
                                 </form>
                             </div>
-                            <div class="prd-action-right">
-                                <div class="prd-action-right-inside">
-                                    <div class="prd-tag">
-                                        <a href="#">هجره</a>
-                                    </div>
-                                    <div class="prd-rating">
-                                        <i class="icon-star-fill fill"></i>
+                        </div>
+                        <div class="prd-hovers">
+                            <div class="prd-circle-labels">
+                                <div>
+                                    <a
+                                            href="#"
+                                            class="circle-label-compare circle-label-wishlist--add js-add-wishlist mt-0"
+                                            title="افزودن به لیست علاقه مندی"
+                                    >
                                         <i
-                                                class="icon-star-fill fill"
+                                                class="icon-heart-stroke"
                                         ></i>
+                                    </a>
+                                    <a
+                                            href="#"
+                                            class="circle-label-compare circle-label-wishlist--off js-remove-wishlist mt-0"
+                                            title="حذف از لیست علاقه مندی"
+                                    >
+                                        <i class="icon-heart-hover"></i>
+                                    </a>
+                                </div>
+                                <div class="prd-hide-mobile">
+                                    <a
+                                            href="#"
+                                            class="circle-label-qview js-prd-quickview"
+                                            data-src="ajax/ajax-quickview.html"
+                                    >
                                         <i
-                                                class="icon-star-fill fill"
+                                                class="icon-eye"
                                         ></i>
-                                        <i
-                                                class="icon-star-fill fill"
-                                        ></i>
-                                        <i
-                                                class="icon-star-fill fill"
-                                        ></i>
-                                    </div>
+                                        <span>مشاهده سریع</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="prd-price">
+                                @if($product->discount_price)
+                                    <div class="price-old text-danger">{{ $product->getRegularPrice() }} تومان</div>
+                                    <div class="price-new text-success">{{ $product->getDiscountPrice() }} تومان</div>
+
+                                @else
+                                    @if($product->price == null || $product->price == 0)
+                                        <div class="price-new text-success">رایگان</div>
+                                    @else
+                                        <div class="price-new">{{ $product->getRegularPrice() }} تومان</div>
+                                    @endif
+                                @endif
+
+                            </div>
+                            <div class="prd-action">
+                                <div class="prd-action-left">
+                                    <form action="#">
+                                        <button
+                                                class="btn js-prd-addtocart"
+                                                data-product='{"name": "{{ $product->name }}", "path":"{{ $product->image_url }}p", "url":"product.html", "aspect_ratio":0.778}'
+                                        >افزودن
+                                         به سبد خرید
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    @endforeach
+        @endforeach
+    </div>
 </div>

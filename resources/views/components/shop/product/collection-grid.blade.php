@@ -2,7 +2,7 @@
 <div class="collection-grid-2">
     @foreach($categories as $category)
         <div class="collection-grid-2-item col-9 col-md-quarter col-lg-3">
-            <a href="{{ $category->name }}" class="bnr-wrap collection-grid-2-item-inside">
+            <a href="{{ route('shop.category', $category) }}" class="bnr-wrap collection-grid-2-item-inside">
                 <div
                         class="collection-grid-2-img image-hover-scale image-container"
                         style="padding-bottom: 77.78%"

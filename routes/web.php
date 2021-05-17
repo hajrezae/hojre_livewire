@@ -20,6 +20,8 @@ use App\Http\Livewire\Admin\Shop\Setting\SettingIndex;
 use App\Http\Livewire\Admin\Shop\Supplier\SupplierIndex;
 use App\Http\Livewire\Admin\Shop\Tax\TaxIndex;
 use App\Http\Livewire\Admin\User\Role\RoleIndex;
+use App\Http\Livewire\Shop\Category\CategoryIndex;
+use App\Http\Livewire\Shop\Product\SingleProduct;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,38 +38,41 @@ $adminRoute = \App\Models\ShopOption::firstWhere('option_name', 'admin_url')->op
 //Admin Routes
 Route::prefix($adminRoute)->name('admin.')->group(function () {
 
-	//Dashboard Route
-	Route::get('dashboard', DashboardIndex::class)->name('dashboard');
+    //Dashboard Route
+    Route::get('dashboard', DashboardIndex::class)->name('dashboard');
 
-	//Shop Setting
-	Route::get('shop/setting', SettingIndex::class)->name('shop.setting');
+    //Shop Setting
+    Route::get('shop/setting', SettingIndex::class)->name('shop.setting');
 
-	//Auth Routes
-	Route::get('auth/login', Login::class)->name('auth.login');
-	//User Routes
-	Route::resource('user', UserController::class);
-	Route::get('role', RoleIndex::class)->name('role.index');
-	Route::resource('user.address', AddressController::class);
+    //Auth Routes
+    Route::get('auth/login', Login::class)->name('auth.login');
+    //User Routes
+    Route::resource('user', UserController::class);
+    Route::get('role', RoleIndex::class)->name('role.index');
+    Route::resource('user.address', AddressController::class);
 
-	//Product Routes
-	Route::get('product', Index::class)->name('product.index');
-	Route::get('product/create', [ProductController::class, 'create'])->name('product.create');
-	Route::get('product/{product}/edit', Edit::class)->name('product.edit');
+    //Product Routes
+    Route::get('product', Index::class)->name('product.index');
+    Route::get('product/create', [ProductController::class, 'create'])->name('product.create');
+    Route::get('product/{product}/edit', Edit::class)->name('product.edit');
 
-	Route::resource('category', CategoryController::class);
-	Route::resource('attribute', AttributeController::class);
-	Route::resource('attribute.attributeValue', AttributeValueController::class);
-	Route::resource('tag', TagController::class);
+    Route::resource('category', CategoryController::class);
+    Route::resource('attribute', AttributeController::class);
+    Route::resource('attribute.attributeValue', AttributeValueController::class);
+    Route::resource('tag', TagController::class);
 
-	//Shop Routes
-	Route::get('supplier', SupplierIndex::class)->name('supplier.index');
-	Route::get('discount', DiscountIndex::class)->name('discount.index');
-	Route::get('coupon', CouponIndex::class)->name('coupon.index');
-	Route::get('tax', TaxIndex::class)->name('tax.index');
-	Route::get('payment-method', MethodsList::class)->name('payment-method.index');
+    //Shop Routes
+    Route::get('supplier', SupplierIndex::class)->name('supplier.index');
+    Route::get('discount', DiscountIndex::class)->name('discount.index');
+    Route::get('coupon', CouponIndex::class)->name('coupon.index');
+    Route::get('tax', TaxIndex::class)->name('tax.index');
+    Route::get('payment-method', MethodsList::class)->name('payment-method.index');
 });
 // Store Routes
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('homepage');
+Route::get('/category/{category:slug}', CategoryIndex::class)->name('shop.category');
+Route::get('/product/{product:slug}', SingleProduct::class)->name('shop.product');
+
 
 Route::post('qq', function () {
 

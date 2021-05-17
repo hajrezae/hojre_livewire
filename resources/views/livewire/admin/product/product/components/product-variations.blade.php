@@ -23,6 +23,7 @@
                                 aria-expanded="false"
                         >
                             <i class="flaticon2-grids"></i>
+                            {{ $loop->iteration }}
                             @foreach($variant as $variantValue)
                                 {{ $variantValue->attributeValue->label }} @if(!$loop->last) +  @endif
                             @endforeach

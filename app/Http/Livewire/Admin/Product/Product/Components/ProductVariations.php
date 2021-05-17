@@ -26,11 +26,16 @@ class ProductVariations extends Component {
         foreach ($combinations as $i => $combination) {
             $attributeNumbers = count($combination);
             $attributeValueIds = collect($combination)->pluck('id');
+            if($attributeNumbers == 1) {
+                $this->product->variants()->whereNotIn('variant_id', $oldVariants)->delete();
+                VariantValue::where('product_id', $this->product->id)->whereNotIn('variant_id', $oldVariants)->delete();
+                break;
+            }
             $variants = VariantValue::where('product_id', $this->product->id)->whereIn('attribute_value_id',
                 $attributeValueIds)->get()->groupBy('variant_id');
 
             foreach ($variants as $variantkey => $variant) {
-                if (count($variant) == $attributeNumbers) {
+                if (count($variant) == $attributeNumbers || count($variant) > $attributeNumbers) {
                     $oldVariants[] = $variantkey;
                     unset($combinations[$i]);
                 }
@@ -42,7 +47,12 @@ class ProductVariations extends Component {
         $this->product->variants()->whereNotIn('variant_id', $oldVariants)->delete();
         VariantValue::where('product_id', $this->product->id)->whereNotIn('variant_id', $oldVariants)->delete();
 
-        $lastId = $this->product->variants()->orderBy('variant_id', 'desc')->first()->variant_id;
+        $this->product->refresh();
+        if($this->product->variants->isNotEmpty()) {
+            $lastId = $this->product->variants()->orderBy('variant_id', 'desc')->first()->variant_id;
+        }else {
+            $lastId = 0;
+        }
 
         $insertingId = $lastId + 1;
         foreach ($combinations as $i => $combination) {
@@ -57,19 +67,21 @@ class ProductVariations extends Component {
             $insertingId++;
         }
 
-        $this->productVariants = VariantValue::where('product_id', $this->product->id)->with(['attributeValue'])->get();
+        $this->productVariants = VariantValue::where('product_id', $this->product->id)->with(['attributeValue'])
+                                             ->orderBy('attribute_value_id')->get();
         $this->productVariants = collect($this->productVariants)->groupBy('variant_id');
+        $this->emit('$refresh');
     }
 
     public function mount()
     {
-        $this->productVariants = VariantValue::where('product_id', $this->product->id)->with(['attributeValue'])->get();
+        $this->productVariants = VariantValue::where('product_id', $this->product->id)->with(['attributeValue'])
+            ->orderBy('attribute_value_id')->get();
         $this->productVariants = collect($this->productVariants)->groupBy('variant_id');
     }
 
     public function render()
     {
-
         return view('livewire.admin.product.product.components.product-variations');
     }
 }

@@ -9,6 +9,7 @@ use App\Models\User;
 use App\Models\User\Address;
 use Database\Factories\ShopOptionFactory;
 use Database\Seeders\Product\AttributeSeeder;
+use Database\Seeders\Product\ProductSeeder;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
@@ -21,7 +22,8 @@ class DatabaseSeeder extends Seeder {
 
 		$this->call([
 			\Database\Seeders\User::class,
-			AttributeSeeder::class
+			AttributeSeeder::class,
+            ProductSeeder::class
 		]);
 		ShopOption::factory()->create(['option_name'  => 'currency','option_value' => 'toman']);
 		Supplier::factory()->count(50)->create();

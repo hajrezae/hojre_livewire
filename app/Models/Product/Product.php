@@ -28,6 +28,11 @@ class Product extends Model {
         return Persian::Number(number_format($this->discount_price));
     }
 
+    public function priceDiff()
+    {
+        return Persian::Number(number_format($this->price - $this->discount_price));
+    }
+
     public function discountPercent()
     {
         if($this->discount_price != null) {

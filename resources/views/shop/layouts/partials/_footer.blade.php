@@ -148,12 +148,7 @@
                 <div class="col-sm footer-bottom-col-left">
                     <div class="footer-logo">
                         <a href="index.html">
-                            <img
-                                    class="lazyload fade-up"
-                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                                    data-srcset="/shop/images/logo-footer.webp 1x, /shop/images/logo-footer2x.webp 2x"
-                                    alt="Logo"
-                            >
+                            <a href="{{ route('homepage') }}"><h1>هجره</h1></a>
                         </a>
                     </div>
                 </div>

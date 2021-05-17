@@ -10,6 +10,7 @@ class Index extends Component {
 	use WithPagination;
 
 	public $listeners = ['deleteProduct'];
+	protected $paginationTheme = 'bootstrap';
 
 	//Actions
     public function deleteProduct($productId)
