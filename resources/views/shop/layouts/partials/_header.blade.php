@@ -762,7 +762,7 @@
                         </a>
                     </div>
                     <div class="col col-lg-8 hdr-links-wrap">
-                        <div class="hdr-links d-block">
+                        <div class="hdr-links">
                             <div class="hdr-inline-link">
                                 <div class="search_container_desktop">
                                     <div class="dropdn dropdn_search dropdn_fullwidth">

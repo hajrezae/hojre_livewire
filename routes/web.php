@@ -34,9 +34,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-$adminRoute = \App\Models\ShopOption::firstWhere('option_name', 'admin_url')->option_value ?? 'admin';
+//$adminRoute = \App\Models\ShopOption::firstWhere('option_name', 'admin_url')->option_value ?? 'admin';
 //Admin Routes
-Route::prefix($adminRoute)->name('admin.')->group(function () {
+Route::get('admin/auth/login', Login::class)->name('admin.auth.login');
+Route::get('admin/auth/logout', function () {
+    auth()->logout();
+    session()->invalidate();
+    return redirect()->route('admin.auth.login');
+})->name('admin.auth.logout');
+
+Route::prefix('admin')->middleware(['auth'])->name('admin.')->group(function () {
 
     //Dashboard Route
     Route::get('dashboard', DashboardIndex::class)->name('dashboard');
@@ -45,7 +52,6 @@ Route::prefix($adminRoute)->name('admin.')->group(function () {
     Route::get('shop/setting', SettingIndex::class)->name('shop.setting');
 
     //Auth Routes
-    Route::get('auth/login', Login::class)->name('auth.login');
     //User Routes
     Route::resource('user', UserController::class);
     Route::get('role', RoleIndex::class)->name('role.index');

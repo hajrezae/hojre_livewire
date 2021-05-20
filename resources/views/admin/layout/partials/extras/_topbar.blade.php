@@ -14,7 +14,7 @@
                 {{-- Toggle --}}
                 <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
                     <div class="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
-                       {{ Metronic::getSVG("admin/media/svg/icons/General/Search.svg", "svg-icon-xl svg-icon-primary") }}
+                        {{ Metronic::getSVG("admin/media/svg/icons/General/Search.svg", "svg-icon-xl svg-icon-primary") }}
                     </div>
                 </div>
 
@@ -84,7 +84,7 @@
     @if (config('layout.extras.cart.display'))
         <div class="dropdown">
             {{-- Toggle --}}
-            <div class="topbar-item"  data-toggle="dropdown" data-offset="10px,0px">
+            <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
                 <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
                     {{ Metronic::getSVG("admin/media/svg/icons/Shopping/Cart3.svg", "svg-icon-xl svg-icon-primary") }}
                 </div>
@@ -113,7 +113,10 @@
         <div class="dropdown">
             <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
                 <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
-                    <img class="h-20px w-20px rounded-sm" src="{{ asset('admin/media/svg/flags/226-united-states.svg') }}" alt=""/>
+                    <img
+                            class="h-20px w-20px rounded-sm"
+                            src="{{ asset('admin/media/svg/flags/226-united-states.svg') }}" alt=""
+                    />
                 </div>
             </div>
 
@@ -123,13 +126,24 @@
         </div>
     @endif
 
+    @auth()
+        <div class="topbar-item">
+            <a href="{{ route('admin.auth.logout') }}" class="btn btn-light-danger mr-4" id="logout-button">
+                <id class="flaticon-logout mr-2"></id>
+                خروج
+            </a>
+        </div>
+    @endauth
     {{-- User --}}
     @if (config('layout.extras.user.display'))
         @if (config('layout.extras.user.layout') == 'offcanvas')
             <div class="topbar-item">
-                <div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2" id="kt_quick_user_toggle">
-                    <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
-                    <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">Sean</span>
+                <div
+                        class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2"
+                        id="kt_quick_user_toggle"
+                >
+                    <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">سلام,</span>
+                    <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{ auth()->user()->username }}</span>
                     <span class="symbol symbol-35 symbol-light-success">
                         <span class="symbol-label font-size-h5 font-weight-bold">S</span>
                     </span>
@@ -140,8 +154,8 @@
                 {{-- Toggle --}}
                 <div class="topbar-item" data-toggle="dropdown" data-offset="0px,0px">
                     <div class="btn btn-icon w-auto btn-clean d-flex align-items-center btn-lg px-2">
-                        <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">Hi,</span>
-                        <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">Sean</span>
+                        <span class="text-muted font-weight-bold font-size-base d-none d-md-inline mr-1">سلام,</span>
+                        <span class="text-dark-50 font-weight-bolder font-size-base d-none d-md-inline mr-3">{{ auth()->user()->username }}</span>
                         <span class="symbol symbol-35 symbol-light-success">
                             <span class="symbol-label font-size-h5 font-weight-bold">S</span>
                         </span>
