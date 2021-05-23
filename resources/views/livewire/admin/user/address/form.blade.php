@@ -1,4 +1,10 @@
 <x-admin.card.simple title="{{ $action == 'create' ? 'افزودن آدرس کاربر' :  'در حال ویرایش آدرس : ' . $address->name}}" icon="{{ $action == 'create' ? 'flaticon-plus': 'flaticon-edit'}}" class="mb-5">
+    <x-slot name="toolbar">
+        <a href="{{ route('admin.user.edit', $user) }}" class="btn btn-light-warning">
+            <i class="fas fa-arrow-alt-circle-right"></i>
+            بازگشت به کاربر
+        </a>
+    </x-slot>
     <x-slot name="body">
         <div class="form-row">
             <div class="col-12">

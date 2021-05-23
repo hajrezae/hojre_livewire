@@ -37,6 +37,7 @@
                                                     src="{{ $product->image_url ? asset( $product->image_url) : null}}"
                                                     class="bg-light rounded-sm" width="100px" height="100px"
                                                     alt="product-image"
+                                                    style="object-fit: cover"
                                             >
                                         @else
                                             <div

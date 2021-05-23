@@ -26,6 +26,12 @@ class Login extends Component {
             $user = User::where('phone', $this->phone)
                         ->orWhere('username', $this->phone)
                         ->first();
+
+
+            if (!$user->roles->pluck('name')->contains('admin')) return $this->dispatchBrowserEvent('login_failed',
+                ['message' =>
+                     'اجازه ورود به این قسمت را ندارید']);
+
             session()->regenerate();
             Auth::login($user);
 

@@ -27,7 +27,7 @@
 					{{ auth()->user()->username }}
 				</a>
                 <div class="text-muted mt-1">
-                    {{ auth()->user()->roles->isNotEmpty() ? auth()->user()->roles : 'مشتری' }}
+                    {{ auth()->user()->roles->isNotEmpty() ? auth()->user()->roles->pluck('label')->join(',') : 'مشتری' }}
                 </div>
                 <div class="navi mt-2">
                     <a href="#" class="navi-item">

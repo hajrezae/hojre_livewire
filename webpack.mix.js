@@ -3,6 +3,7 @@ const glob = require('glob');
 const path = require('path');
 const ReplaceInFileWebpackPlugin = require('replace-in-file-webpack-plugin');
 const rimraf = require('rimraf');
+
 //
 // /*
 //  |--------------------------------------------------------------------------
@@ -36,7 +37,7 @@ const rimraf = require('rimraf');
 //     // .setResourceRoot('./')
 //     .options({processCssUrls: false}).js(['resources/admin/plugins/plugins.js'], 'public/admin/plugins/global/plugins.bundle.js');
 
-// // Metronic css/js
+// Metronic css/js
 // mix.sass('resources/admin/metronic/sass/style.scss', 'public/admin/css/style.bundle.css', {
 //     sassOptions: {includePaths: ['node_modules']},
 // })
@@ -131,3 +132,11 @@ const rimraf = require('rimraf');
 // });
 //
 //
+
+
+//Shop Section Scripts
+mix.js("resources/shop/js/app.js", "public/shop/js")
+    .postCss("resources/shop/css/app.css", "public/shop/css",[
+        require('tailwindcss')
+    ]);
+

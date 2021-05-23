@@ -1,26 +1,4 @@
 {
-    "/shop/js/addthis_widget.js": "/shop/js/addthis_widget.js",
-    "/shop/css/main.css": "/shop/css/main.css",
     "/shop/js/app.js": "/shop/js/app.js",
-    "/shop/js/app-html.js": "/shop/js/app-html.js",
-    "/shop/js/app-html-ltr.js": "/shop/js/app-html-ltr.js",
-    "/shop/js/ltr/app.js": "/shop/js/ltr/app.js",
-    "/shop/js/ltr/app-html.js": "/shop/js/ltr/app-html.js",
-    "/shop/js/ltr/vendor-special/isotope.pkgd.min.js": "/shop/js/ltr/vendor-special/isotope.pkgd.min.js",
-    "/shop/js/ltr/vendor-special/jquery.ez-plus.js": "/shop/js/ltr/vendor-special/jquery.ez-plus.js",
-    "/shop/js/ltr/vendor-special/jquery.min.js": "/shop/js/ltr/vendor-special/jquery.min.js",
-    "/shop/js/ltr/vendor-special/lazysizes.min.js": "/shop/js/ltr/vendor-special/lazysizes.min.js",
-    "/shop/js/ltr/vendor-special/ls.aspectratio.min.js": "/shop/js/ltr/vendor-special/ls.aspectratio.min.js",
-    "/shop/js/ltr/vendor-special/ls.bgset.min.js": "/shop/js/ltr/vendor-special/ls.bgset.min.js",
-    "/shop/js/ltr/vendor/vendor.min.js": "/shop/js/ltr/vendor/vendor.min.js",
-    "/shop/js/vendor-special/isotope.pkgd.min.js": "/shop/js/vendor-special/isotope.pkgd.min.js",
-    "/shop/js/vendor-special/jquery.ez-plus.js": "/shop/js/vendor-special/jquery.ez-plus.js",
-    "/shop/js/vendor-special/jquery.min.js": "/shop/js/vendor-special/jquery.min.js",
-    "/shop/js/vendor-special/lazysizes.min.js": "/shop/js/vendor-special/lazysizes.min.js",
-    "/shop/js/vendor-special/ls.aspectratio.min.js": "/shop/js/vendor-special/ls.aspectratio.min.js",
-    "/shop/js/vendor-special/ls.bgset.min.js": "/shop/js/vendor-special/ls.bgset.min.js",
-    "/shop/js/vendor/jarallax.min.js": "/shop/js/vendor/jarallax.min.js",
-    "/shop/js/vendor/vendor-ltr.min.js": "/shop/js/vendor/vendor-ltr.min.js",
-    "/shop/js/vendor/vendor-product.min.js": "/shop/js/vendor/vendor-product.min.js",
-    "/shop/js/vendor/vendor.min.js": "/shop/js/vendor/vendor.min.js"
+    "/shop/css/app.css": "/shop/css/app.css"
 }

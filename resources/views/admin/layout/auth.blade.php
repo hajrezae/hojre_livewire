@@ -35,12 +35,7 @@
     <div class="login login-4 d-flex flex-row-fluid">
         <div class="d-flex flex-center flex-row-fluid bgi-size-cover bgi-position-top bgi-no-repeat mx-3 mx-md-0">
             <div class="row justify-content-center align-items-center">
-                <div class="col-12 text-center mb-10">
-                    <img src="{{ asset('admin/media/logos/logo-letter-5.png') }}" alt="">
-                </div>
-                <div class="col-12">
-                    @yield('form')
-                </div>
+                @yield('form')
             </div>
         </div>
     </div>

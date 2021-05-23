@@ -51,7 +51,6 @@ Route::prefix('admin')->middleware(['auth'])->name('admin.')->group(function () 
     //Shop Setting
     Route::get('shop/setting', SettingIndex::class)->name('shop.setting');
 
-    //Auth Routes
     //User Routes
     Route::resource('user', UserController::class);
     Route::get('role', RoleIndex::class)->name('role.index');
